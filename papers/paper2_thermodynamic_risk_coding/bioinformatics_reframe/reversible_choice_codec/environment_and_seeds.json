@@ -1,0 +1,61 @@
+{
+  "affine_permutation": {
+    "affine_inverse": 19769831882011471375257889307975878842710122757847139737123890249,
+    "affine_multiplier": 4485653951016338919010579209010754105523132433051932753400074329,
+    "affine_offset": 5935686104797983720144712560413475347480008790218142358423964485,
+    "language_modulus": 21520867790325216400381593480072139809549357542204871770858223072,
+    "mapping_namespace_index": 0,
+    "payload_domain_size": 13164036458569648337239753460458804039861886925068638906788872192
+  },
+  "analysis_date": "2026-07-17",
+  "base_seed": 20260721,
+  "bootstrap_replicates": 2000,
+  "claim_boundary": "retrospective source-only assay calibration and exact finite-domain choice coding; public sequences were not prospectively emitted; generated sequences have no measured PCR outcome; not mechanism, material, NUPACK, sequencing, recovery, full weighted-language capacity, achieved storage density, or superiority evidence",
+  "command": "$PYTHON analysis_tools/validate_paper2_reversible_choice_codec.py --jobs 10 --bootstrap 2000 --generated-payloads 512",
+  "generated_gc_max": 59,
+  "generated_gc_min": 49,
+  "generated_length": 108,
+  "generated_max_homopolymer": 3,
+  "generated_payload_samples_per_selector_setting": 512,
+  "generated_selector_bits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "logical_cpus": 16,
+  "packages": {
+    "joblib": "1.5.3",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.0"
+  },
+  "parallel_jobs": 10,
+  "platform": "macOS-13.7.8-x86_64-i386-64bit",
+  "public_library_size": 2048,
+  "public_selector_bits": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "python": "3.12.13 (main, Jun 23 2026, 15:54:40) [Clang 22.1.3 ]",
+  "score_key_contract": {
+    "candidate_order": "lexicographically minimize (-quantized_key, choice_index)",
+    "decimal_places": 12,
+    "input_dtype": "float64",
+    "integer_scale": 1000000000000,
+    "nonfinite_behavior": "reject",
+    "out_of_range_behavior": "reject after RTE before int64 array construction",
+    "output_dtype": "int64",
+    "rounding": "IEEE-754 binary64 round-to-nearest, ties-to-even via numpy.rint",
+    "signed_int64_max": 9223372036854775807,
+    "signed_int64_min": -9223372036854775808,
+    "tie_break": "smallest declared choice index"
+  }
+}

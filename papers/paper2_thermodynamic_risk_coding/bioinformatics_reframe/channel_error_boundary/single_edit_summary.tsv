@@ -1,0 +1,7 @@
+selector_source_pool	selector_model	selector_bits	edit_type	emitted_codewords	edit_operations	rejected_length	rejected_constraint_or_alphabet	rejected_outside_power_of_two_domain	accepted_same_payload	accepted_wrong_payload	wrong_payload_acceptance_fraction_all_edits	crc16_detected_wrong_payload	crc16_residual_wrong_payload	canonical_verifier_detected_accepted_corruption	canonical_verifier_residual_wrong_payload	combined_crc16_and_canonical_residual_wrong_payload	inference_boundary
+GCall	P5_combined_context	2	deletion	32	3456	3456	0	0	0	0	0.0	0	0	0	0	0	deterministic single-edit audit; not a stochastic DNA-channel or recovery benchmark
+GCall	P5_combined_context	2	insertion	32	13952	13952	0	0	0	0	0.0	0	0	0	0	0	deterministic single-edit audit; not a stochastic DNA-channel or recovery benchmark
+GCall	P5_combined_context	2	substitution	32	10368	0	666	3656	0	6046	0.5831404320987654	6046	0	2034	4012	0	deterministic single-edit audit; not a stochastic DNA-channel or recovery benchmark
+GCfix	P5_combined_context	2	deletion	32	3456	3456	0	0	0	0	0.0	0	0	0	0	0	deterministic single-edit audit; not a stochastic DNA-channel or recovery benchmark
+GCfix	P5_combined_context	2	insertion	32	13952	13952	0	0	0	0	0.0	0	0	0	0	0	deterministic single-edit audit; not a stochastic DNA-channel or recovery benchmark
+GCfix	P5_combined_context	2	substitution	32	10368	0	654	3667	0	6047	0.5832368827160493	6047	0	1917	4130	0	deterministic single-edit audit; not a stochastic DNA-channel or recovery benchmark

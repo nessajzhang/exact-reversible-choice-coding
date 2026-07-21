@@ -1,0 +1,13 @@
+dataset	direction	selector_bits	largest_absolute_smd_feature	largest_absolute_smd	signed_smd_negative_minus_nonnegative	interpretation
+GCall/GCfix retrospective cross-pool codebook	GCall_to_GCfix	2	variable_candidate_pairs	0.21984908971190614	-0.21984908971190614	exploratory association in selected candidates; not a validated failure mechanism
+GCall/GCfix retrospective cross-pool codebook	GCall_to_GCfix	4	variable_candidate_pairs	0.3880707536607817	-0.3880707536607817	exploratory association in selected candidates; not a validated failure mechanism
+GCall/GCfix retrospective cross-pool codebook	GCfix_to_GCall	2	base_freq_G	0.28313196768998417	-0.28313196768998417	exploratory association in selected candidates; not a validated failure mechanism
+GCall/GCfix retrospective cross-pool codebook	GCfix_to_GCall	4	full_amplicon_longest_stem	0.47122445286145753	-0.47122445286145753	exploratory association in selected candidates; not a validated failure mechanism
+same-source-publication altered-protocol Q5 codebook	GCall_to_external_Q5	2	full_amplicon_longest_stem	1.1434121536407607	1.1434121536407607	exploratory association in selected candidates; not a validated failure mechanism
+same-source-publication altered-protocol Q5 codebook	GCall_to_external_Q5	4	full_amplicon_longest_stem	1.0469753175376686	1.0469753175376686	exploratory association in selected candidates; not a validated failure mechanism
+same-source-publication altered-protocol Q5 codebook	GCfix_to_external_Q5	2	full_amplicon_longest_stem	1.1602820446943647	1.1602820446943647	exploratory association in selected candidates; not a validated failure mechanism
+same-source-publication altered-protocol Q5 codebook	GCfix_to_external_Q5	4	full_amplicon_longest_stem	1.400473551985964	1.400473551985964	exploratory association in selected candidates; not a validated failure mechanism
+same-source-publication external-laboratory KAPA codebook	GCall_to_external_KAPA	2	full_amplicon_weighted_pairs	0.38378584105819125	-0.38378584105819125	exploratory association in selected candidates; not a validated failure mechanism
+same-source-publication external-laboratory KAPA codebook	GCall_to_external_KAPA	4	base_freq_G	0.4022222291081392	-0.4022222291081392	exploratory association in selected candidates; not a validated failure mechanism
+same-source-publication external-laboratory KAPA codebook	GCfix_to_external_KAPA	2	full_amplicon_weighted_pairs	0.3669383877546316	-0.3669383877546316	exploratory association in selected candidates; not a validated failure mechanism
+same-source-publication external-laboratory KAPA codebook	GCfix_to_external_KAPA	4	base_freq_G	0.8817727320765233	-0.8817727320765233	exploratory association in selected candidates; not a validated failure mechanism

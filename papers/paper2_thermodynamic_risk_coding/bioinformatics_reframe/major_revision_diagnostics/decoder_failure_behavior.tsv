@@ -1,0 +1,13 @@
+input_condition	interface	required_behavior	verified
+wrong sequence length	payload decoder	reject	True
+non-ACGT symbol including N	payload decoder	reject	True
+sequence outside constrained language	payload decoder	reject	True
+inverse logical rank q >= 2^213	payload decoder	reject	True
+valid noncanonical member of declared fiber	payload decoder	accept and recover payload	True
+valid noncanonical member of declared fiber	optional canonical verifier	reject	True
+scoring model missing	payload decoder	decode remains available	True
+scoring model missing	optional canonical verifier	canonical status unavailable	True
+scoring model replaced	payload decoder	historical payload remains decodable	True
+exact fixed-key score tie	encoder/verifier	select smallest choice index	True
+NaN or infinite score	encoder/verifier	reject	True
+checksum failure	payload decoder	not evaluated; no checksum is claimed	not performed

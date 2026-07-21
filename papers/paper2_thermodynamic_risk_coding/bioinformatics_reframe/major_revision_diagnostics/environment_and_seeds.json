@@ -1,0 +1,33 @@
+{
+  "analysis": "paper2_major_revision_diagnostics",
+  "evidence_contract": "derived diagnostics only; no new biological experiment",
+  "fixed_exploratory_near_zero_threshold_target_sd": 0.01,
+  "packages": {
+    "numpy": "2.5.0",
+    "pandas": "3.0.3"
+  },
+  "platform": "macOS-13.7.8-x86_64-i386-64bit",
+  "python": "3.12.13",
+  "score_key_contract": {
+    "candidate_order": "lexicographically minimize (-quantized_key, choice_index)",
+    "decimal_places": 12,
+    "input_dtype": "float64",
+    "integer_scale": 1000000000000,
+    "nonfinite_behavior": "reject",
+    "out_of_range_behavior": "reject",
+    "output_dtype": "int64",
+    "rounding": "IEEE-754 binary64 round-to-nearest, ties-to-even via numpy.rint",
+    "signed_int64_max": 9223372036854775807,
+    "signed_int64_min": -9223372036854775808,
+    "tie_rule": "smallest choice index"
+  },
+  "source_files": {
+    "papers/paper2_thermodynamic_risk_coding/bioinformatics_reframe/external_mapping_sensitivity/external_kapa_mapping_sensitivity.tsv": "9a97c1df6a89611081c16ca3e8ed3b5c78125e80acaf7975868de7715b502447",
+    "papers/paper2_thermodynamic_risk_coding/bioinformatics_reframe/reversible_choice_codec/generated_fiber_results.tsv": "8e84f8523ebdad7063d0cc6db3dda092c09f97c099fa9a092f88ee9a888e6f1f",
+    "papers/paper2_thermodynamic_risk_coding/bioinformatics_reframe/reversible_choice_codec/generated_mapping_namespace_sensitivity.tsv": "4c8140d611ee0dcf2452566f847f97283d9eb9db3b38b424d324d100b8d3a674",
+    "papers/paper2_thermodynamic_risk_coding/bioinformatics_reframe/reversible_choice_codec/generated_roundtrip_summary.tsv": "037d4d7e411e27f0d574a167af369050767d8bb042feca4568337d333d386bcf",
+    "papers/paper2_thermodynamic_risk_coding/bioinformatics_reframe/reversible_choice_codec/public_seed_sensitivity.tsv": "7081d7b9943641346a9b8a2e05cb337b7673adc08044e808916a06291d336eea",
+    "papers/paper2_thermodynamic_risk_coding/bioinformatics_reframe/sota_and_external_validation/fiber_benchmark_summary.tsv": "a57379be71dadcbd9059ee0a1c794ba76fa1ef6bde3d9992e7a086b571fefb10",
+    "papers/paper2_thermodynamic_risk_coding/bioinformatics_reframe/sota_and_external_validation/fiber_gain_distributions.tsv": "e784faf90fef20321dfd3f45c022af12d0843bedb0d10b442e500405f434f500"
+  }
+}

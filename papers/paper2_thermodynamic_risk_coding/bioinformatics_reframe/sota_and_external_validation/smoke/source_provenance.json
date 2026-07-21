@@ -1,0 +1,360 @@
+{
+  "claim_boundary": "retrospective measured public-sequence selection and an exact computational choice-codec interface; not prospective codec-output wet lab, mechanism, NUPACK, material, sequencing, recovery, full 110-nt weighted-language capacity, achieved storage density, end-to-end superiority, or unpublished-sister-manuscript evidence",
+  "external_protocol": "papers/paper2_thermodynamic_risk_coding/bioinformatics_reframe/LOCKED_EXTERNAL_VALIDATION_PROTOCOL_20260718.md",
+  "input_manifest": [
+    {
+      "bytes": 554092,
+      "local_path": "external_data/paper2_gimpel2025_public_release_af62c57/External_GCall2GCfix_2perc_regression_plus_probs.csv",
+      "sha256": "b694f853322114eb7bf0dbd249c027520e91d5b1d9db93c5b198b011892ac9de",
+      "upstream_commit": "af62c57f9a90ecdfdd0f1623441e82bdb7e082c1",
+      "upstream_path": "CNN/results_revision/External_GCall2GCfix_2perc_regression_plus_probs.csv",
+      "upstream_repository": "https://github.com/BorgwardtLab/PCR-bias"
+    },
+    {
+      "bytes": 559474,
+      "local_path": "external_data/paper2_gimpel2025_public_release_af62c57/External_GCfix2GCall_2perc_regression_plus_probs.csv",
+      "sha256": "7bfc2440f3963505a8885cd4cd18b44fe0c99fffa854956793f083f5f6acbcff",
+      "upstream_commit": "af62c57f9a90ecdfdd0f1623441e82bdb7e082c1",
+      "upstream_path": "CNN/results_revision/External_GCfix2GCall_2perc_regression_plus_probs.csv",
+      "upstream_repository": "https://github.com/BorgwardtLab/PCR-bias"
+    },
+    {
+      "bytes": 3712812,
+      "local_path": "external_data/paper2_gimpel2025_public_release_af62c57/external-validation-predictions.csv",
+      "sha256": "2195ede4ce1a7172840c3091553e73a394c777a1d61dbad292b0ba556b984fb2",
+      "upstream_commit": "af62c57f9a90ecdfdd0f1623441e82bdb7e082c1",
+      "upstream_path": "analysis/data/machine_learning_results/external-validation-predictions.csv",
+      "upstream_repository": "https://github.com/BorgwardtLab/PCR-bias"
+    },
+    {
+      "bytes": 2138978,
+      "local_path": "external_data/paper2_gimpel2025_public_release_af62c57/sequence_data_anonymized_no_duplicates.csv",
+      "sha256": "53e9e4bdd4b740061b1650d3b4c8adcb3012312af20bbfbe5b75748865017864",
+      "upstream_commit": "af62c57f9a90ecdfdd0f1623441e82bdb7e082c1",
+      "upstream_path": "analysis/41_external_validation_generation/sequence_data_anonymized_no_duplicates.csv",
+      "upstream_repository": "https://github.com/BorgwardtLab/PCR-bias"
+    },
+    {
+      "bytes": 1368605,
+      "local_path": "external_data/paper2_gimpel2025_public_release_af62c57/GCall_seqprops.csv",
+      "sha256": "154ea0a1cf48b368a03037f1681fccf434bb3d3bd66ff4f3197eef55fceff864",
+      "upstream_commit": "af62c57f9a90ecdfdd0f1623441e82bdb7e082c1",
+      "upstream_path": "analysis/data/internal_datasets/GCall/seqprops.csv",
+      "upstream_repository": "https://github.com/BorgwardtLab/PCR-bias"
+    },
+    {
+      "bytes": 1183151,
+      "local_path": "external_data/paper2_gimpel2025_public_release_af62c57/GCfix_seqprops.csv",
+      "sha256": "6463d9d91a96cf33e67362df5e9f07985df61e08f6b49a09f2992da0fa9d48dd",
+      "upstream_commit": "af62c57f9a90ecdfdd0f1623441e82bdb7e082c1",
+      "upstream_path": "analysis/data/internal_datasets/GCfix/seqprops.csv",
+      "upstream_repository": "https://github.com/BorgwardtLab/PCR-bias"
+    },
+    {
+      "bytes": 547556,
+      "local_path": "external_data/paper2_gimpel2025_public_release_af62c57/GCall_params.csv",
+      "sha256": "376eb0db5c0c391cc9c5941795516ca26c0dbe6ff289b1e8e4b0981828db7918",
+      "upstream_commit": "af62c57f9a90ecdfdd0f1623441e82bdb7e082c1",
+      "upstream_path": "analysis/data/internal_datasets/GCall/params.csv",
+      "upstream_repository": "https://github.com/BorgwardtLab/PCR-bias"
+    },
+    {
+      "bytes": 547245,
+      "local_path": "external_data/paper2_gimpel2025_public_release_af62c57/GCfix_params.csv",
+      "sha256": "bd8b345ca06d21af630656b725951c93bd166afb1f23f67b8f04f36334cd3565",
+      "upstream_commit": "af62c57f9a90ecdfdd0f1623441e82bdb7e082c1",
+      "upstream_path": "analysis/data/internal_datasets/GCfix/params.csv",
+      "upstream_repository": "https://github.com/BorgwardtLab/PCR-bias"
+    },
+    {
+      "bytes": 9418,
+      "local_path": "external_data/paper2_gimpel2025_public_release_af62c57/45_external_validation_filtering_run_analysis.ipynb",
+      "sha256": "455fd443ba799224d6cf9185644ce2fbfdc395a4c6cc20aa9c87e296cdeefa16",
+      "upstream_commit": "af62c57f9a90ecdfdd0f1623441e82bdb7e082c1",
+      "upstream_path": "analysis/45_external_validation_filtering/run_analysis.ipynb",
+      "upstream_repository": "https://github.com/BorgwardtLab/PCR-bias"
+    },
+    {
+      "bytes": 3859,
+      "local_path": "external_data/paper2_gimpel2025_public_release_af62c57/README.md",
+      "sha256": "315166ce146a56d058dbaf862f405316fc57568dcf98b32ed74275f67706774b",
+      "upstream_commit": "af62c57f9a90ecdfdd0f1623441e82bdb7e082c1",
+      "upstream_path": "not_applicable",
+      "upstream_repository": "local acquisition note"
+    }
+  ],
+  "join_audits": [
+    {
+      "artifact": "External_GCall2GCfix_2perc_regression_plus_probs.csv",
+      "binary_label_mismatches": 0,
+      "blank_seq_id_repaired_as": "000000",
+      "direction": "GCall_to_GCfix",
+      "prediction_efficiency_max": 1.0701997,
+      "prediction_efficiency_min": 1.0388821,
+      "rows": 11994,
+      "true_efficiency_max_abs_difference": 1.1598064975082423e-07,
+      "unique_ids": 11994
+    },
+    {
+      "artifact": "GCfix_seqprops_and_params",
+      "computed_gc_max_abs_difference": 0.0,
+      "homopolymer_mismatches": 0,
+      "parameter_efficiency_max_abs_difference": 0.0,
+      "pool": "GCfix",
+      "published_hard_filter": "GC>0.4; GC<0.6; hp<5; dg>-15 kcal/mol",
+      "published_property_rows": 12000,
+      "target_rows": 11994
+    },
+    {
+      "artifact": "public_identical_fiber_library",
+      "direction": "GCall_to_GCfix",
+      "eligible_before_hash_selection": 3538,
+      "library_sequences": 2048,
+      "published_hard_filter_pass_fraction": 0.955078125,
+      "published_hard_filter_pass_sequences": 1956,
+      "target_pool": "GCfix"
+    },
+    {
+      "artifact": "External_GCfix2GCall_2perc_regression_plus_probs.csv",
+      "binary_label_mismatches": 0,
+      "blank_seq_id_repaired_as": "000000",
+      "direction": "GCfix_to_GCall",
+      "prediction_efficiency_max": 0.9717301,
+      "prediction_efficiency_min": 0.969916,
+      "rows": 11998,
+      "true_efficiency_max_abs_difference": 1.1475675409933217e-07,
+      "unique_ids": 11998
+    },
+    {
+      "artifact": "GCall_seqprops_and_params",
+      "computed_gc_max_abs_difference": 5.551115123125783e-17,
+      "homopolymer_mismatches": 0,
+      "parameter_efficiency_max_abs_difference": 0.0,
+      "pool": "GCall",
+      "published_hard_filter": "GC>0.4; GC<0.6; hp<5; dg>-15 kcal/mol",
+      "published_property_rows": 12000,
+      "target_rows": 11998
+    },
+    {
+      "artifact": "public_identical_fiber_library",
+      "direction": "GCfix_to_GCall",
+      "eligible_before_hash_selection": 2521,
+      "library_sequences": 2048,
+      "published_hard_filter_pass_fraction": 0.93701171875,
+      "published_hard_filter_pass_sequences": 1919,
+      "target_pool": "GCall"
+    },
+    {
+      "artifact": "fast_ridge_cv_equivalence",
+      "bootstrap_cross_fold_duplicate_sequences": 0,
+      "bootstrap_cv_contract": "fixed original-sequence folds; duplicate copies never cross folds",
+      "bootstrap_duplicate_rows": 4408,
+      "bootstrap_prediction_max_abs_difference": 2.220446049250313e-16,
+      "bootstrap_replicate": 0,
+      "bootstrap_selected_alpha": 1000.0,
+      "bootstrap_unique_source_sequences": 7590,
+      "full_prediction_max_abs_difference": 2.220446049250313e-16,
+      "full_selected_alpha": 1000.0,
+      "model": "P2_assay_context",
+      "reference": "scikit-learn StandardScaler + GridSearchCV + Ridge",
+      "source_pool": "GCall"
+    },
+    {
+      "artifact": "fast_ridge_cv_equivalence",
+      "bootstrap_cross_fold_duplicate_sequences": 0,
+      "bootstrap_cv_contract": "fixed original-sequence folds; duplicate copies never cross folds",
+      "bootstrap_duplicate_rows": 4408,
+      "bootstrap_prediction_max_abs_difference": 1.1102230246251565e-15,
+      "bootstrap_replicate": 0,
+      "bootstrap_selected_alpha": 1.0,
+      "bootstrap_unique_source_sequences": 7590,
+      "full_prediction_max_abs_difference": 1.9984014443252818e-15,
+      "full_selected_alpha": 1.0,
+      "model": "P5_combined_context",
+      "reference": "scikit-learn StandardScaler + GridSearchCV + Ridge",
+      "source_pool": "GCall"
+    },
+    {
+      "artifact": "fast_ridge_cv_equivalence",
+      "bootstrap_cross_fold_duplicate_sequences": 0,
+      "bootstrap_cv_contract": "fixed original-sequence folds; duplicate copies never cross folds",
+      "bootstrap_duplicate_rows": 4407,
+      "bootstrap_prediction_max_abs_difference": 2.220446049250313e-16,
+      "bootstrap_replicate": 0,
+      "bootstrap_selected_alpha": 1000.0,
+      "bootstrap_unique_source_sequences": 7587,
+      "full_prediction_max_abs_difference": 2.220446049250313e-16,
+      "full_selected_alpha": 1000.0,
+      "model": "P2_assay_context",
+      "reference": "scikit-learn StandardScaler + GridSearchCV + Ridge",
+      "source_pool": "GCfix"
+    },
+    {
+      "artifact": "fast_ridge_cv_equivalence",
+      "bootstrap_cross_fold_duplicate_sequences": 0,
+      "bootstrap_cv_contract": "fixed original-sequence folds; duplicate copies never cross folds",
+      "bootstrap_duplicate_rows": 4407,
+      "bootstrap_prediction_max_abs_difference": 2.807976073881946e-12,
+      "bootstrap_replicate": 0,
+      "bootstrap_selected_alpha": 0.0001,
+      "bootstrap_unique_source_sequences": 7587,
+      "full_prediction_max_abs_difference": 4.778621942591599e-12,
+      "full_selected_alpha": 0.0001,
+      "model": "P5_combined_context",
+      "reference": "scikit-learn StandardScaler + GridSearchCV + Ridge",
+      "source_pool": "GCfix"
+    },
+    {
+      "artifact": "external_pool_join",
+      "motif_inserted_rows": 1904,
+      "random_Q5_nonmissing_rows": 9955,
+      "random_Taq_nonmissing_rows": 9995,
+      "random_rows": 10000,
+      "rows_after_deduplication": 11904,
+      "sequence_mismatches": 0,
+      "unique_ids": 11904
+    },
+    {
+      "artifact": "external_Taq_event_definition",
+      "bottom_2pct_threshold": 0.9768202975944148,
+      "eligible_random_rows": 9995,
+      "event_fraction": 0.019909954977488743,
+      "strictly_below_threshold_events": 199
+    },
+    {
+      "artifact": "external_Q5_sensitivity_pool",
+      "bottom_2pct_threshold": 0.9314214755703218,
+      "endpoint_role": "workflow-shift sensitivity; not the primary external endpoint",
+      "event_fraction": 0.019989954796584632,
+      "exact_codec_eligible_rows": 2040,
+      "random_Q5_nonmissing_rows": 9955,
+      "strictly_below_threshold_events": 199
+    },
+    {
+      "artifact": "locked_external_library",
+      "eligible_before_hash_selection": 2053,
+      "library_key": "paper2-choice-external-v1|external_Taq|sequence_sha256",
+      "library_low_efficiency_events": 45,
+      "library_outcome_mean": 1.0008083654969302,
+      "library_outcome_sd_population": 0.010485642889537699,
+      "library_sequences": 2048
+    },
+    {
+      "artifact": "locked_external_Q5_sensitivity_library",
+      "eligible_before_hash_selection": 2040,
+      "endpoint_role": "workflow-shift sensitivity; separate outcome-blind 1,024-sequence codebook",
+      "library_key": "paper2-choice-external-q5-sensitivity-v1|external_Q5|sequence_sha256",
+      "library_low_efficiency_events": 19,
+      "library_outcome_mean": 1.0006447534875513,
+      "library_outcome_sd_population": 0.02273742048789545,
+      "library_sequences": 1024
+    }
+  ],
+  "pickle_opcode_audit": {
+    "GCall": {
+      "forbidden_opcodes_present": [],
+      "global_arguments": [],
+      "opcode_count": 48580,
+      "opcode_names": [
+        "APPENDS",
+        "BINBYTES",
+        "BINGET",
+        "BININT",
+        "BININT1",
+        "BININT2",
+        "BUILD",
+        "EMPTY_DICT",
+        "EMPTY_LIST",
+        "EMPTY_TUPLE",
+        "FRAME",
+        "LONG_BINGET",
+        "MARK",
+        "MEMOIZE",
+        "NEWFALSE",
+        "NEWOBJ",
+        "NEWTRUE",
+        "NONE",
+        "PROTO",
+        "REDUCE",
+        "SETITEM",
+        "SETITEMS",
+        "SHORT_BINBYTES",
+        "SHORT_BINUNICODE",
+        "STACK_GLOBAL",
+        "STOP",
+        "TUPLE",
+        "TUPLE1",
+        "TUPLE2",
+        "TUPLE3"
+      ],
+      "sha256_allowlisted": true
+    },
+    "GCfix": {
+      "forbidden_opcodes_present": [],
+      "global_arguments": [],
+      "opcode_count": 48564,
+      "opcode_names": [
+        "APPENDS",
+        "BINBYTES",
+        "BINGET",
+        "BININT",
+        "BININT1",
+        "BININT2",
+        "BUILD",
+        "EMPTY_DICT",
+        "EMPTY_LIST",
+        "EMPTY_TUPLE",
+        "FRAME",
+        "LONG_BINGET",
+        "MARK",
+        "MEMOIZE",
+        "NEWFALSE",
+        "NEWOBJ",
+        "NEWTRUE",
+        "NONE",
+        "PROTO",
+        "REDUCE",
+        "SETITEM",
+        "SETITEMS",
+        "SHORT_BINBYTES",
+        "SHORT_BINUNICODE",
+        "STACK_GLOBAL",
+        "STOP",
+        "TUPLE",
+        "TUPLE1",
+        "TUPLE2",
+        "TUPLE3"
+      ],
+      "sha256_allowlisted": true
+    },
+    "source_data_crosscheck": {
+      "GCfix_note": "Figure 2c source-data member contains GCall only; GCfix is hash-pinned to the publication repository release.",
+      "eff_max_abs_difference": 0.0,
+      "matched_rows": 11998,
+      "member": "Fig. 2c/eff_dist.csv",
+      "pool": "GCall",
+      "x0_max_abs_difference": 4.440892098500626e-16
+    }
+  },
+  "public_source_validation": {
+    "commits": {
+      "external_data/paper2_dt4dds_sequence_recovery": "126e6da5c41f4e5de072b7a1a0934068b743de6c",
+      "external_data/paper2_gimpel2025_pcr_bias": "af62c57f9a90ecdfdd0f1623441e82bdb7e082c1"
+    },
+    "hashes": {
+      "data/paper2_dt4dds_sequence_detectability.csv": "32ed334ae29154c7e515d6d36409d3b7d7399d6f865265460c2e5c0b7f64dba3",
+      "data/paper2_dt4dds_sequence_detectability_summary.csv": "78939aa80b9ef33fc72c8c7112ace7eb8dcc4dc4c9f2151c8db2374b83964fb2",
+      "external_data/paper2_gimpel2025_pcr_bias/Data/GCall/bad_seqs_2perc.pkl": "0c88133354b30585f0a4851be7bd5fba87805a3c19189bca9db7f12fdea61384",
+      "external_data/paper2_gimpel2025_pcr_bias/Data/GCfix/bad_seqs_2perc.pkl": "185843669f779f421ce049765da92cf6ecaf1a6990cc5f51cf6b9229a43ad502",
+      "external_data/paper2_gimpel2025_pcr_bias/LICENSE.txt": "b9ad7d4bbfbdc63bd1a8c4cf89593769d33a95c46ef4b1065d61c254368ec0c7",
+      "external_data/paper2_gimpel2025_supplement/41467_2025_64221_MOESM1_ESM.pdf": "a0ebb08bd6c6da6abc32afd91a388b646d579b87409474efbfe647c945c9063c",
+      "external_data/paper2_gimpel2025_supplement/41467_2025_64221_MOESM4_ESM.zip": "3fdc4f6dbe21f17e4741e13794d91283b7cf4ee2caa4af4d1cbc71adb53dcd68"
+    }
+  },
+  "published_hard_filter": {
+    "GC": "strictly greater than 0.4 and strictly less than 0.6",
+    "maximum_homopolymer": "less than 5",
+    "mfold_free_energy_kcal_per_mol": "greater than -15",
+    "source": "fixed upstream filtering notebook and publication Methods"
+  }
+}

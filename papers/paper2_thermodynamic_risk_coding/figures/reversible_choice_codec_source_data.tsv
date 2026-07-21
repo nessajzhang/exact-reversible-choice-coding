@@ -1,0 +1,66 @@
+panel	series	category	x	y	low	high	n	unit	note
+a	formal_audit	generated_candidates		65024			65024	candidate rank-unrank checks	zero failures; exact selector-bit cost
+b	FullContext ridge	GCall→GCfix, r=2	2.349030896744	3.24	1.9381622362436999	2.8462556229709	512	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+b	FullContext ridge	GCall→GCfix, r=4	3.1896705924369	2.24	2.5895028711011	3.9509920216498005	128	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+b	FullContext ridge	GCfix→GCall, r=2	2.135459124628	1.24	1.6617965807344	2.6008009936675998	512	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+b	FullContext ridge	GCfix→GCall, r=4	2.9666622831328	0.24	2.3191057391793	3.5979670963713	128	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+b	AssayContext ridge	GCall→GCfix, r=2	1.7635130035776	3.08	1.2445460492381	2.2859166097544	512	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+b	AssayContext ridge	GCall→GCfix, r=4	1.7047029655097	2.08	0.29753177651089996	2.4411186517633	128	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+b	AssayContext ridge	GCfix→GCall, r=2	1.5123895268995	1.08	0.9761408176266	1.9939786691324999	512	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+b	AssayContext ridge	GCfix→GCall, r=4	1.9239180965731	0.08	1.1148760738538	2.5750046268574	128	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+b	Released 1D-CNN score	GCall→GCfix, r=2	1.0044167977877	2.92	0.4002664173682	1.5174982511464001	512	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+b	Released 1D-CNN score	GCall→GCfix, r=4	1.232265904303	1.92	-0.3026118112988	1.9973778336219001	128	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+b	Released 1D-CNN score	GCfix→GCall, r=2	0.418590310007	0.92	-0.06738824899445886	0.9100283576836	512	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+b	Released 1D-CNN score	GCfix→GCall, r=4	1.0021102177624	-0.08	-0.1016399083361	1.8001048222137999	128	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+b	Published hard rule	GCall→GCfix, r=2	0.015637121216213485	2.76	-0.5746253499871999	0.5800260129239999	512	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+b	Published hard rule	GCall→GCfix, r=4	0.6417560030656	1.76	-0.38053631435540003	1.4576717521067	128	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+b	Published hard rule	GCfix→GCall, r=2	-0.6240357541338	0.76	-1.4218366616413	-0.0245958503040475	512	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+b	Published hard rule	GCfix→GCall, r=4	-0.46808848004439996	-0.24	-1.8879984953456999	0.5686856822843	128	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+c	FullContext ridge	GCall→KAPA, r=2	2.4584360920358	3.18	1.9532217537843	3.0448855697873	512	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+c	FullContext ridge	GCall→KAPA, r=4	4.0853863860975	2.18	3.1728911582024	4.9709311497007	128	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+c	FullContext ridge	GCfix→KAPA, r=2	2.3976618425493	1.18	1.9105420448589	3.0059089769075	512	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+c	FullContext ridge	GCfix→KAPA, r=4	3.4325725731437	0.18	2.2647040416849	4.369584440711501	128	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+c	AssayContext ridge	GCall→KAPA, r=2	1.8999936612808002	3.0	1.367734434428	2.4691283658314	512	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+c	AssayContext ridge	GCall→KAPA, r=4	2.176825220855	2.0	1.0471964432574	3.1319773130832997	128	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+c	AssayContext ridge	GCfix→KAPA, r=2	1.8192464177852	1.0	1.3448785514878	2.4381535163764	512	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+c	AssayContext ridge	GCfix→KAPA, r=4	1.8141449331774	0.0	0.8629543429077	2.7610362029746	128	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+c	Released 1D-CNN score	GCall→KAPA, r=2	1.6169287791358	2.82	1.1331701003086998	2.2255682300748	512	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+c	Released 1D-CNN score	GCall→KAPA, r=4	1.6062471528754998	1.82	0.8638728348343	2.4109779446399	128	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+c	Released 1D-CNN score	GCfix→KAPA, r=2	1.6105744240321	0.8200000000000001	1.0769002920748	2.2006159121343	512	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+c	Released 1D-CNN score	GCfix→KAPA, r=4	1.3830844194465	-0.18	0.04703732975928268	2.2346528779471	128	relative PCR efficiency x 1e-3	mean selected-minus-fiber-mean; 95% BCa target-fiber bootstrap interval
+d	Cross-pool public	GCall source, r=2	2.349030896744	3.11	1.7542641172409001	2.7695988197344	2000	relative PCR efficiency x 1e-3	point is frozen full-data FullContext estimate; interval uses 2,000 source-plus-target bootstrap replicates
+d	Cross-pool public	GCall source, r=4	3.1896705924369	2.11	2.4676832577918	3.8360136388362003	2000	relative PCR efficiency x 1e-3	point is frozen full-data FullContext estimate; interval uses 2,000 source-plus-target bootstrap replicates
+d	Cross-pool public	GCfix source, r=2	2.135459124628	1.11	1.6874795629888002	2.5963270733612998	2000	relative PCR efficiency x 1e-3	point is frozen full-data FullContext estimate; interval uses 2,000 source-plus-target bootstrap replicates
+d	Cross-pool public	GCfix source, r=4	2.9666622831328	0.11	2.3310077580235	3.7668417823738998	2000	relative PCR efficiency x 1e-3	point is frozen full-data FullContext estimate; interval uses 2,000 source-plus-target bootstrap replicates
+d	Same-publication external lab	GCall source, r=2	2.4584360920358	2.89	1.9404695442127	3.0351398297925	2000	relative PCR efficiency x 1e-3	point is frozen full-data FullContext estimate; interval uses 2,000 source-plus-target bootstrap replicates
+d	Same-publication external lab	GCall source, r=4	4.0853863860975	1.89	3.0074386437937	4.957540763161401	2000	relative PCR efficiency x 1e-3	point is frozen full-data FullContext estimate; interval uses 2,000 source-plus-target bootstrap replicates
+d	Same-publication external lab	GCfix source, r=2	2.3976618425493	0.89	1.9221615270338	3.0138243025985	2000	relative PCR efficiency x 1e-3	point is frozen full-data FullContext estimate; interval uses 2,000 source-plus-target bootstrap replicates
+d	Same-publication external lab	GCfix source, r=4	3.4325725731437	-0.11	2.3598781489213	4.507607222676199	2000	relative PCR efficiency x 1e-3	point is frozen full-data FullContext estimate; interval uses 2,000 source-plus-target bootstrap replicates
+e	GCall selector: own model	r=0	1.9722222222222223	0.0			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCall selector: other-pool model	r=0	1.9722222222222223	0.0			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCall selector: own model	r=1	1.962962962962963	1.3426630790471001			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCall selector: other-pool model	r=1	1.962962962962963	1.3866547155933			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCall selector: own model	r=2	1.953703703703704	2.3927398409781997			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCall selector: other-pool model	r=2	1.953703703703704	2.5081016574725			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCall selector: own model	r=3	1.9444444444444444	3.0908031854649			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCall selector: other-pool model	r=3	1.9444444444444444	3.2307843666977			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCall selector: own model	r=4	1.935185185185185	3.6423481227767			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCall selector: other-pool model	r=4	1.935185185185185	3.7868929443107			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCall selector: own model	r=5	1.9259259259259256	4.2290437098115			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCall selector: other-pool model	r=5	1.9259259259259256	4.4210425516475			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCall selector: own model	r=6	1.9166666666666667	4.7201802066241			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCall selector: other-pool model	r=6	1.9166666666666667	4.8738456248777995			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCfix selector: own model	r=0	1.9722222222222223	0.0			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCfix selector: other-pool model	r=0	1.9722222222222223	0.0			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCfix selector: own model	r=1	1.962962962962963	1.4375239747522			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCfix selector: other-pool model	r=1	1.962962962962963	1.2969439738055			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCfix selector: own model	r=2	1.953703703703704	2.5921261127599			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCfix selector: other-pool model	r=2	1.953703703703704	2.3126274121862			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCfix selector: own model	r=3	1.9444444444444444	3.355719150079			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCfix selector: other-pool model	r=3	1.9444444444444444	2.9703237240257			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCfix selector: own model	r=4	1.935185185185185	3.9530198806063			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCfix selector: other-pool model	r=4	1.935185185185185	3.4804945778606			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCfix selector: own model	r=5	1.9259259259259256	4.5845356636457			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCfix selector: other-pool model	r=5	1.9259259259259256	4.0471822908323			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCfix selector: own model	r=6	1.9166666666666667	5.098341234074			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only
+e	GCfix selector: other-pool model	r=6	1.9166666666666667	4.508116207511			512	x=exact payload bits/variable-region nt; y=model-score gain x 1e-3	generated sequences; computational prediction only

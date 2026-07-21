@@ -1,0 +1,2 @@
+algorithm	input_ascii	expected_hex	observed_hex	passed
+CRC-16/CCITT-FALSE	123456789	0x29b1	0x29b1	True

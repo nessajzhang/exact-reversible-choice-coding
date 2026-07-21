@@ -1,0 +1,193 @@
+dataset	analysis	pool_or_direction	endpoint	model	metric	value	n_sequences	n_events	event_prevalence	evaluation
+DT4DDS	dt_binary	Genscript_GCall	missing_any	D0_composition	average_precision	0.029264375417324802	12472	357	0.0286241180243746	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_any	D0_composition	brier	0.04582195775295115	12472	357	0.0286241180243746	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_any	D0_composition	roc_auc	0.5014309644617236	12472	357	0.0286241180243746	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_any	D1_structural_rules	average_precision	0.032528632238322294	12472	357	0.0286241180243746	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_any	D1_structural_rules	brier	0.1306865654447414	12472	357	0.0286241180243746	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_any	D1_structural_rules	roc_auc	0.5094253136665314	12472	357	0.0286241180243746	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_any	D2_weighted_only	average_precision	0.03503349897247558	12472	357	0.0286241180243746	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_any	D2_weighted_only	brier	0.09726826917108358	12472	357	0.0286241180243746	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_any	D2_weighted_only	roc_auc	0.5081682198261062	12472	357	0.0286241180243746	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_any	D3_full	average_precision	0.030333825529371097	12472	357	0.0286241180243746	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_any	D3_full	brier	0.0879935548672798	12472	357	0.0286241180243746	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_any	D3_full	roc_auc	0.5055000456641592	12472	357	0.0286241180243746	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_day7	D0_composition	average_precision	0.00815115248443338	12472	100	0.008017960230917255	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_day7	D0_composition	brier	0.01301424373838381	12472	100	0.008017960230917255	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_day7	D0_composition	roc_auc	0.5121977044940187	12472	100	0.008017960230917255	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_day7	D1_structural_rules	average_precision	0.008100313794981454	12472	100	0.008017960230917255	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_day7	D1_structural_rules	brier	0.08232567541958125	12472	100	0.008017960230917255	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_day7	D1_structural_rules	roc_auc	0.5146585030714517	12472	100	0.008017960230917255	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_day7	D2_weighted_only	average_precision	0.008684091623430201	12472	100	0.008017960230917255	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_day7	D2_weighted_only	brier	0.04903818611807833	12472	100	0.008017960230917255	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_day7	D2_weighted_only	roc_auc	0.4993840931134821	12472	100	0.008017960230917255	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_day7	D3_full	average_precision	0.008174268748612101	12472	100	0.008017960230917255	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_day7	D3_full	brier	0.07212750657251654	12472	100	0.008017960230917255	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary	Genscript_GCall	missing_day7	D3_full	roc_auc	0.5131854186873586	12472	100	0.008017960230917255	mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_binary_descriptive	Twist_GCall	missing_any	weighted_pairs_univariate	average_precision	0.003111230106004899	12000	28	0.0023333333333333335	descriptive only; multivariable event gate not met
+DT4DDS	dt_binary_descriptive	Twist_GCall	missing_any	weighted_pairs_univariate	roc_auc	0.5075861534055653	12000	28	0.0023333333333333335	descriptive only; multivariable event gate not met
+DT4DDS	dt_binary_descriptive	Twist_GCall	missing_day7	weighted_pairs_univariate	average_precision	0.0007719864129395239	12000	11	0.0009166666666666666	descriptive only; multivariable event gate not met
+DT4DDS	dt_binary_descriptive	Twist_GCall	missing_day7	weighted_pairs_univariate	roc_auc	0.38507268025993524	12000	11	0.0009166666666666666	descriptive only; multivariable event gate not met
+DT4DDS	dt_continuous	Genscript_GCall	day7_vs_day0_log2fc_plus1	D0_composition	mae	0.3030100769961576	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	day7_vs_day0_log2fc_plus1	D0_composition	r2	0.0023341001646437487	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	day7_vs_day0_log2fc_plus1	D0_composition	rmse	0.4361129954079798	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	day7_vs_day0_log2fc_plus1	D0_composition	spearman	0.067676627696042	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	day7_vs_day0_log2fc_plus1	D1_structural_rules	mae	0.3023154908676015	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	day7_vs_day0_log2fc_plus1	D1_structural_rules	r2	0.004512928668105709	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	day7_vs_day0_log2fc_plus1	D1_structural_rules	rmse	0.435636515860763	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	day7_vs_day0_log2fc_plus1	D1_structural_rules	spearman	0.09250906468597378	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	day7_vs_day0_log2fc_plus1	D2_weighted_only	mae	0.3023092091035908	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	day7_vs_day0_log2fc_plus1	D2_weighted_only	r2	0.004643350782434941	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	day7_vs_day0_log2fc_plus1	D2_weighted_only	rmse	0.43560797782236427	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	day7_vs_day0_log2fc_plus1	D2_weighted_only	spearman	0.09272050292997408	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	day7_vs_day0_log2fc_plus1	D3_full	mae	0.30231885140542314	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	day7_vs_day0_log2fc_plus1	D3_full	r2	0.004555968386879217	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	day7_vs_day0_log2fc_plus1	D3_full	rmse	0.4356270984226394	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	day7_vs_day0_log2fc_plus1	D3_full	spearman	0.09260082268114717	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	mean_log2_cpm_plus1	D0_composition	mae	1.5243839078522148	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	mean_log2_cpm_plus1	D0_composition	r2	-0.00028066881395849563	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	mean_log2_cpm_plus1	D0_composition	rmse	1.8431495763855008	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	mean_log2_cpm_plus1	D0_composition	spearman	-0.0044139171730785375	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	mean_log2_cpm_plus1	D1_structural_rules	mae	1.523368551714806	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	mean_log2_cpm_plus1	D1_structural_rules	r2	0.001989469565329638	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	mean_log2_cpm_plus1	D1_structural_rules	rmse	1.8410568730898482	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	mean_log2_cpm_plus1	D1_structural_rules	spearman	0.042217549510418846	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	mean_log2_cpm_plus1	D2_weighted_only	mae	1.5233009368504147	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	mean_log2_cpm_plus1	D2_weighted_only	r2	0.001940152283216201	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	mean_log2_cpm_plus1	D2_weighted_only	rmse	1.8411023609864046	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	mean_log2_cpm_plus1	D2_weighted_only	spearman	0.04021146572220154	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	mean_log2_cpm_plus1	D3_full	mae	1.5234600719597766	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	mean_log2_cpm_plus1	D3_full	r2	0.0019100872307137307	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	mean_log2_cpm_plus1	D3_full	rmse	1.841130090997998	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Genscript_GCall	mean_log2_cpm_plus1	D3_full	spearman	0.04189228040361699	12472			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	day7_vs_day0_log2fc_plus1	D0_composition	mae	0.18065478742318308	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	day7_vs_day0_log2fc_plus1	D0_composition	r2	0.00019348376698147263	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	day7_vs_day0_log2fc_plus1	D0_composition	rmse	0.23528265517300836	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	day7_vs_day0_log2fc_plus1	D0_composition	spearman	0.016012115531481578	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	day7_vs_day0_log2fc_plus1	D1_structural_rules	mae	0.180281348693	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	day7_vs_day0_log2fc_plus1	D1_structural_rules	r2	0.005287489921899757	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	day7_vs_day0_log2fc_plus1	D1_structural_rules	rmse	0.23468250814333771	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	day7_vs_day0_log2fc_plus1	D1_structural_rules	spearman	0.06788800991116706	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	day7_vs_day0_log2fc_plus1	D2_weighted_only	mae	0.1803037609367922	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	day7_vs_day0_log2fc_plus1	D2_weighted_only	r2	0.004997145197772057	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	day7_vs_day0_log2fc_plus1	D2_weighted_only	rmse	0.23471675615765933	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	day7_vs_day0_log2fc_plus1	D2_weighted_only	spearman	0.06659651466834458	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	day7_vs_day0_log2fc_plus1	D3_full	mae	0.18028375181495118	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	day7_vs_day0_log2fc_plus1	D3_full	r2	0.005205603295235672	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	day7_vs_day0_log2fc_plus1	D3_full	rmse	0.2346921676998669	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	day7_vs_day0_log2fc_plus1	D3_full	spearman	0.06745821418481132	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	mean_log2_cpm_plus1	D0_composition	mae	0.36785822564774645	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	mean_log2_cpm_plus1	D0_composition	r2	0.0005161769003364514	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	mean_log2_cpm_plus1	D0_composition	rmse	0.5865440857186712	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	mean_log2_cpm_plus1	D0_composition	spearman	0.03415882787258922	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	mean_log2_cpm_plus1	D1_structural_rules	mae	0.36786633290863796	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	mean_log2_cpm_plus1	D1_structural_rules	r2	0.0008140998712432568	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	mean_log2_cpm_plus1	D1_structural_rules	rmse	0.5864566616021708	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	mean_log2_cpm_plus1	D1_structural_rules	spearman	0.03905055743587039	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	mean_log2_cpm_plus1	D2_weighted_only	mae	0.36782873298728386	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	mean_log2_cpm_plus1	D2_weighted_only	r2	0.0011757356381515427	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	mean_log2_cpm_plus1	D2_weighted_only	rmse	0.586350523746388	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	mean_log2_cpm_plus1	D2_weighted_only	spearman	0.04273659245399643	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	mean_log2_cpm_plus1	D3_full	mae	0.36788209272699296	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	mean_log2_cpm_plus1	D3_full	r2	0.0008376323701994037	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	mean_log2_cpm_plus1	D3_full	rmse	0.5864497555439317	12000			mean prediction over 5 repeated out-of-fold passes
+DT4DDS	dt_continuous	Twist_GCall	mean_log2_cpm_plus1	D3_full	spearman	0.037669914144325856	12000			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCall	worst_2_percent_label	P0_composition	average_precision	0.02640973296264271	11998	240	0.020003333888981498	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCall	worst_2_percent_label	P0_composition	brier	0.033828996872448926	11998	240	0.020003333888981498	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCall	worst_2_percent_label	P0_composition	roc_auc	0.5144674547825594	11998	240	0.020003333888981498	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCall	worst_2_percent_label	P1_variable_proxy	average_precision	0.023419026984449455	11998	240	0.020003333888981498	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCall	worst_2_percent_label	P1_variable_proxy	brier	0.03302919051551561	11998	240	0.020003333888981498	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCall	worst_2_percent_label	P1_variable_proxy	roc_auc	0.5073474797301128	11998	240	0.020003333888981498	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCall	worst_2_percent_label	P2_adapter_aware	average_precision	0.03331156673632266	11998	240	0.020003333888981498	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCall	worst_2_percent_label	P2_adapter_aware	brier	0.09807295799005748	11998	240	0.020003333888981498	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCall	worst_2_percent_label	P2_adapter_aware	roc_auc	0.5766875035436865	11998	240	0.020003333888981498	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCall	worst_2_percent_label	P3_combined	average_precision	0.04417253922689622	11998	240	0.020003333888981498	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCall	worst_2_percent_label	P3_combined	brier	0.11174111587766196	11998	240	0.020003333888981498	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCall	worst_2_percent_label	P3_combined	roc_auc	0.5774224641378919	11998	240	0.020003333888981498	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCall	worst_2_percent_label	P4_full_amplicon	average_precision	0.02778311087540014	11998	240	0.020003333888981498	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCall	worst_2_percent_label	P4_full_amplicon	brier	0.08743154317160534	11998	240	0.020003333888981498	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCall	worst_2_percent_label	P4_full_amplicon	roc_auc	0.5288753756307762	11998	240	0.020003333888981498	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCfix	worst_2_percent_label	P0_composition	average_precision	0.022818124415083223	11994	240	0.02001000500250125	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCfix	worst_2_percent_label	P0_composition	brier	0.04215256589150493	11994	240	0.02001000500250125	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCfix	worst_2_percent_label	P0_composition	roc_auc	0.5289814460325564	11994	240	0.02001000500250125	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCfix	worst_2_percent_label	P1_variable_proxy	average_precision	0.02449823329766546	11994	240	0.02001000500250125	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCfix	worst_2_percent_label	P1_variable_proxy	brier	0.025140529378592597	11994	240	0.02001000500250125	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCfix	worst_2_percent_label	P1_variable_proxy	roc_auc	0.5260546055243605	11994	240	0.02001000500250125	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCfix	worst_2_percent_label	P2_adapter_aware	average_precision	0.03915210608245363	11994	240	0.02001000500250125	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCfix	worst_2_percent_label	P2_adapter_aware	brier	0.09267996717518172	11994	240	0.02001000500250125	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCfix	worst_2_percent_label	P2_adapter_aware	roc_auc	0.5931002212012931	11994	240	0.02001000500250125	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCfix	worst_2_percent_label	P3_combined	average_precision	0.040436292615376714	11994	240	0.02001000500250125	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCfix	worst_2_percent_label	P3_combined	brier	0.04839026397899759	11994	240	0.02001000500250125	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCfix	worst_2_percent_label	P3_combined	roc_auc	0.6211952668595088	11994	240	0.02001000500250125	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCfix	worst_2_percent_label	P4_full_amplicon	average_precision	0.026466402068863294	11994	240	0.02001000500250125	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCfix	worst_2_percent_label	P4_full_amplicon	brier	0.06151531737390402	11994	240	0.02001000500250125	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_internal	GCfix	worst_2_percent_label	P4_full_amplicon	roc_auc	0.5257483268107311	11994	240	0.02001000500250125	mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_binary_transfer	GCall_to_GCfix	worst_2_percent_label	P0_composition	average_precision	0.03108446338879648	11994	240	0.02001000500250125	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCall_to_GCfix	worst_2_percent_label	P0_composition	brier	0.019565831040494107	11994	240	0.02001000500250125	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCall_to_GCfix	worst_2_percent_label	P0_composition	roc_auc	0.5983810475866371	11994	240	0.02001000500250125	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCall_to_GCfix	worst_2_percent_label	P1_variable_proxy	average_precision	0.032323878026171954	11994	240	0.02001000500250125	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCall_to_GCfix	worst_2_percent_label	P1_variable_proxy	brier	0.1574446206908395	11994	240	0.02001000500250125	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCall_to_GCfix	worst_2_percent_label	P1_variable_proxy	roc_auc	0.6135615180647722	11994	240	0.02001000500250125	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCall_to_GCfix	worst_2_percent_label	P2_adapter_aware	average_precision	0.15449174877061905	11994	240	0.02001000500250125	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCall_to_GCfix	worst_2_percent_label	P2_adapter_aware	brier	0.038684412304870526	11994	240	0.02001000500250125	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCall_to_GCfix	worst_2_percent_label	P2_adapter_aware	roc_auc	0.7853149282513754	11994	240	0.02001000500250125	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCall_to_GCfix	worst_2_percent_label	P3_combined	average_precision	0.15678357923249062	11994	240	0.02001000500250125	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCall_to_GCfix	worst_2_percent_label	P3_combined	brier	0.15705061134172502	11994	240	0.02001000500250125	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCall_to_GCfix	worst_2_percent_label	P3_combined	roc_auc	0.7865808093698597	11994	240	0.02001000500250125	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCall_to_GCfix	worst_2_percent_label	P4_full_amplicon	average_precision	0.04466293264583644	11994	240	0.02001000500250125	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCall_to_GCfix	worst_2_percent_label	P4_full_amplicon	brier	0.01949019827450502	11994	240	0.02001000500250125	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCall_to_GCfix	worst_2_percent_label	P4_full_amplicon	roc_auc	0.6616667730134422	11994	240	0.02001000500250125	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCfix_to_GCall	worst_2_percent_label	P0_composition	average_precision	0.02504003350365376	11998	240	0.020003333888981498	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCfix_to_GCall	worst_2_percent_label	P0_composition	brier	0.019599716538202205	11998	240	0.020003333888981498	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCfix_to_GCall	worst_2_percent_label	P0_composition	roc_auc	0.5722500992232239	11998	240	0.020003333888981498	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCfix_to_GCall	worst_2_percent_label	P1_variable_proxy	average_precision	0.025424715386114304	11998	240	0.020003333888981498	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCfix_to_GCall	worst_2_percent_label	P1_variable_proxy	brier	0.038853831541582264	11998	240	0.020003333888981498	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCfix_to_GCall	worst_2_percent_label	P1_variable_proxy	roc_auc	0.5745777697454216	11998	240	0.020003333888981498	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCfix_to_GCall	worst_2_percent_label	P2_adapter_aware	average_precision	0.1335044276127834	11998	240	0.020003333888981498	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCfix_to_GCall	worst_2_percent_label	P2_adapter_aware	brier	0.03842010343017883	11998	240	0.020003333888981498	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCfix_to_GCall	worst_2_percent_label	P2_adapter_aware	roc_auc	0.7586809689856552	11998	240	0.020003333888981498	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCfix_to_GCall	worst_2_percent_label	P3_combined	average_precision	0.13151686926287778	11998	240	0.020003333888981498	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCfix_to_GCall	worst_2_percent_label	P3_combined	brier	0.15661251142602897	11998	240	0.020003333888981498	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCfix_to_GCall	worst_2_percent_label	P3_combined	roc_auc	0.7570413052106367	11998	240	0.020003333888981498	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCfix_to_GCall	worst_2_percent_label	P4_full_amplicon	average_precision	0.05992969629932025	11998	240	0.020003333888981498	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCfix_to_GCall	worst_2_percent_label	P4_full_amplicon	brier	0.01935745736619608	11998	240	0.020003333888981498	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_binary_transfer	GCfix_to_GCall	worst_2_percent_label	P4_full_amplicon	roc_auc	0.6400751970289732	11998	240	0.020003333888981498	train on complete source pool; no target-pool tuning
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P0_composition	mae	0.004100979404395867	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P0_composition	r2	0.008349186200095726	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P0_composition	rmse	0.007776377130813324	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P0_composition	spearman	0.19284691860528447	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P1_variable_proxy	mae	0.004091858929170915	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P1_variable_proxy	r2	0.010318556011315594	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P1_variable_proxy	rmse	0.007768651541724658	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P1_variable_proxy	spearman	0.21440600865808676	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P2_adapter_aware	mae	0.0040542729068687245	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P2_adapter_aware	r2	0.06313673809897002	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P2_adapter_aware	rmse	0.007558507224810772	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P2_adapter_aware	spearman	0.2608438731751141	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P3_combined	mae	0.004043366067374048	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P3_combined	r2	0.06530923725167814	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P3_combined	rmse	0.00754973839916068	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P3_combined	spearman	0.27212197014684003	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P4_full_amplicon	mae	0.004120083718314147	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P4_full_amplicon	r2	0.010192917076058627	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P4_full_amplicon	rmse	0.007769144636820572	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCall	relative_efficiency	P4_full_amplicon	spearman	0.1531218633777727	11998			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P0_composition	mae	0.003871697779162604	11994			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P0_composition	r2	0.004163132277437365	11994			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P0_composition	rmse	0.007961102825274504	11994			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P0_composition	spearman	0.053356373058537264	11994			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P1_variable_proxy	mae	0.0038502160755835217	11994			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P1_variable_proxy	r2	0.009803009287149389	11994			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P1_variable_proxy	rmse	0.007938527143111137	11994			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P1_variable_proxy	spearman	0.12793185085288186	11994			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P2_adapter_aware	mae	0.003848105145475925	11994			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P2_adapter_aware	r2	0.06615334771821868	11994			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P2_adapter_aware	rmse	0.007709334969095709	11994			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P2_adapter_aware	spearman	0.20116266386813075	11994			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P3_combined	mae	0.003826924311957572	11994			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P3_combined	r2	0.07212729091620751	11994			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P3_combined	rmse	0.007684636577317355	11994			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P3_combined	spearman	0.23139884364653376	11994			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P4_full_amplicon	mae	0.00388249529221249	11994			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P4_full_amplicon	r2	0.004459680357387974	11994			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P4_full_amplicon	rmse	0.007959917377327208	11994			mean prediction over 5 repeated out-of-fold passes
+Gimpel2025_PCR	pcr_continuous_efficiency	GCfix	relative_efficiency	P4_full_amplicon	spearman	0.0271598505005987	11994			mean prediction over 5 repeated out-of-fold passes

@@ -1,0 +1,15 @@
+dataset	field	role	definition_and_boundary
+DT4DDS	mean_log2_cpm_plus1	endpoint	Mean log2(CPM+1) across 0a, 0b, 2d, 4d and 7d; post-workflow detectability.
+DT4DDS	day7_vs_day0_log2fc_plus1	endpoint	log2 ratio of day-7 CPM+1 to mean day-0 CPM+1; composite workflow endpoint.
+DT4DDS	missing_any	secondary endpoint	Zero assigned reads in at least one of five public samples.
+DT4DDS	missing_day7	secondary endpoint	Zero assigned reads in the day-7 public sample.
+both	gc_deviation_from_0p5	baseline predictor	Absolute GC fraction minus 0.5.
+both	max_homopolymer	baseline predictor	Longest identical-base run.
+DT4DDS	candidate_pairs	structural-rule predictor	Candidate reverse-complement stem count, min stem 4 and min loop 3.
+DT4DDS	longest_stem	structural-rule predictor	Longest exact reverse-complement stem under the frozen evaluator.
+DT4DDS	weighted_pairs	Paper 2 proxy	Stem-length-weighted reverse-complement pair count, min stem 4 and min loop 3.
+Gimpel2025_PCR	worst_2_percent_label	primary endpoint	Author-defined bottom 2% PCR-efficiency label; not recalculated on evaluation folds.
+Gimpel2025_PCR	eff	secondary endpoint	Author-estimated relative PCR amplification efficiency.
+Gimpel2025_PCR	variable_weighted_pairs	Paper 2 proxy	Frozen weighted-pair proxy on the public 108-nt variable region.
+Gimpel2025_PCR	adapter complementarity features	biological baseline	Longest exact reverse-complement tract and count of complementary 4-mers for each 24-nt variable-region boundary against each publication-defined terminal adapter.
+Gimpel2025_PCR	full_amplicon_weighted_pairs	sensitivity predictor	Frozen weighted-pair proxy on 0F + variable + 0R-prime (149 nt).

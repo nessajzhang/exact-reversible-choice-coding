@@ -1,0 +1,7 @@
+dataset	pool	endpoint	n_sequences	events	analysis_gate
+DT4DDS	Genscript_GCall	missing_any	12472	357	nested_5x5_secondary
+DT4DDS	Genscript_GCall	missing_day7	12472	100	nested_5x5_secondary
+DT4DDS	Twist_GCall	missing_any	12000	28	descriptive_only_below_30_events
+DT4DDS	Twist_GCall	missing_day7	12000	11	descriptive_only_below_30_events
+Gimpel2025_PCR	GCall	worst_2_percent_label	11998	240	nested_5x5_confirmatory
+Gimpel2025_PCR	GCfix	worst_2_percent_label	11994	240	nested_5x5_confirmatory

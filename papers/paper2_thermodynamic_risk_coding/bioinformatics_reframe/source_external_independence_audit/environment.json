@@ -1,0 +1,14 @@
+{
+  "block_size": 64,
+  "command": "$PYTHON analysis_tools/audit_paper2_source_external_independence.py --jobs 10 --block-size 64",
+  "distance_definition": "exact oriented Hamming distance over 108-nt variable regions",
+  "jobs": 10,
+  "numpy": "2.5.0",
+  "platform": "macOS-13.7.8-x86_64-i386-64bit",
+  "python": "3.12.13",
+  "threshold_distance_cutoffs": {
+    "70pct": 32,
+    "80pct": 21,
+    "90pct": 10
+  }
+}

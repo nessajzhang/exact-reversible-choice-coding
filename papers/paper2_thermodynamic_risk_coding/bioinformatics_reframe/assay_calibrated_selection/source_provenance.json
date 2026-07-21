@@ -1,0 +1,106 @@
+{
+  "analysis_script": {
+    "path": "analysis_tools/validate_paper2_assay_calibrated_selection.py",
+    "sha256": "cfded422e8ba9513656afa263e66279326c5ebbfccf5f93225e8e2770bdaa0ee"
+  },
+  "claim_boundary": "public retrospective sequence selection; not Paper 2 oligo wet-lab validation, mechanism, recovery, storage density, or full-language capacity",
+  "commits": {
+    "external_data/paper2_dt4dds_sequence_recovery": "126e6da5c41f4e5de072b7a1a0934068b743de6c",
+    "external_data/paper2_gimpel2025_pcr_bias": "af62c57f9a90ecdfdd0f1623441e82bdb7e082c1"
+  },
+  "hashes": {
+    "data/paper2_dt4dds_sequence_detectability.csv": "32ed334ae29154c7e515d6d36409d3b7d7399d6f865265460c2e5c0b7f64dba3",
+    "data/paper2_dt4dds_sequence_detectability_summary.csv": "78939aa80b9ef33fc72c8c7112ace7eb8dcc4dc4c9f2151c8db2374b83964fb2",
+    "external_data/paper2_gimpel2025_pcr_bias/Data/GCall/bad_seqs_2perc.pkl": "0c88133354b30585f0a4851be7bd5fba87805a3c19189bca9db7f12fdea61384",
+    "external_data/paper2_gimpel2025_pcr_bias/Data/GCfix/bad_seqs_2perc.pkl": "185843669f779f421ce049765da92cf6ecaf1a6990cc5f51cf6b9229a43ad502",
+    "external_data/paper2_gimpel2025_pcr_bias/LICENSE.txt": "b9ad7d4bbfbdc63bd1a8c4cf89593769d33a95c46ef4b1065d61c254368ec0c7",
+    "external_data/paper2_gimpel2025_supplement/41467_2025_64221_MOESM1_ESM.pdf": "a0ebb08bd6c6da6abc32afd91a388b646d579b87409474efbfe647c945c9063c",
+    "external_data/paper2_gimpel2025_supplement/41467_2025_64221_MOESM4_ESM.zip": "3fdc4f6dbe21f17e4741e13794d91283b7cf4ee2caa4af4d1cbc71adb53dcd68"
+  },
+  "pickle_audit": {
+    "GCall": {
+      "forbidden_opcodes_present": [],
+      "global_arguments": [],
+      "opcode_count": 48580,
+      "opcode_names": [
+        "APPENDS",
+        "BINBYTES",
+        "BINGET",
+        "BININT",
+        "BININT1",
+        "BININT2",
+        "BUILD",
+        "EMPTY_DICT",
+        "EMPTY_LIST",
+        "EMPTY_TUPLE",
+        "FRAME",
+        "LONG_BINGET",
+        "MARK",
+        "MEMOIZE",
+        "NEWFALSE",
+        "NEWOBJ",
+        "NEWTRUE",
+        "NONE",
+        "PROTO",
+        "REDUCE",
+        "SETITEM",
+        "SETITEMS",
+        "SHORT_BINBYTES",
+        "SHORT_BINUNICODE",
+        "STACK_GLOBAL",
+        "STOP",
+        "TUPLE",
+        "TUPLE1",
+        "TUPLE2",
+        "TUPLE3"
+      ],
+      "sha256_allowlisted": true
+    },
+    "GCfix": {
+      "forbidden_opcodes_present": [],
+      "global_arguments": [],
+      "opcode_count": 48564,
+      "opcode_names": [
+        "APPENDS",
+        "BINBYTES",
+        "BINGET",
+        "BININT",
+        "BININT1",
+        "BININT2",
+        "BUILD",
+        "EMPTY_DICT",
+        "EMPTY_LIST",
+        "EMPTY_TUPLE",
+        "FRAME",
+        "LONG_BINGET",
+        "MARK",
+        "MEMOIZE",
+        "NEWFALSE",
+        "NEWOBJ",
+        "NEWTRUE",
+        "NONE",
+        "PROTO",
+        "REDUCE",
+        "SETITEM",
+        "SETITEMS",
+        "SHORT_BINBYTES",
+        "SHORT_BINUNICODE",
+        "STACK_GLOBAL",
+        "STOP",
+        "TUPLE",
+        "TUPLE1",
+        "TUPLE2",
+        "TUPLE3"
+      ],
+      "sha256_allowlisted": true
+    },
+    "source_data_crosscheck": {
+      "GCfix_note": "Figure 2c source-data member contains GCall only; GCfix is hash-pinned to the publication repository release.",
+      "eff_max_abs_difference": 0.0,
+      "matched_rows": 11998,
+      "member": "Fig. 2c/eff_dist.csv",
+      "pool": "GCall",
+      "x0_max_abs_difference": 4.440892098500626e-16
+    }
+  }
+}

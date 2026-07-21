@@ -1,0 +1,177 @@
+{
+  "analysis_date": "2026-07-17",
+  "base_seed": 20260718,
+  "bootstrap_replicates": 2000,
+  "command": "$PYTHON analysis_tools/validate_paper2_assay_calibrated_selection.py --jobs 10 --bootstrap 2000",
+  "inner_folds": 5,
+  "logical_cpus": 16,
+  "model_features": {
+    "DT4DDS": {
+      "D0_composition": [
+        "gc_deviation_from_0p5",
+        "max_homopolymer"
+      ],
+      "D1_structural_rules": [
+        "gc_deviation_from_0p5",
+        "max_homopolymer",
+        "candidate_pairs",
+        "longest_stem"
+      ],
+      "D2_assay_calibrated": [
+        "gc_deviation_from_0p5",
+        "max_homopolymer",
+        "candidate_pairs",
+        "longest_stem",
+        "weighted_pairs"
+      ]
+    },
+    "Gimpel2025_PCR": {
+      "P0_composition": [
+        "gc_deviation_from_0p5",
+        "max_homopolymer",
+        "base_freq_A",
+        "base_freq_C",
+        "base_freq_G",
+        "base_freq_T"
+      ],
+      "P1_variable_structure": [
+        "gc_deviation_from_0p5",
+        "max_homopolymer",
+        "base_freq_A",
+        "base_freq_C",
+        "base_freq_G",
+        "base_freq_T",
+        "variable_candidate_pairs",
+        "variable_longest_stem"
+      ],
+      "P2_assay_context": [
+        "gc_deviation_from_0p5",
+        "max_homopolymer",
+        "base_freq_A",
+        "base_freq_C",
+        "base_freq_G",
+        "base_freq_T",
+        "left_boundary_vs_left_adapter_max_rc_tract",
+        "left_boundary_vs_right_adapter_max_rc_tract",
+        "right_boundary_vs_left_adapter_max_rc_tract",
+        "right_boundary_vs_right_adapter_max_rc_tract",
+        "left_boundary_vs_left_adapter_complement_4mers",
+        "left_boundary_vs_right_adapter_complement_4mers",
+        "right_boundary_vs_left_adapter_complement_4mers",
+        "right_boundary_vs_right_adapter_complement_4mers",
+        "variable_candidate_pairs",
+        "variable_longest_stem"
+      ],
+      "P3_assay_calibrated": [
+        "gc_deviation_from_0p5",
+        "max_homopolymer",
+        "base_freq_A",
+        "base_freq_C",
+        "base_freq_G",
+        "base_freq_T",
+        "left_boundary_vs_left_adapter_max_rc_tract",
+        "left_boundary_vs_right_adapter_max_rc_tract",
+        "right_boundary_vs_left_adapter_max_rc_tract",
+        "right_boundary_vs_right_adapter_max_rc_tract",
+        "left_boundary_vs_left_adapter_complement_4mers",
+        "left_boundary_vs_right_adapter_complement_4mers",
+        "right_boundary_vs_left_adapter_complement_4mers",
+        "right_boundary_vs_right_adapter_complement_4mers",
+        "variable_candidate_pairs",
+        "variable_longest_stem",
+        "variable_weighted_pairs"
+      ],
+      "P4_full_structural_context": [
+        "gc_deviation_from_0p5",
+        "max_homopolymer",
+        "base_freq_A",
+        "base_freq_C",
+        "base_freq_G",
+        "base_freq_T",
+        "left_boundary_vs_left_adapter_max_rc_tract",
+        "left_boundary_vs_right_adapter_max_rc_tract",
+        "right_boundary_vs_left_adapter_max_rc_tract",
+        "right_boundary_vs_right_adapter_max_rc_tract",
+        "left_boundary_vs_left_adapter_complement_4mers",
+        "left_boundary_vs_right_adapter_complement_4mers",
+        "right_boundary_vs_left_adapter_complement_4mers",
+        "right_boundary_vs_right_adapter_complement_4mers",
+        "variable_candidate_pairs",
+        "variable_longest_stem",
+        "variable_weighted_pairs",
+        "full_amplicon_candidate_pairs",
+        "full_amplicon_longest_stem"
+      ],
+      "P5_combined_context": [
+        "gc_deviation_from_0p5",
+        "max_homopolymer",
+        "base_freq_A",
+        "base_freq_C",
+        "base_freq_G",
+        "base_freq_T",
+        "left_boundary_vs_left_adapter_max_rc_tract",
+        "left_boundary_vs_right_adapter_max_rc_tract",
+        "right_boundary_vs_left_adapter_max_rc_tract",
+        "right_boundary_vs_right_adapter_max_rc_tract",
+        "left_boundary_vs_left_adapter_complement_4mers",
+        "left_boundary_vs_right_adapter_complement_4mers",
+        "right_boundary_vs_left_adapter_complement_4mers",
+        "right_boundary_vs_right_adapter_complement_4mers",
+        "variable_candidate_pairs",
+        "variable_longest_stem",
+        "variable_weighted_pairs",
+        "full_amplicon_candidate_pairs",
+        "full_amplicon_longest_stem",
+        "full_amplicon_weighted_pairs"
+      ],
+      "P6_full_amplicon_replacement": [
+        "gc_deviation_from_0p5",
+        "max_homopolymer",
+        "base_freq_A",
+        "base_freq_C",
+        "base_freq_G",
+        "base_freq_T",
+        "left_boundary_vs_left_adapter_max_rc_tract",
+        "left_boundary_vs_right_adapter_max_rc_tract",
+        "right_boundary_vs_left_adapter_max_rc_tract",
+        "right_boundary_vs_right_adapter_max_rc_tract",
+        "left_boundary_vs_left_adapter_complement_4mers",
+        "left_boundary_vs_right_adapter_complement_4mers",
+        "right_boundary_vs_left_adapter_complement_4mers",
+        "right_boundary_vs_right_adapter_complement_4mers",
+        "full_amplicon_candidate_pairs",
+        "full_amplicon_longest_stem",
+        "full_amplicon_weighted_pairs"
+      ]
+    }
+  },
+  "outer_folds": 5,
+  "outer_repeats": 5,
+  "packages": {
+    "joblib": "1.5.3",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.0"
+  },
+  "parallel_jobs": 10,
+  "platform": "macOS-13.7.8-x86_64-i386-64bit",
+  "primary_retention": 0.25,
+  "python": "3.12.13 (main, Jun 23 2026, 15:54:40) [Clang 22.1.3 ]",
+  "retention_fractions": [
+    0.1,
+    0.25,
+    0.5
+  ],
+  "ridge_alpha_grid": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0,
+    10000.0
+  ]
+}

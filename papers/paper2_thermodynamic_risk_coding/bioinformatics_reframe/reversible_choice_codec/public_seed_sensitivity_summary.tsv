@@ -1,0 +1,17 @@
+direction	selector_bits	selector_model	seeds	minimum_standardized_gain	median_standardized_gain	maximum_standardized_gain	positive_seed_fraction	interpretation
+GCall_to_GCfix	2	P0_composition	32	0.010772423468345319	0.061914247897382896	0.11369049490802087	1.0	algorithmic mapping sensitivity; not a confidence interval or biological replication
+GCall_to_GCfix	2	P2_assay_context	32	0.13926680736802244	0.18858908379715844	0.21937581812467222	1.0	algorithmic mapping sensitivity; not a confidence interval or biological replication
+GCall_to_GCfix	2	P5_combined_context	32	0.19882216313075615	0.23017027793464462	0.2667502213145371	1.0	algorithmic mapping sensitivity; not a confidence interval or biological replication
+GCall_to_GCfix	2	P5_minus_P2_selected_outcome	32	0.012384012293265268	0.04276851814886591	0.099264238282841	1.0	algorithmic mapping sensitivity; not a confidence interval or biological replication
+GCall_to_GCfix	4	P0_composition	32	0.007238325982108719	0.09329557583381767	0.20176329385701133	1.0	algorithmic mapping sensitivity; not a confidence interval or biological replication
+GCall_to_GCfix	4	P2_assay_context	32	0.12659651512832754	0.20666245416776602	0.2631226671832834	1.0	algorithmic mapping sensitivity; not a confidence interval or biological replication
+GCall_to_GCfix	4	P5_combined_context	32	0.25054676901074496	0.3237132217036015	0.3850230686200615	1.0	algorithmic mapping sensitivity; not a confidence interval or biological replication
+GCall_to_GCfix	4	P5_minus_P2_selected_outcome	32	0.033762523032697195	0.10424731233029667	0.1951074987863986	1.0	algorithmic mapping sensitivity; not a confidence interval or biological replication
+GCfix_to_GCall	2	P0_composition	32	0.012515869763140097	0.07785295740720669	0.13547048788209082	1.0	algorithmic mapping sensitivity; not a confidence interval or biological replication
+GCfix_to_GCall	2	P2_assay_context	32	0.14686213710478496	0.20607669187303085	0.25455626479467974	1.0	algorithmic mapping sensitivity; not a confidence interval or biological replication
+GCfix_to_GCall	2	P5_combined_context	32	0.24560893249543606	0.2822427856614016	0.3169017229321293	1.0	algorithmic mapping sensitivity; not a confidence interval or biological replication
+GCfix_to_GCall	2	P5_minus_P2_selected_outcome	32	0.04064946196618432	0.07439034340628844	0.11886600428944687	1.0	algorithmic mapping sensitivity; not a confidence interval or biological replication
+GCfix_to_GCall	4	P0_composition	32	-0.0035299288530126725	0.09819499813057375	0.19941006479293683	0.96875	algorithmic mapping sensitivity; not a confidence interval or biological replication
+GCfix_to_GCall	4	P2_assay_context	32	0.19176658412628841	0.263795725682798	0.33263928105879087	1.0	algorithmic mapping sensitivity; not a confidence interval or biological replication
+GCfix_to_GCall	4	P5_combined_context	32	0.34806399580855507	0.38358464636965184	0.4895945366100299	1.0	algorithmic mapping sensitivity; not a confidence interval or biological replication
+GCfix_to_GCall	4	P5_minus_P2_selected_outcome	32	0.040018017553231804	0.13360786718351758	0.19033284998494257	1.0	algorithmic mapping sensitivity; not a confidence interval or biological replication

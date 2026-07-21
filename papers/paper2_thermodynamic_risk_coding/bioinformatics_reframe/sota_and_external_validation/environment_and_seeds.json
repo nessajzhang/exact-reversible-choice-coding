@@ -1,0 +1,45 @@
+{
+  "analysis": "Paper 2 SOTA, locked external validation and two-stage uncertainty",
+  "base_seed": 20260718,
+  "claim_boundary": "retrospective measured public-sequence selection and an exact computational choice-codec interface; not prospective codec-output wet lab, mechanism, NUPACK, material, sequencing, recovery, full 110-nt weighted-language capacity, achieved storage density, end-to-end superiority, or unpublished-sister-manuscript evidence",
+  "command": "$PYTHON analysis_tools/validate_paper2_sota_external_uncertainty.py --jobs 10 --bootstrap 2000 --two-stage 2000 --randomizations 100000",
+  "frozen_full_run": true,
+  "jobs": 10,
+  "measurement_uncertainty_boundary": "intervals condition on the published sequence-level outcome estimates and do not propagate technical-replicate, batch, normalization or source-assay measurement uncertainty",
+  "packages": {
+    "joblib": "1.5.3",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.0"
+  },
+  "platform": "macOS-13.7.8-x86_64-i386-64bit",
+  "primary_selector_bits": 2,
+  "python": "3.12.13 (main, Jun 23 2026, 15:54:40) [Clang 22.1.3 ]",
+  "score_key_contract": {
+    "candidate_order": "lexicographically minimize (-quantized_key, choice_index)",
+    "decimal_places": 12,
+    "input_dtype": "float64",
+    "integer_scale": 1000000000000,
+    "nonfinite_behavior": "reject",
+    "out_of_range_behavior": "reject",
+    "output_dtype": "int64",
+    "rounding": "IEEE-754 binary64 round-to-nearest, ties-to-even via numpy.rint",
+    "signed_int64_max": 9223372036854775807,
+    "signed_int64_min": -9223372036854775808,
+    "tie_break": "smallest declared choice index"
+  },
+  "secondary_selector_bits": 4,
+  "smoke": false,
+  "target_fiber_bootstrap_replicates": 2000,
+  "two_stage_bootstrap_replicates": 2000,
+  "two_stage_source_resampling": {
+    "cross_fold_duplicate_sequences": 0,
+    "cross_validation": "five folds fixed on original source-sequence IDs before resampling",
+    "duplicate_handling": "all bootstrap copies of one original sequence remain in the same fold",
+    "scheme": "nonparametric bootstrap represented by duplicate-row integer weights",
+    "unit": "one original source sequence"
+  },
+  "upstream_commit": "af62c57f9a90ecdfdd0f1623441e82bdb7e082c1",
+  "within_fiber_randomization_replicates": 100000
+}

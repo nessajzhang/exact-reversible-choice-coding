@@ -1,0 +1,6 @@
+scope	selection_runs	fibers_checked	score_decimal_places	choices_changed_by_quantization	quantized_extremum_tie_fibers	minimum_raw_top_gap	tie_rule
+measured-codebook AssayContext, FullContext and released-CNN selectors	36	9600	12	0	0	1.200000000478596e-07	smallest choice index after fixed-precision integer score key
+measured-codebook exploratory Composition selector	12	3200	12	4	27	0.0	smallest choice index after fixed-precision integer score key
+generated AssayContext and FullContext selectors	24	12288	12	0	0	2.9323379724388587e-08	smallest choice index after fixed-precision integer score key
+generated exploratory Composition selector	12	6144	12	0	33	0.0	smallest choice index after fixed-precision integer score key
+all mapping-sensitivity selector runs	288	reported per frozen mapping table	12	0	0	6.258124018998501e-09	smallest choice index after fixed-precision integer score key

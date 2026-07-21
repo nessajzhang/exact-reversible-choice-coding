@@ -1,0 +1,7 @@
+layer	evidence_type	material	supports	does_not_support
+1	computational verification	rank/unrank, modulo-N inverse and 65,024 generated candidates	language membership, fixed fibers, exact payload inversion and failure behavior	PCR benefit, synthesis performance or material recovery
+2	retrospective measured analysis	GCall/GCfix PCR-tested finite codebooks	measured within-fiber selection utility in previously assayed libraries	prospective performance of codec-emitted sequences
+3	same-source-publication external-laboratory evaluation	analysis-plan-locked external KAPA finite codebook from already-public measurements	same-assay transfer to a source-publication external laboratory pool	independent third-party replication
+4	altered-protocol evaluation	secondary exploratory external Q5 finite codebook	an assay-transfer boundary; direction reversal under changed amplification conditions	polymerase-universal sequence quality
+5	predicted generated-candidate analysis	FullContext scores on generated exact-codec candidates	in-silico score-rate and mapping-sensitivity diagnostics	measured gain
+6	prospective validation	actual synthesis and PCR of codec-emitted candidates	not available	not performed in this study

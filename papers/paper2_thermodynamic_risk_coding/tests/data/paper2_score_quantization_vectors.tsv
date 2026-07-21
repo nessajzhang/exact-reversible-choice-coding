@@ -1,0 +1,15 @@
+scaled_binary64	expected_int64	case
+-3.5	-4	negative_half_to_even
+-2.5	-2	negative_half_to_even
+-1.5	-2	negative_half_to_even
+-0.5	0	negative_half_to_even_zero
+0.5	0	positive_half_to_even_zero
+1.5	2	positive_half_to_even
+2.5	2	positive_half_to_even
+3.5	4	positive_half_to_even
+-3.5000000000000004	-4	negative_below_half
+-3.4999999999999996	-3	negative_above_half
+3.4999999999999996	3	positive_below_half
+3.5000000000000004	4	positive_above_half
+-9223372036854775808	-9223372036854775808	int64_min
+0	0	zero

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+build/*.aux
+build/*.bbl
+build/*.blg
+build/*.fdb_latexmk
+build/*.fls
+build/*.log
+build/*.out
+bioinformatics_reframe/runtime_benchmark/latest_local/
+

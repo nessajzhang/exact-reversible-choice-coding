@@ -1,0 +1,23 @@
+{
+  "analysis": "Paper 2 deterministic channel-error boundary audit",
+  "base_seed": 20260722,
+  "command": "$PYTHON analysis_tools/audit_paper2_channel_error_boundary.py --jobs 10 --message-samples 32",
+  "crc_bits": 16,
+  "fixed_bits": 213,
+  "message_samples_per_source": 32,
+  "model": "P5_combined_context",
+  "packages": {
+    "joblib": "1.5.3",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scikit-learn": "1.9.0"
+  },
+  "platform": "macOS-13.7.8-x86_64-i386-64bit",
+  "python": "3.12.13 (main, Jun 23 2026, 15:54:40) [Clang 22.1.3 ]",
+  "scope": "error-detection composition audit only; no correction, dropout, clustering, consensus or file recovery",
+  "selector_bits": 2,
+  "source_models": [
+    "GCall",
+    "GCfix"
+  ]
+}

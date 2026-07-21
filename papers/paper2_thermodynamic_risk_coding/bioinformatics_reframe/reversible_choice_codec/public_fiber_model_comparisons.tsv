@@ -1,0 +1,21 @@
+direction	selector_bits	candidates_per_payload	comparison	paired_selected_outcome_difference	difference_ci_2p5	difference_ci_97p5	standardized_difference	fibers	independent_unit
+GCall_to_GCfix	0	1	P5_combined_context_minus_P0_composition	0.0	0.0	0.0	0.0	2048	one deterministic candidate fiber
+GCall_to_GCfix	0	1	P5_combined_context_minus_P2_assay_context	0.0	0.0	0.0	0.0	2048	one deterministic candidate fiber
+GCall_to_GCfix	1	2	P5_combined_context_minus_P0_composition	0.001284480610831478	0.0008519580773835312	0.0017624198275101287	0.13684263769868646	1024	one deterministic candidate fiber
+GCall_to_GCfix	1	2	P5_combined_context_minus_P2_assay_context	0.0003995703976159685	0.0001632727189943545	0.0006713544165198058	0.04256838654862014	1024	one deterministic candidate fiber
+GCall_to_GCfix	2	4	P5_combined_context_minus_P0_composition	0.00211924558851304	0.0014459508043355484	0.0028504000704985956	0.2257746468245269	512	one deterministic candidate fiber
+GCall_to_GCfix	2	4	P5_combined_context_minus_P2_assay_context	0.000585517893166431	0.00019429449042378315	0.0010082153141658615	0.062378374764883275	512	one deterministic candidate fiber
+GCall_to_GCfix	3	8	P5_combined_context_minus_P0_composition	0.002485367948328654	0.0015330491487088543	0.003597767430642412	0.26477963375477287	256	one deterministic candidate fiber
+GCall_to_GCfix	3	8	P5_combined_context_minus_P2_assay_context	0.0009022458488341586	0.0004273588871653862	0.0014571443693698458	0.09612110978244663	256	one deterministic candidate fiber
+GCall_to_GCfix	4	16	P5_combined_context_minus_P0_composition	0.002773314585181268	0.0015588129645575405	0.004216551180272451	0.29545613986245994	128	one deterministic candidate fiber
+GCall_to_GCfix	4	16	P5_combined_context_minus_P2_assay_context	0.0014849676269271684	0.0006319507467838842	0.0024904257479539255	0.15820159934865155	128	one deterministic candidate fiber
+GCfix_to_GCall	0	1	P5_combined_context_minus_P0_composition	0.0	0.0	0.0	0.0	2048	one deterministic candidate fiber
+GCfix_to_GCall	0	1	P5_combined_context_minus_P2_assay_context	0.0	0.0	0.0	0.0	2048	one deterministic candidate fiber
+GCfix_to_GCall	1	2	P5_combined_context_minus_P0_composition	0.001296379347602068	0.0008139282601750207	0.0018257625903238385	0.16659851953042074	1024	one deterministic candidate fiber
+GCfix_to_GCall	1	2	P5_combined_context_minus_P2_assay_context	0.0003058633187312101	8.662226025812435e-05	0.0005323633287192488	0.039306686097349185	1024	one deterministic candidate fiber
+GCfix_to_GCall	2	4	P5_combined_context_minus_P0_composition	0.0017508702499151694	0.0011206165979987094	0.0024289269568417075	0.2250054292096466	512	one deterministic candidate fiber
+GCfix_to_GCall	2	4	P5_combined_context_minus_P2_assay_context	0.000623069597728445	0.0002132397550470183	0.0010586839711000404	0.0800710631019992	512	one deterministic candidate fiber
+GCfix_to_GCall	3	8	P5_combined_context_minus_P0_composition	0.0024935893703139263	0.0017198814718766687	0.003321427359252436	0.32045272718939716	256	one deterministic candidate fiber
+GCfix_to_GCall	3	8	P5_combined_context_minus_P2_assay_context	0.001329010544463805	0.0008139566584041518	0.0019372026486020593	0.1707919750168312	256	one deterministic candidate fiber
+GCfix_to_GCall	4	16	P5_combined_context_minus_P0_composition	0.0023467988647361583	0.001159869514881389	0.0035652851288904526	0.3015885876490589	128	one deterministic candidate fiber
+GCfix_to_GCall	4	16	P5_combined_context_minus_P2_assay_context	0.0010427441865597294	0.00027049529215741663	0.001866053068960613	0.13400370659339456	128	one deterministic candidate fiber

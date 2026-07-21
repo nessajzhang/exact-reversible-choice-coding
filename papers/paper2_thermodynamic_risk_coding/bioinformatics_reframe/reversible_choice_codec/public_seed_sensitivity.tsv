@@ -1,0 +1,513 @@
+direction	seed_index	selector_bits	selector_model	fibers	standardized_paired_gain	negative_gain_fraction	zero_gain_fraction	positive_gain_fraction	fiber_score_variance_mean	choices_changed_by_quantization	quantized_extremum_tie_fibers	minimum_raw_top_gap	algorithmic_sensitivity_boundary
+GCall_to_GCfix	0	2	P0_composition	512	0.05315537085912816	0.419921875	0.0	0.580078125	9.692582076786194e-08	0	2	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	0	2	P2_assay_context	512	0.21424880782165315	0.33984375	0.0	0.66015625	2.515395966728963e-06	0	0	1.106791393090667e-05	hash seed is not an independent experimental replicate
+GCall_to_GCfix	0	2	P5_combined_context	512	0.2665227417144046	0.2734375	0.0	0.7265625	5.218629871139337e-06	0	0	6.5545985388215655e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	0	2	P5_minus_P2_selected_outcome	512	0.05227393389275146	0.130859375	0.6328125	0.236328125					hash seed is not an independent experimental replicate
+GCall_to_GCfix	0	4	P0_composition	128	0.09668320472650968	0.3046875	0.0	0.6953125	1.2109338096617444e-07	0	0	7.853516272637862e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	0	4	P2_assay_context	128	0.18234468779207333	0.234375	0.0	0.765625	3.1440734087921247e-06	0	0	1.1100902863603324e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	0	4	P5_combined_context	128	0.34775124250502676	0.1328125	0.0	0.8671875	6.363968250531719e-06	0	0	4.478442283684103e-08	hash seed is not an independent experimental replicate
+GCall_to_GCfix	0	4	P5_minus_P2_selected_outcome	128	0.16540655471295343	0.203125	0.3828125	0.4140625					hash seed is not an independent experimental replicate
+GCall_to_GCfix	1	2	P0_composition	512	0.09671163865463489	0.38671875	0.0	0.61328125	1.0530136341020412e-07	0	6	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	1	2	P2_assay_context	512	0.19696965907052771	0.330078125	0.0	0.669921875	2.6215140231693617e-06	0	0	2.241801309477154e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	1	2	P5_combined_context	512	0.23484694310521545	0.28125	0.0	0.71875	5.189817059240697e-06	0	0	6.809295607368426e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	1	2	P5_minus_P2_selected_outcome	512	0.03787728403468774	0.146484375	0.662109375	0.19140625					hash seed is not an independent experimental replicate
+GCall_to_GCfix	1	4	P0_composition	128	0.19992017657344918	0.3203125	0.0	0.6796875	1.3018719530033448e-07	0	2	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	1	4	P2_assay_context	128	0.21642701028557146	0.2109375	0.0	0.7890625	3.198392197730959e-06	0	0	2.241801309477154e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	1	4	P5_combined_context	128	0.32293856183828545	0.1328125	0.0	0.8671875	6.482019758033289e-06	0	0	7.37207790613148e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	1	4	P5_minus_P2_selected_outcome	128	0.10651155155271401	0.234375	0.359375	0.40625					hash seed is not an independent experimental replicate
+GCall_to_GCfix	2	2	P0_composition	512	0.01751401728351401	0.4296875	0.0	0.5703125	1.0325274084490192e-07	0	9	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	2	2	P2_assay_context	512	0.20869688903402486	0.32421875	0.0	0.67578125	2.5107737743667175e-06	0	0	8.566709686075313e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	2	2	P5_combined_context	512	0.2269055355845945	0.3046875	0.0	0.6953125	5.318423417228312e-06	0	0	4.2788473966215435e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	2	2	P5_minus_P2_selected_outcome	512	0.018208646550569647	0.166015625	0.662109375	0.171875					hash seed is not an independent experimental replicate
+GCall_to_GCfix	2	4	P0_composition	128	0.12097481900001919	0.3203125	0.0	0.6796875	1.2719658936708395e-07	0	6	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	2	4	P2_assay_context	128	0.2589681762681146	0.203125	0.0	0.796875	3.199116456651022e-06	0	0	1.5197804060118614e-05	hash seed is not an independent experimental replicate
+GCall_to_GCfix	2	4	P5_combined_context	128	0.34046819041334164	0.1796875	0.0	0.8203125	6.666435552932739e-06	0	0	1.5226188399886098e-05	hash seed is not an independent experimental replicate
+GCall_to_GCfix	2	4	P5_minus_P2_selected_outcome	128	0.08150001414522703	0.28125	0.390625	0.328125					hash seed is not an independent experimental replicate
+GCall_to_GCfix	3	2	P0_composition	512	0.015767071250437914	0.421875	0.0	0.578125	9.857876478380309e-08	0	5	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	3	2	P2_assay_context	512	0.20106461277877233	0.328125	0.0	0.671875	2.6126461939397694e-06	0	0	6.255860525161694e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	3	2	P5_combined_context	512	0.2306192014895214	0.328125	0.0	0.671875	4.797526913788992e-06	0	0	1.9224083562807692e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	3	2	P5_minus_P2_selected_outcome	512	0.02955458871074906	0.142578125	0.6796875	0.177734375					hash seed is not an independent experimental replicate
+GCall_to_GCfix	3	4	P0_composition	128	0.11295521592860137	0.359375	0.0	0.640625	1.270918045507457e-07	0	7	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	3	4	P2_assay_context	128	0.22649381793067833	0.2734375	0.0	0.7265625	3.2630089743697283e-06	0	0	9.89059908329537e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	3	4	P5_combined_context	128	0.33160853722068867	0.203125	0.0	0.796875	6.035107148816746e-06	0	0	8.48495650851433e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	3	4	P5_minus_P2_selected_outcome	128	0.10511471929001032	0.265625	0.3671875	0.3671875					hash seed is not an independent experimental replicate
+GCall_to_GCfix	4	2	P0_composition	512	0.05903029427124996	0.4140625	0.0	0.5859375	1.0421894950397072e-07	0	6	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	4	2	P2_assay_context	512	0.16733029554701098	0.3671875	0.0	0.6328125	2.551774315176193e-06	0	0	1.9612180373052013e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	4	2	P5_combined_context	512	0.22996975420663796	0.302734375	0.0	0.697265625	5.183952525127847e-06	0	0	2.2128046150982073e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	4	2	P5_minus_P2_selected_outcome	512	0.06263945865962699	0.150390625	0.630859375	0.21875					hash seed is not an independent experimental replicate
+GCall_to_GCfix	4	4	P0_composition	128	0.05635342486162836	0.390625	0.0	0.609375	1.2996437999703516e-07	0	3	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	4	4	P2_assay_context	128	0.2080042191081798	0.2421875	0.0	0.7578125	3.172389201707507e-06	0	0	2.2491391651335846e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	4	4	P5_combined_context	128	0.2559584488033567	0.234375	0.0	0.765625	6.37912375681987e-06	0	0	1.5910050207734727e-05	hash seed is not an independent experimental replicate
+GCall_to_GCfix	4	4	P5_minus_P2_selected_outcome	128	0.04795422969517692	0.2578125	0.421875	0.3203125					hash seed is not an independent experimental replicate
+GCall_to_GCfix	5	2	P0_composition	512	0.08409944517041358	0.423828125	0.0	0.576171875	9.957207187890872e-08	0	6	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	5	2	P2_assay_context	512	0.2143590892760295	0.33984375	0.0	0.66015625	2.65926763470449e-06	0	0	6.149243665376503e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	5	2	P5_combined_context	512	0.2323324471352968	0.30859375	0.0	0.69140625	5.568342899804752e-06	0	0	7.417161501654945e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	5	2	P5_minus_P2_selected_outcome	512	0.017973357859267267	0.142578125	0.6640625	0.193359375					hash seed is not an independent experimental replicate
+GCall_to_GCfix	5	4	P0_composition	128	0.1237854853155575	0.3359375	0.0	0.6640625	1.252018605062318e-07	0	4	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	5	4	P2_assay_context	128	0.2631226671832834	0.2109375	0.0	0.7890625	3.284714615959991e-06	0	0	2.640101414153051e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	5	4	P5_combined_context	128	0.29688519021598064	0.1796875	0.0	0.8203125	6.75683334690308e-06	0	0	1.229756485976452e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	5	4	P5_minus_P2_selected_outcome	128	0.033762523032697195	0.2421875	0.40625	0.3515625					hash seed is not an independent experimental replicate
+GCall_to_GCfix	6	2	P0_composition	512	0.04301167011329256	0.45703125	0.0	0.54296875	1.0035245957277566e-07	0	8	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	6	2	P2_assay_context	512	0.19856664005123675	0.36328125	0.0	0.63671875	2.6625478370354637e-06	0	0	4.256321223472526e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	6	2	P5_combined_context	512	0.2410187182462687	0.3359375	0.0	0.6640625	5.114371499439498e-06	0	0	2.655797707085128e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	6	2	P5_minus_P2_selected_outcome	512	0.04245207819503196	0.158203125	0.62890625	0.212890625					hash seed is not an independent experimental replicate
+GCall_to_GCfix	6	4	P0_composition	128	0.08726836796341092	0.359375	0.0	0.640625	1.2598788766905758e-07	0	4	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	6	4	P2_assay_context	128	0.25309315262977444	0.234375	0.0	0.765625	3.347842671021318e-06	0	0	1.0346769133695588e-05	hash seed is not an independent experimental replicate
+GCall_to_GCfix	6	4	P5_combined_context	128	0.3466272572932063	0.203125	0.0	0.796875	6.498117602248136e-06	0	0	2.452674999098292e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	6	4	P5_minus_P2_selected_outcome	128	0.09353410466343187	0.2578125	0.40625	0.3359375					hash seed is not an independent experimental replicate
+GCall_to_GCfix	7	2	P0_composition	512	0.11369049490802087	0.421875	0.0	0.578125	1.0101357211995968e-07	0	7	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	7	2	P2_assay_context	512	0.18739971443823034	0.349609375	0.0	0.650390625	2.520734962938908e-06	0	0	1.5783879379061005e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	7	2	P5_combined_context	512	0.22829065758672157	0.3203125	0.0	0.6796875	4.692909473214992e-06	0	0	4.6158804354323735e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	7	2	P5_minus_P2_selected_outcome	512	0.04089094314849127	0.1328125	0.677734375	0.189453125					hash seed is not an independent experimental replicate
+GCall_to_GCfix	7	4	P0_composition	128	0.18313855414253896	0.2734375	0.0	0.7265625	1.262488057582367e-07	0	5	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	7	4	P2_assay_context	128	0.20485349378427709	0.265625	0.0	0.734375	3.1639012479362775e-06	0	0	3.5853004622943274e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	7	4	P5_combined_context	128	0.3375941135539053	0.203125	0.0	0.796875	5.884135685384808e-06	0	0	7.99119869276943e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	7	4	P5_minus_P2_selected_outcome	128	0.13274061976962817	0.28125	0.328125	0.390625					hash seed is not an independent experimental replicate
+GCall_to_GCfix	8	2	P0_composition	512	0.04342639021063354	0.4609375	0.0	0.5390625	9.988249015480558e-08	0	7	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	8	2	P2_assay_context	512	0.17174439207542636	0.375	0.0	0.625	2.6575876080438574e-06	0	0	5.336930107402438e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	8	2	P5_combined_context	512	0.2394758661130577	0.314453125	0.0	0.685546875	5.113811721805855e-06	0	0	2.5279570983194333e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	8	2	P5_minus_P2_selected_outcome	512	0.06773147403763137	0.1484375	0.6328125	0.21875					hash seed is not an independent experimental replicate
+GCall_to_GCfix	8	4	P0_composition	128	0.052483564330429056	0.375	0.0	0.625	1.269659211318436e-07	0	5	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	8	4	P2_assay_context	128	0.21624285784479297	0.2421875	0.0	0.7578125	3.2402955962187207e-06	0	0	1.921827736728332e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	8	4	P5_combined_context	128	0.35478768818884293	0.1953125	0.0	0.8046875	6.349209045647275e-06	0	0	8.045385703869812e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	8	4	P5_minus_P2_selected_outcome	128	0.13854483034404996	0.2265625	0.3984375	0.375					hash seed is not an independent experimental replicate
+GCall_to_GCfix	9	2	P0_composition	512	0.06129825042401838	0.46875	0.0	0.53125	9.972839461218908e-08	0	10	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	9	2	P2_assay_context	512	0.18128551335008264	0.341796875	0.0	0.658203125	2.5717537514976888e-06	0	0	9.113579754194134e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	9	2	P5_combined_context	512	0.2232776646622921	0.3046875	0.0	0.6953125	4.50452328471114e-06	0	0	5.582180241159307e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	9	2	P5_minus_P2_selected_outcome	512	0.041992151312209465	0.17578125	0.630859375	0.193359375					hash seed is not an independent experimental replicate
+GCall_to_GCfix	9	4	P0_composition	128	0.02570369614196802	0.40625	0.0	0.59375	1.2381567133045415e-07	0	4	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	9	4	P2_assay_context	128	0.19216098266001205	0.265625	0.0	0.734375	3.2899889720751382e-06	0	0	1.4245775528110016e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	9	4	P5_combined_context	128	0.29266489752109504	0.1953125	0.0	0.8046875	5.82427109947608e-06	0	0	3.9542668950343085e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	9	4	P5_minus_P2_selected_outcome	128	0.10050391486108297	0.21875	0.3984375	0.3828125					hash seed is not an independent experimental replicate
+GCall_to_GCfix	10	2	P0_composition	512	0.0625302453707474	0.4375	0.0	0.5625	1.0115629335623224e-07	0	4	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	10	2	P2_assay_context	512	0.13926680736802244	0.380859375	0.0	0.619140625	2.547996368190411e-06	0	0	2.5447566698311164e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	10	2	P5_combined_context	512	0.23853104565086344	0.314453125	0.0	0.685546875	5.025049281248666e-06	0	0	5.349708967261613e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	10	2	P5_minus_P2_selected_outcome	512	0.099264238282841	0.13671875	0.61328125	0.25					hash seed is not an independent experimental replicate
+GCall_to_GCfix	10	4	P0_composition	128	0.06287398292546009	0.3671875	0.0	0.6328125	1.2535642465914818e-07	0	3	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	10	4	P2_assay_context	128	0.14083265818164484	0.3125	0.0	0.6875	3.1937304644411254e-06	0	0	2.5447566698311164e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	10	4	P5_combined_context	128	0.3228034022255402	0.21875	0.0	0.78125	6.229910367032854e-06	0	0	5.708507357482517e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	10	4	P5_minus_P2_selected_outcome	128	0.18197074404389538	0.1796875	0.4140625	0.40625					hash seed is not an independent experimental replicate
+GCall_to_GCfix	11	2	P0_composition	512	0.07011057225025633	0.43359375	0.0	0.56640625	9.694662926573955e-08	0	5	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	11	2	P2_assay_context	512	0.19638095443752876	0.328125	0.0	0.671875	2.4559297149691133e-06	0	0	2.922341369115955e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	11	2	P5_combined_context	512	0.24668214225421467	0.30078125	0.0	0.69921875	5.3826842546325235e-06	0	0	6.344703451732769e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	11	2	P5_minus_P2_selected_outcome	512	0.05030118781668593	0.166015625	0.626953125	0.20703125					hash seed is not an independent experimental replicate
+GCall_to_GCfix	11	4	P0_composition	128	0.035899336452780685	0.375	0.0	0.625	1.223544677759297e-07	0	6	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	11	4	P2_assay_context	128	0.1983411784308951	0.2890625	0.0	0.7109375	3.0653370142605625e-06	0	0	6.354401478336769e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	11	4	P5_combined_context	128	0.3244878815689176	0.1953125	0.0	0.8046875	6.7135127297191785e-06	0	0	1.0661081954577156e-05	hash seed is not an independent experimental replicate
+GCall_to_GCfix	11	4	P5_minus_P2_selected_outcome	128	0.12614670313802248	0.2578125	0.390625	0.3515625					hash seed is not an independent experimental replicate
+GCall_to_GCfix	12	2	P0_composition	512	0.06937295188149165	0.3984375	0.0	0.6015625	1.0290847970642615e-07	0	5	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	12	2	P2_assay_context	512	0.18098124475669983	0.333984375	0.0	0.666015625	2.511797367176312e-06	0	0	3.1250620791123396e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	12	2	P5_combined_context	512	0.21378880674489478	0.3125	0.0	0.6875	4.490522789734167e-06	0	0	6.351831724371593e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	12	2	P5_minus_P2_selected_outcome	512	0.03280756198819495	0.1796875	0.640625	0.1796875					hash seed is not an independent experimental replicate
+GCall_to_GCfix	12	4	P0_composition	128	0.06106519154804811	0.375	0.0	0.625	1.2849646040483587e-07	0	5	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	12	4	P2_assay_context	128	0.2607738989058384	0.25	0.0	0.75	3.1443897384481564e-06	0	0	6.843804492007166e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	12	4	P5_combined_context	128	0.32087778850875437	0.1875	0.0	0.8125	5.5638821365613065e-06	0	0	8.729418914388276e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	12	4	P5_minus_P2_selected_outcome	128	0.06010388960291591	0.2421875	0.4140625	0.34375					hash seed is not an independent experimental replicate
+GCall_to_GCfix	13	2	P0_composition	512	0.010772423468345319	0.47265625	0.0	0.52734375	1.0071334128133166e-07	0	7	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	13	2	P2_assay_context	512	0.16621355328769388	0.3671875	0.0	0.6328125	2.6618839201879862e-06	0	0	4.118738958114321e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	13	2	P5_combined_context	512	0.2300495128642425	0.326171875	0.0	0.673828125	5.036045678583368e-06	0	0	2.4826119049414785e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	13	2	P5_minus_P2_selected_outcome	512	0.06383595957654861	0.11328125	0.703125	0.18359375					hash seed is not an independent experimental replicate
+GCall_to_GCfix	13	4	P0_composition	128	0.050196961807872094	0.453125	0.0	0.546875	1.2596099298069644e-07	0	6	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	13	4	P2_assay_context	128	0.13082546357177544	0.2890625	0.0	0.7109375	3.270833069135884e-06	0	0	4.118738958114321e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	13	4	P5_combined_context	128	0.32593296235817404	0.1953125	0.0	0.8046875	6.267815250873327e-06	0	0	7.463499216431302e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	13	4	P5_minus_P2_selected_outcome	128	0.1951074987863986	0.1875	0.375	0.4375					hash seed is not an independent experimental replicate
+GCall_to_GCfix	14	2	P0_composition	512	0.06408845436122386	0.423828125	0.0	0.576171875	1.0072036558268728e-07	0	5	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	14	2	P2_assay_context	512	0.17631804203671855	0.384765625	0.0	0.615234375	2.4029589283976004e-06	0	0	4.876698362465959e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	14	2	P5_combined_context	512	0.23029104300504674	0.33203125	0.0	0.66796875	4.6550726849009535e-06	0	0	6.379278678636524e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	14	2	P5_minus_P2_selected_outcome	512	0.053973000968328196	0.166015625	0.62109375	0.212890625					hash seed is not an independent experimental replicate
+GCall_to_GCfix	14	4	P0_composition	128	0.007238325982108719	0.3984375	0.0	0.6015625	1.259297665456851e-07	0	1	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	14	4	P2_assay_context	128	0.1925063089746566	0.3203125	0.0	0.6796875	3.0809059672706107e-06	0	0	3.1323838640684443e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	14	4	P5_combined_context	128	0.3850230686200615	0.171875	0.0	0.828125	5.774402368410083e-06	0	0	1.3579662261120617e-05	hash seed is not an independent experimental replicate
+GCall_to_GCfix	14	4	P5_minus_P2_selected_outcome	128	0.19251675964540496	0.203125	0.3671875	0.4296875					hash seed is not an independent experimental replicate
+GCall_to_GCfix	15	2	P0_composition	512	0.05022480295045314	0.44921875	0.0	0.55078125	9.797795980395538e-08	0	6	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	15	2	P2_assay_context	512	0.20730794371416472	0.3515625	0.0	0.6484375	2.4828123546000025e-06	0	0	1.2037797259001337e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	15	2	P5_combined_context	512	0.21969195600742997	0.33203125	0.0	0.66796875	4.945157770014707e-06	0	0	2.784122821175572e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	15	2	P5_minus_P2_selected_outcome	512	0.012384012293265268	0.181640625	0.630859375	0.1875					hash seed is not an independent experimental replicate
+GCall_to_GCfix	15	4	P0_composition	128	0.07927527818575046	0.3515625	0.0	0.6484375	1.2336531408327278e-07	0	2	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	15	4	P2_assay_context	128	0.2189710992329335	0.265625	0.0	0.734375	3.1290552550444364e-06	0	0	9.692747870992946e-08	hash seed is not an independent experimental replicate
+GCall_to_GCfix	15	4	P5_combined_context	128	0.32235100460351657	0.1953125	0.0	0.8046875	6.094947684568252e-06	0	0	1.116025724945402e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	15	4	P5_minus_P2_selected_outcome	128	0.10337990537058303	0.234375	0.3515625	0.4140625					hash seed is not an independent experimental replicate
+GCall_to_GCfix	16	2	P0_composition	512	0.07590873911890086	0.44140625	0.0	0.55859375	1.0414886293633065e-07	0	6	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	16	2	P2_assay_context	512	0.16590163904218078	0.359375	0.0	0.640625	2.4695035263348386e-06	0	0	8.7406069373408e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	16	2	P5_combined_context	512	0.20420300183024237	0.32421875	0.0	0.67578125	4.995227514763636e-06	0	0	3.5255040771176027e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	16	2	P5_minus_P2_selected_outcome	512	0.0383013627880616	0.140625	0.666015625	0.193359375					hash seed is not an independent experimental replicate
+GCall_to_GCfix	16	4	P0_composition	128	0.17469226061899207	0.3125	0.0	0.6875	1.287720713104634e-07	0	2	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	16	4	P2_assay_context	128	0.1727335868288329	0.3046875	0.0	0.6953125	3.189401949924015e-06	0	0	4.3452609221894534e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	16	4	P5_combined_context	128	0.32541735497161034	0.1796875	0.0	0.8203125	6.295935967452446e-06	0	0	2.849676662641798e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	16	4	P5_minus_P2_selected_outcome	128	0.15268376814277743	0.21875	0.4296875	0.3515625					hash seed is not an independent experimental replicate
+GCall_to_GCfix	17	2	P0_composition	512	0.04886084442714135	0.44140625	0.0	0.55859375	1.0455015149676654e-07	0	6	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	17	2	P2_assay_context	512	0.15454051525662005	0.375	0.0	0.625	2.5618985227127472e-06	0	0	7.055333519634388e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	17	2	P5_combined_context	512	0.23527336439721544	0.3046875	0.0	0.6953125	4.720979884046457e-06	0	0	2.4849909987523233e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	17	2	P5_minus_P2_selected_outcome	512	0.08073284914059536	0.130859375	0.625	0.244140625					hash seed is not an independent experimental replicate
+GCall_to_GCfix	17	4	P0_composition	128	0.1410810610545689	0.3828125	0.0	0.6171875	1.2887777640656145e-07	0	4	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	17	4	P2_assay_context	128	0.1803314247082732	0.2890625	0.0	0.7109375	3.2009039431309256e-06	0	0	1.2681078282783531e-05	hash seed is not an independent experimental replicate
+GCall_to_GCfix	17	4	P5_combined_context	128	0.2968682373101428	0.1875	0.0	0.8125	5.883591119611792e-06	0	0	4.4125186526855487e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	17	4	P5_minus_P2_selected_outcome	128	0.11653681260186959	0.2109375	0.3828125	0.40625					hash seed is not an independent experimental replicate
+GCall_to_GCfix	18	2	P0_composition	512	0.04615908766559254	0.447265625	0.0	0.552734375	1.0577959307887684e-07	0	7	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	18	2	P2_assay_context	512	0.21935572764886802	0.29296875	0.0	0.70703125	2.7824410474334744e-06	0	0	3.93606443804817e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	18	2	P5_combined_context	512	0.2667502213145371	0.271484375	0.0	0.728515625	5.062220698882836e-06	0	0	1.705843883925695e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	18	2	P5_minus_P2_selected_outcome	512	0.04739449366566907	0.15625	0.64453125	0.19921875					hash seed is not an independent experimental replicate
+GCall_to_GCfix	18	4	P0_composition	128	0.15539773575723703	0.3359375	0.0	0.6640625	1.3169346217533619e-07	0	2	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	18	4	P2_assay_context	128	0.24666378340943224	0.21875	0.0	0.78125	3.4247957904047576e-06	0	0	1.0708276940496475e-05	hash seed is not an independent experimental replicate
+GCall_to_GCfix	18	4	P5_combined_context	128	0.3304104435701878	0.125	0.0	0.875	6.194405451083998e-06	0	0	6.209530021061838e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	18	4	P5_minus_P2_selected_outcome	128	0.08374666016075558	0.1875	0.4921875	0.3203125					hash seed is not an independent experimental replicate
+GCall_to_GCfix	19	2	P0_composition	512	0.10450440094494895	0.42578125	0.0	0.57421875	1.0794563627776952e-07	0	6	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	19	2	P2_assay_context	512	0.19701688126552241	0.34375	0.0	0.65625	2.596414946057149e-06	0	0	3.4384192093561694e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	19	2	P5_combined_context	512	0.23864146057324823	0.296875	0.0	0.703125	5.2146991748146144e-06	0	0	1.3379709391525552e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	19	2	P5_minus_P2_selected_outcome	512	0.04162457930772586	0.1484375	0.65625	0.1953125					hash seed is not an independent experimental replicate
+GCall_to_GCfix	19	4	P0_composition	128	0.14594811263191756	0.2890625	0.0	0.7109375	1.326864193682486e-07	0	2	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	19	4	P2_assay_context	128	0.16615751104020812	0.296875	0.0	0.703125	3.225208867958223e-06	0	0	7.423544727158671e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	19	4	P5_combined_context	128	0.3386759057191135	0.203125	0.0	0.796875	6.466913817424511e-06	0	0	2.7944721499029157e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	19	4	P5_minus_P2_selected_outcome	128	0.1725183946789054	0.1796875	0.421875	0.3984375					hash seed is not an independent experimental replicate
+GCall_to_GCfix	20	2	P0_composition	512	0.024885944761851856	0.435546875	0.0	0.564453125	9.574594786179272e-08	0	5	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	20	2	P2_assay_context	512	0.16669601978532328	0.3515625	0.0	0.6484375	2.491973795048404e-06	0	0	2.6502330883193537e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	20	2	P5_combined_context	512	0.2158800048040104	0.30859375	0.0	0.69140625	5.005693915365422e-06	0	0	1.1759024052260258e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	20	2	P5_minus_P2_selected_outcome	512	0.04918398501868713	0.15625	0.63671875	0.20703125					hash seed is not an independent experimental replicate
+GCall_to_GCfix	20	4	P0_composition	128	0.09395878940500178	0.3359375	0.0	0.6640625	1.196762243904566e-07	0	2	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	20	4	P2_assay_context	128	0.14730962823600743	0.2734375	0.0	0.7265625	3.1376133037931696e-06	0	0	1.5622144431404195e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	20	4	P5_combined_context	128	0.3361474232653432	0.1953125	0.0	0.8046875	6.3214420781767806e-06	0	0	7.5642860550839686e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	20	4	P5_minus_P2_selected_outcome	128	0.1888377950293358	0.1953125	0.4375	0.3671875					hash seed is not an independent experimental replicate
+GCall_to_GCfix	21	2	P0_composition	512	0.06635947890940991	0.43359375	0.0	0.56640625	9.865212138373752e-08	0	7	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	21	2	P2_assay_context	512	0.1731991553197369	0.36328125	0.0	0.63671875	2.4909962114190584e-06	0	0	1.3380769885440458e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	21	2	P5_combined_context	512	0.21628411342243678	0.3203125	0.0	0.6796875	5.013204660383754e-06	0	0	5.855133606846863e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	21	2	P5_minus_P2_selected_outcome	512	0.04308495810269987	0.150390625	0.638671875	0.2109375					hash seed is not an independent experimental replicate
+GCall_to_GCfix	21	4	P0_composition	128	0.1528423829769202	0.2578125	0.0	0.7421875	1.2574114171808258e-07	0	2	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	21	4	P2_assay_context	128	0.19485684568374603	0.2421875	0.0	0.7578125	3.1211663981435536e-06	0	0	2.260907315387861e-05	hash seed is not an independent experimental replicate
+GCall_to_GCfix	21	4	P5_combined_context	128	0.29353103082373544	0.21875	0.0	0.78125	6.304407757312872e-06	0	0	6.545321987738717e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	21	4	P5_minus_P2_selected_outcome	128	0.0986741851399894	0.3046875	0.3671875	0.328125					hash seed is not an independent experimental replicate
+GCall_to_GCfix	22	2	P0_composition	512	0.05913293261877332	0.400390625	0.0	0.599609375	1.0302549145936593e-07	0	8	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	22	2	P2_assay_context	512	0.21937581812467222	0.3125	0.0	0.6875	2.5260755848418718e-06	0	0	4.728753829397192e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	22	2	P5_combined_context	512	0.23584780256551371	0.298828125	0.0	0.701171875	4.968236266612055e-06	0	0	4.0851814453457536e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	22	2	P5_minus_P2_selected_outcome	512	0.016471984440841518	0.162109375	0.66015625	0.177734375					hash seed is not an independent experimental replicate
+GCall_to_GCfix	22	4	P0_composition	128	0.08389322500102143	0.34375	0.0	0.65625	1.28367918853388e-07	0	0	7.853516272637862e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	22	4	P2_assay_context	128	0.2099963813645899	0.2734375	0.0	0.7265625	3.1574472056720153e-06	0	0	5.496807065963338e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	22	4	P5_combined_context	128	0.33502392442668477	0.1640625	0.0	0.8359375	6.250881258674851e-06	0	0	9.781854269919066e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	22	4	P5_minus_P2_selected_outcome	128	0.12502754306209488	0.234375	0.40625	0.359375					hash seed is not an independent experimental replicate
+GCall_to_GCfix	23	2	P0_composition	512	0.03743453865731779	0.427734375	0.0	0.572265625	9.772539709895625e-08	0	7	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	23	2	P2_assay_context	512	0.16928733953782282	0.34765625	0.0	0.65234375	2.609034954471065e-06	0	0	1.4825912950655606e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	23	2	P5_combined_context	512	0.22844638971991169	0.296875	0.0	0.703125	5.308112727444358e-06	0	0	5.7324953324222605e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	23	2	P5_minus_P2_selected_outcome	512	0.05915905018208886	0.130859375	0.6796875	0.189453125					hash seed is not an independent experimental replicate
+GCall_to_GCfix	23	4	P0_composition	128	0.07656887844556756	0.296875	0.0	0.703125	1.245638635169551e-07	0	5	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	23	4	P2_assay_context	128	0.18724330101346331	0.2578125	0.0	0.7421875	3.2296044030182984e-06	0	0	7.152486259265345e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	23	4	P5_combined_context	128	0.2856314603595517	0.234375	0.0	0.765625	6.526932440976104e-06	0	0	4.8184352547941955e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	23	4	P5_minus_P2_selected_outcome	128	0.09838815934608841	0.203125	0.4375	0.359375					hash seed is not an independent experimental replicate
+GCall_to_GCfix	24	2	P0_composition	512	0.054623269145248045	0.41015625	0.0	0.58984375	1.034439430545605e-07	0	3	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	24	2	P2_assay_context	512	0.19263885642825626	0.359375	0.0	0.640625	2.498366113034674e-06	0	0	3.2893404089406886e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	24	2	P5_combined_context	512	0.20862155375409264	0.32421875	0.0	0.67578125	4.952978367574196e-06	0	0	3.4400281700985857e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	24	2	P5_minus_P2_selected_outcome	512	0.01598269732583635	0.15625	0.66796875	0.17578125					hash seed is not an independent experimental replicate
+GCall_to_GCfix	24	4	P0_composition	128	0.14405498952980236	0.390625	0.0	0.609375	1.3066501661799118e-07	0	1	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	24	4	P2_assay_context	128	0.24747927510948356	0.28125	0.0	0.71875	3.0827456918892952e-06	0	0	1.8319909269592927e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	24	4	P5_combined_context	128	0.30880028117830516	0.2421875	0.0	0.7578125	6.148992028586327e-06	0	0	1.0709673269326814e-05	hash seed is not an independent experimental replicate
+GCall_to_GCfix	24	4	P5_minus_P2_selected_outcome	128	0.06132100606882157	0.2578125	0.421875	0.3203125					hash seed is not an independent experimental replicate
+GCall_to_GCfix	25	2	P0_composition	512	0.06330975956451293	0.41015625	0.0	0.58984375	9.364359364022701e-08	0	11	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	25	2	P2_assay_context	512	0.18977845315608652	0.3671875	0.0	0.6328125	2.4726129709281153e-06	0	0	2.53440670738847e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	25	2	P5_combined_context	512	0.25161788666115803	0.333984375	0.0	0.666015625	5.152035794847808e-06	0	0	2.19724905781149e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	25	2	P5_minus_P2_selected_outcome	512	0.06183943350507153	0.1484375	0.64453125	0.20703125					hash seed is not an independent experimental replicate
+GCall_to_GCfix	25	4	P0_composition	128	0.0740079757073511	0.3828125	0.0	0.6171875	1.1942504602329873e-07	0	2	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	25	4	P2_assay_context	128	0.2218490677777181	0.3046875	0.0	0.6953125	3.2109257715553216e-06	0	0	5.004938240960044e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	25	4	P5_combined_context	128	0.34477765435216284	0.1796875	0.0	0.8203125	6.409675404345649e-06	0	0	2.9408045314482933e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	25	4	P5_minus_P2_selected_outcome	128	0.12292858657444476	0.21875	0.421875	0.359375					hash seed is not an independent experimental replicate
+GCall_to_GCfix	26	2	P0_composition	512	0.09408541708952797	0.412109375	0.0	0.587890625	9.884895815135335e-08	0	7	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	26	2	P2_assay_context	512	0.19816628906314157	0.328125	0.0	0.671875	2.550309842564018e-06	0	0	3.8429405584405885e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	26	2	P5_combined_context	512	0.2571072342224505	0.2890625	0.0	0.7109375	5.221833038843713e-06	0	0	1.1358659857130249e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	26	2	P5_minus_P2_selected_outcome	512	0.058940945159308956	0.146484375	0.6484375	0.205078125					hash seed is not an independent experimental replicate
+GCall_to_GCfix	26	4	P0_composition	128	0.06171518833849804	0.3671875	0.0	0.6328125	1.23598701843313e-07	0	1	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	26	4	P2_assay_context	128	0.19711788410552195	0.21875	0.0	0.78125	3.1453189038525986e-06	0	0	8.696517765915956e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	26	4	P5_combined_context	128	0.28335472832331404	0.203125	0.0	0.796875	6.559035051359296e-06	0	0	8.748743629327649e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	26	4	P5_minus_P2_selected_outcome	128	0.0862368442177921	0.265625	0.40625	0.328125					hash seed is not an independent experimental replicate
+GCall_to_GCfix	27	2	P0_composition	512	0.10072498665101451	0.4296875	0.0	0.5703125	1.0023240230993762e-07	0	6	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	27	2	P2_assay_context	512	0.19002948968416258	0.345703125	0.0	0.654296875	2.637191513545058e-06	0	0	1.3733492249645707e-05	hash seed is not an independent experimental replicate
+GCall_to_GCfix	27	2	P5_combined_context	512	0.23198332691194523	0.314453125	0.0	0.685546875	5.202907435155498e-06	0	0	5.4031341127913635e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	27	2	P5_minus_P2_selected_outcome	512	0.041953837227782606	0.134765625	0.666015625	0.19921875					hash seed is not an independent experimental replicate
+GCall_to_GCfix	27	4	P0_composition	128	0.09263236226263355	0.359375	0.0	0.640625	1.235517048332458e-07	0	1	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	27	4	P2_assay_context	128	0.20532068922735225	0.2421875	0.0	0.7578125	3.28060234504668e-06	0	0	8.424070053969501e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	27	4	P5_combined_context	128	0.27816593631082936	0.1875	0.0	0.8125	6.500563549017219e-06	0	0	2.2316376764308643e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	27	4	P5_minus_P2_selected_outcome	128	0.07284524708347714	0.265625	0.3828125	0.3515625					hash seed is not an independent experimental replicate
+GCall_to_GCfix	28	2	P0_composition	512	0.06829503985732016	0.451171875	0.0	0.548828125	1.0510816580507246e-07	0	8	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	28	2	P2_assay_context	512	0.18183876214879388	0.34765625	0.0	0.65234375	2.493578988729375e-06	0	0	5.939382836661622e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	28	2	P5_combined_context	512	0.19882216313075615	0.345703125	0.0	0.654296875	5.160293959473599e-06	0	0	5.239898672737553e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	28	2	P5_minus_P2_selected_outcome	512	0.016983400981962247	0.15625	0.634765625	0.208984375					hash seed is not an independent experimental replicate
+GCall_to_GCfix	28	4	P0_composition	128	0.09593801537186379	0.3671875	0.0	0.6328125	1.2566675765626887e-07	0	2	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	28	4	P2_assay_context	128	0.21556621700546166	0.2578125	0.0	0.7421875	3.237908272258093e-06	0	0	1.1807621626447329e-05	hash seed is not an independent experimental replicate
+GCall_to_GCfix	28	4	P5_combined_context	128	0.25054676901074496	0.2578125	0.0	0.7421875	6.619700378727857e-06	0	0	6.9536119156055065e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	28	4	P5_minus_P2_selected_outcome	128	0.03498055200528331	0.2578125	0.4453125	0.296875					hash seed is not an independent experimental replicate
+GCall_to_GCfix	29	2	P0_composition	512	0.08506685030522097	0.421875	0.0	0.578125	1.0080587878430065e-07	0	5	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	29	2	P2_assay_context	512	0.19361117692099566	0.357421875	0.0	0.642578125	2.6456346257524383e-06	0	0	2.879153335744178e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	29	2	P5_combined_context	512	0.2212972054722257	0.314453125	0.0	0.685546875	5.197525624157336e-06	0	0	2.6001477047010724e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	29	2	P5_minus_P2_selected_outcome	512	0.027686028551230056	0.142578125	0.650390625	0.20703125					hash seed is not an independent experimental replicate
+GCall_to_GCfix	29	4	P0_composition	128	0.09151474863190928	0.328125	0.0	0.671875	1.276508030668663e-07	0	5	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	29	4	P2_assay_context	128	0.23471021370396142	0.2421875	0.0	0.7578125	3.2564304880155883e-06	0	0	9.117085124632496e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	29	4	P5_combined_context	128	0.3331153447993591	0.1640625	0.0	0.8359375	6.5748025035265e-06	0	0	1.4250877791166516e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	29	4	P5_minus_P2_selected_outcome	128	0.0984051310953977	0.2421875	0.375	0.3828125					hash seed is not an independent experimental replicate
+GCall_to_GCfix	30	2	P0_composition	512	0.09568847469807036	0.41015625	0.0	0.58984375	9.990812234447662e-08	0	12	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	30	2	P2_assay_context	512	0.17187033746576644	0.361328125	0.0	0.638671875	2.5620533182841358e-06	0	0	1.2467691969941797e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	30	2	P5_combined_context	512	0.21827530351291238	0.310546875	0.0	0.689453125	5.2251005390353455e-06	0	0	1.1393884900012807e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	30	2	P5_minus_P2_selected_outcome	512	0.04640496604714596	0.1640625	0.634765625	0.201171875					hash seed is not an independent experimental replicate
+GCall_to_GCfix	30	4	P0_composition	128	0.20176329385701133	0.2890625	0.0	0.7109375	1.2720484651867383e-07	0	5	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	30	4	P2_assay_context	128	0.12659651512832754	0.3046875	0.0	0.6953125	3.154529561322412e-06	0	0	2.7225824748011718e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	30	4	P5_combined_context	128	0.31189399076103536	0.2109375	0.0	0.7890625	6.435232249516934e-06	0	0	7.176637335071234e-06	hash seed is not an independent experimental replicate
+GCall_to_GCfix	30	4	P5_minus_P2_selected_outcome	128	0.18529747563270782	0.1875	0.4765625	0.3359375					hash seed is not an independent experimental replicate
+GCall_to_GCfix	31	2	P0_composition	512	0.011112673387068731	0.435546875	0.0	0.564453125	1.0249330533494189e-07	0	8	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	31	2	P2_assay_context	512	0.17707535570470845	0.365234375	0.0	0.634765625	2.575957849162015e-06	0	0	4.3747723388332105e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	31	2	P5_combined_context	512	0.22260610847306042	0.30859375	0.0	0.69140625	4.5801684392371e-06	0	0	1.6658233392696786e-07	hash seed is not an independent experimental replicate
+GCall_to_GCfix	31	2	P5_minus_P2_selected_outcome	512	0.04553075276835195	0.126953125	0.66015625	0.212890625					hash seed is not an independent experimental replicate
+GCall_to_GCfix	31	4	P0_composition	128	0.09722184639133731	0.3203125	0.0	0.6796875	1.2690187604150105e-07	0	1	0.0	hash seed is not an independent experimental replicate
+GCall_to_GCfix	31	4	P2_assay_context	128	0.22283736685974728	0.2578125	0.0	0.7421875	3.1881911919428833e-06	0	0	1.1554218356968349e-05	hash seed is not an independent experimental replicate
+GCall_to_GCfix	31	4	P5_combined_context	128	0.2745614660982831	0.2109375	0.0	0.7890625	5.8992786873113616e-06	0	0	1.5210945374155571e-05	hash seed is not an independent experimental replicate
+GCall_to_GCfix	31	4	P5_minus_P2_selected_outcome	128	0.051724099238535784	0.203125	0.390625	0.40625					hash seed is not an independent experimental replicate
+GCfix_to_GCall	0	2	P0_composition	512	0.11919330665436889	0.400390625	0.0	0.599609375	1.7503452742898178e-07	0	5	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	0	2	P2_assay_context	512	0.21232912334858556	0.361328125	0.0	0.638671875	3.6466908341241824e-06	0	0	8.703605007820414e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	0	2	P5_combined_context	512	0.28579078392293433	0.31640625	0.0	0.68359375	5.836171602242461e-06	0	0	3.1824709929573203e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	0	2	P5_minus_P2_selected_outcome	512	0.07346166057434884	0.12890625	0.67578125	0.1953125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	0	4	P0_composition	128	0.08960996748035809	0.3828125	0.0	0.6171875	2.1905332004702504e-07	0	1	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	0	4	P2_assay_context	128	0.2644171944187403	0.3125	0.0	0.6875	4.649755702273991e-06	0	0	8.703605007820414e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	0	4	P5_combined_context	128	0.3801361729243994	0.234375	0.0	0.765625	7.430349173522146e-06	0	0	6.287324039844222e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	0	4	P5_minus_P2_selected_outcome	128	0.11571897850565911	0.2265625	0.359375	0.4140625					hash seed is not an independent experimental replicate
+GCfix_to_GCall	1	2	P0_composition	512	0.10999824025490025	0.40234375	0.0	0.59765625	1.6903918802865444e-07	0	0	4.06650796813679e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	1	2	P2_assay_context	512	0.25455626479467974	0.333984375	0.0	0.666015625	3.8101203474725317e-06	0	0	2.0486228846650079e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	1	2	P5_combined_context	512	0.3118550623857394	0.279296875	0.0	0.720703125	6.97428161129433e-06	0	0	4.383241633432178e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	1	2	P5_minus_P2_selected_outcome	512	0.05729879759105963	0.115234375	0.69921875	0.185546875					hash seed is not an independent experimental replicate
+GCfix_to_GCall	1	4	P0_composition	128	0.07921712029301127	0.3125	0.0	0.6875	2.2052336772884051e-07	2	4	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	1	4	P2_assay_context	128	0.3120020890112705	0.296875	0.0	0.703125	4.784354520216613e-06	0	0	1.0176465593536577e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	1	4	P5_combined_context	128	0.4895945366100299	0.1484375	0.0	0.8515625	8.826644998127392e-06	0	0	3.5256096015956473e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	1	4	P5_minus_P2_selected_outcome	128	0.17759244759875936	0.1953125	0.390625	0.4140625					hash seed is not an independent experimental replicate
+GCfix_to_GCall	2	2	P0_composition	512	0.10302034542029198	0.416015625	0.0	0.583984375	1.8367439979993238e-07	2	3	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	2	2	P2_assay_context	512	0.20792970192488794	0.34765625	0.0	0.65234375	3.7703192689950665e-06	0	0	1.8499835197083314e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	2	2	P5_combined_context	512	0.2827271809838994	0.2734375	0.0	0.7265625	6.993421372840919e-06	0	0	1.0051374852437789e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	2	2	P5_minus_P2_selected_outcome	512	0.07479747905901148	0.12109375	0.68359375	0.1953125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	2	4	P0_composition	128	0.09917462820399718	0.3515625	0.0	0.6484375	2.252777737287776e-07	0	0	4.066508014766157e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	2	4	P2_assay_context	128	0.25865203110368445	0.2890625	0.0	0.7109375	4.693798940169834e-06	0	0	1.297943852263117e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	2	4	P5_combined_context	128	0.41705672967568236	0.1796875	0.0	0.8203125	8.743663314347399e-06	0	0	2.1554185154482042e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	2	4	P5_minus_P2_selected_outcome	128	0.15840469857199793	0.2265625	0.4375	0.3359375					hash seed is not an independent experimental replicate
+GCfix_to_GCall	3	2	P0_composition	512	0.03892787270968204	0.4375	0.0	0.5625	1.7812956415401275e-07	0	4	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	3	2	P2_assay_context	512	0.18030066353522403	0.373046875	0.0	0.626953125	3.721153209265447e-06	0	0	3.822031815925442e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	3	2	P5_combined_context	512	0.27547533517774947	0.29296875	0.0	0.70703125	6.77579887695239e-06	0	0	3.9297273664029575e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	3	2	P5_minus_P2_selected_outcome	512	0.09517467164252548	0.119140625	0.673828125	0.20703125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	3	4	P0_composition	128	0.15012442043663923	0.375	0.0	0.625	2.2000206863648398e-07	0	2	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	3	4	P2_assay_context	128	0.2287509344007423	0.3203125	0.0	0.6796875	4.649707230191072e-06	0	0	3.0873911364359685e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	3	4	P5_combined_context	128	0.3738201125870364	0.1875	0.0	0.8125	8.302670000012203e-06	0	0	9.76113085693342e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	3	4	P5_minus_P2_selected_outcome	128	0.14506917818629414	0.2265625	0.4375	0.3359375					hash seed is not an independent experimental replicate
+GCfix_to_GCall	4	2	P0_composition	512	0.08868581404422887	0.43359375	0.0	0.56640625	1.7202342628870617e-07	0	1	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	4	2	P2_assay_context	512	0.20495947052925173	0.345703125	0.0	0.654296875	3.610265734617822e-06	0	0	4.450357008023431e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	4	2	P5_combined_context	512	0.24560893249543606	0.322265625	0.0	0.677734375	6.8068360852356845e-06	0	0	3.183552117702604e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	4	2	P5_minus_P2_selected_outcome	512	0.04064946196618432	0.15234375	0.671875	0.17578125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	4	4	P0_composition	128	0.1711923872089699	0.3046875	0.0	0.6953125	2.1323075973560284e-07	0	1	4.6629367034256575e-15	hash seed is not an independent experimental replicate
+GCfix_to_GCall	4	4	P2_assay_context	128	0.3149230798558864	0.25	0.0	0.75	4.638539969938932e-06	0	0	2.0101651379889063e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	4	4	P5_combined_context	128	0.4000824023762293	0.203125	0.0	0.796875	8.594169611153308e-06	0	0	2.86351529839024e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	4	4	P5_minus_P2_selected_outcome	128	0.08515932252034286	0.2890625	0.390625	0.3203125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	5	2	P0_composition	512	0.06904842717738062	0.41796875	0.0	0.58203125	1.8161010496648355e-07	1	3	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	5	2	P2_assay_context	512	0.1794015834512975	0.34375	0.0	0.65625	3.6470023223721547e-06	0	0	3.279197622330088e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	5	2	P5_combined_context	512	0.2826978852608344	0.265625	0.0	0.734375	5.91664426194838e-06	0	0	4.515785524628058e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	5	2	P5_minus_P2_selected_outcome	512	0.1032963018095369	0.1171875	0.6796875	0.203125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	5	4	P0_composition	128	0.044094434351648865	0.3515625	0.0	0.6484375	2.2455128940126947e-07	3	5	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	5	4	P2_assay_context	128	0.2769295051015538	0.265625	0.0	0.734375	4.576724350559235e-06	0	0	3.79593151489388e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	5	4	P5_combined_context	128	0.4088104314229058	0.171875	0.0	0.828125	7.441838294107715e-06	0	0	3.695399670711197e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	5	4	P5_minus_P2_selected_outcome	128	0.131880926321352	0.2109375	0.4453125	0.34375					hash seed is not an independent experimental replicate
+GCfix_to_GCall	6	2	P0_composition	512	0.06589186428403189	0.4140625	0.0	0.5859375	1.7237746363781647e-07	1	2	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	6	2	P2_assay_context	512	0.1998644566869012	0.34765625	0.0	0.65234375	3.6343296213914824e-06	0	0	5.973234869727229e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	6	2	P5_combined_context	512	0.2738142761394357	0.296875	0.0	0.703125	6.883454093475293e-06	0	0	3.0090778040392507e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	6	2	P5_minus_P2_selected_outcome	512	0.07394981945253447	0.1328125	0.66015625	0.20703125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	6	4	P0_composition	128	0.19941006479293683	0.3125	0.0	0.6875	2.201187118823974e-07	0	2	4.6629367034256575e-15	hash seed is not an independent experimental replicate
+GCfix_to_GCall	6	4	P2_assay_context	128	0.29326753701332664	0.3125	0.0	0.6875	4.6269066855710155e-06	0	0	2.4334266377490366e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	6	4	P5_combined_context	128	0.38313567783717556	0.1953125	0.0	0.8046875	8.619464430582557e-06	0	0	1.2796026807038174e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	6	4	P5_minus_P2_selected_outcome	128	0.08986814082384893	0.2578125	0.4375	0.3046875					hash seed is not an independent experimental replicate
+GCfix_to_GCall	7	2	P0_composition	512	0.07904560141516125	0.408203125	0.0	0.591796875	1.7260885814395494e-07	0	3	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	7	2	P2_assay_context	512	0.20719391321680997	0.353515625	0.0	0.646484375	3.698650829899463e-06	0	0	1.4635372367344246e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	7	2	P5_combined_context	512	0.30181913488837925	0.291015625	0.0	0.708984375	6.844212197621829e-06	0	0	7.4385960788792005e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	7	2	P5_minus_P2_selected_outcome	512	0.09462522167156931	0.109375	0.689453125	0.201171875					hash seed is not an independent experimental replicate
+GCfix_to_GCall	7	4	P0_composition	128	0.14787896533696107	0.390625	0.0	0.609375	2.1864448308980642e-07	0	2	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	7	4	P2_assay_context	128	0.2951723373824216	0.3046875	0.0	0.6953125	4.650257626610878e-06	0	0	2.43978994873828e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	7	4	P5_combined_context	128	0.4472123781720024	0.1640625	0.0	0.8359375	8.656267929765839e-06	0	0	4.2537309903334375e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	7	4	P5_minus_P2_selected_outcome	128	0.15204004078958078	0.21875	0.421875	0.359375					hash seed is not an independent experimental replicate
+GCfix_to_GCall	8	2	P0_composition	512	0.07171938935904862	0.41796875	0.0	0.58203125	1.7559329729984304e-07	0	1	6.217248937900877e-15	hash seed is not an independent experimental replicate
+GCfix_to_GCall	8	2	P2_assay_context	512	0.18688315381025208	0.373046875	0.0	0.626953125	3.844887450934058e-06	0	0	9.179063882536198e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	8	2	P5_combined_context	512	0.2699537675730451	0.326171875	0.0	0.673828125	6.231146428526536e-06	0	0	5.724181671329376e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	8	2	P5_minus_P2_selected_outcome	512	0.08307061376279305	0.119140625	0.68359375	0.197265625					hash seed is not an independent experimental replicate
+GCfix_to_GCall	8	4	P0_composition	128	0.14495988810767121	0.3203125	0.0	0.6796875	2.2366553501503107e-07	0	1	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	8	4	P2_assay_context	128	0.32335542341495127	0.2734375	0.0	0.7265625	4.743342281784247e-06	0	0	1.0781123704006745e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	8	4	P5_combined_context	128	0.3633734409681831	0.25	0.0	0.75	7.587449001650849e-06	0	0	8.443724993867363e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	8	4	P5_minus_P2_selected_outcome	128	0.040018017553231804	0.2578125	0.4609375	0.28125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	9	2	P0_composition	512	0.0759873559997766	0.4375	0.0	0.5625	1.7879195596207725e-07	0	2	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	9	2	P2_assay_context	512	0.21899977034429677	0.359375	0.0	0.640625	3.818740918673712e-06	0	0	2.2108610466808898e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	9	2	P5_combined_context	512	0.3169017229321293	0.279296875	0.0	0.720703125	7.103183013002739e-06	0	0	4.933352181879513e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	9	2	P5_minus_P2_selected_outcome	512	0.09790195258783252	0.123046875	0.65625	0.220703125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	9	4	P0_composition	128	0.15777000840526723	0.34375	0.0	0.65625	2.2061040454974908e-07	0	1	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	9	4	P2_assay_context	128	0.2625124937043237	0.2734375	0.0	0.7265625	4.7199486783527436e-06	0	0	1.2985590229774857e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	9	4	P5_combined_context	128	0.4039344522846137	0.1875	0.0	0.8125	8.771270957200983e-06	0	0	7.89641433041055e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	9	4	P5_minus_P2_selected_outcome	128	0.14142195858029002	0.2578125	0.4296875	0.3125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	10	2	P0_composition	512	0.08586010147661283	0.435546875	0.0	0.564453125	1.7482731221628798e-07	0	5	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	10	2	P2_assay_context	512	0.20427409282949813	0.36328125	0.0	0.63671875	3.820401320594294e-06	0	0	2.7887063951403945e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	10	2	P5_combined_context	512	0.26522768637903427	0.306640625	0.0	0.693359375	7.083053914466485e-06	0	0	3.2730521674073643e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	10	2	P5_minus_P2_selected_outcome	512	0.06095359354953617	0.126953125	0.673828125	0.19921875					hash seed is not an independent experimental replicate
+GCfix_to_GCall	10	4	P0_composition	128	0.026760196561962966	0.4140625	0.0	0.5859375	2.1486298114151784e-07	0	2	4.6629367034256575e-15	hash seed is not an independent experimental replicate
+GCfix_to_GCall	10	4	P2_assay_context	128	0.24878674221144503	0.296875	0.0	0.703125	4.774926396094761e-06	0	0	1.557950553032761e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	10	4	P5_combined_context	128	0.37550770251909693	0.1875	0.0	0.8125	8.654697719315848e-06	0	0	2.1006926494315792e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	10	4	P5_minus_P2_selected_outcome	128	0.1267209603076519	0.203125	0.46875	0.328125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	11	2	P0_composition	512	0.064465748037228	0.41796875	0.0	0.58203125	1.7137313424339864e-07	0	2	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	11	2	P2_assay_context	512	0.20732692375800074	0.34375	0.0	0.65625	3.6812438642083357e-06	0	0	1.1743592038815365e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	11	2	P5_combined_context	512	0.28131013151156614	0.28125	0.0	0.71875	6.548288181580181e-06	0	0	9.28180728498873e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	11	2	P5_minus_P2_selected_outcome	512	0.0739832077535654	0.14453125	0.646484375	0.208984375					hash seed is not an independent experimental replicate
+GCfix_to_GCall	11	4	P0_composition	128	0.07220072892387107	0.390625	0.0	0.609375	2.1860001026647704e-07	0	3	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	11	4	P2_assay_context	128	0.25408331677389784	0.296875	0.0	0.703125	4.638298545075539e-06	0	0	4.753392684220259e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	11	4	P5_combined_context	128	0.4375798217408042	0.1640625	0.0	0.8359375	8.489273982557122e-06	0	0	6.1319333881648674e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	11	4	P5_minus_P2_selected_outcome	128	0.18349650496690628	0.2578125	0.34375	0.3984375					hash seed is not an independent experimental replicate
+GCfix_to_GCall	12	2	P0_composition	512	0.08052497783324752	0.40625	0.0	0.59375	1.7574310520914985e-07	1	2	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	12	2	P2_assay_context	512	0.15500793864971082	0.376953125	0.0	0.623046875	3.691241955949443e-06	0	0	3.117442222810851e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	12	2	P5_combined_context	512	0.27387394293915773	0.30078125	0.0	0.69921875	6.80505419050932e-06	0	0	8.405611489958886e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	12	2	P5_minus_P2_selected_outcome	512	0.11886600428944687	0.111328125	0.671875	0.216796875					hash seed is not an independent experimental replicate
+GCfix_to_GCall	12	4	P0_composition	128	0.09726173738654147	0.328125	0.0	0.671875	2.1970955484195443e-07	1	1	1.5543122344752192e-15	hash seed is not an independent experimental replicate
+GCfix_to_GCall	12	4	P2_assay_context	128	0.26317425694685576	0.3046875	0.0	0.6953125	4.6493634913516564e-06	0	0	1.7737214810908952e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	12	4	P5_combined_context	128	0.37819238972225966	0.203125	0.0	0.796875	8.54640917312353e-06	0	0	1.08177804827303e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	12	4	P5_minus_P2_selected_outcome	128	0.11501813277540386	0.2265625	0.3984375	0.375					hash seed is not an independent experimental replicate
+GCfix_to_GCall	13	2	P0_composition	512	0.07994062087189761	0.439453125	0.0	0.560546875	1.751210547469051e-07	1	2	4.6629367034256575e-15	hash seed is not an independent experimental replicate
+GCfix_to_GCall	13	2	P2_assay_context	512	0.2122383138236574	0.37109375	0.0	0.62890625	3.759572326823229e-06	0	0	1.1638103845079684e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	13	2	P5_combined_context	512	0.293048928347893	0.3046875	0.0	0.6953125	7.234103267489541e-06	0	0	4.535821851447963e-08	hash seed is not an independent experimental replicate
+GCfix_to_GCall	13	2	P5_minus_P2_selected_outcome	512	0.08081061452423556	0.107421875	0.68359375	0.208984375					hash seed is not an independent experimental replicate
+GCfix_to_GCall	13	4	P0_composition	128	0.14169340125900245	0.3515625	0.0	0.6484375	2.1936616008657694e-07	1	3	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	13	4	P2_assay_context	128	0.19719658639804208	0.3515625	0.0	0.6484375	4.735353587135628e-06	0	0	4.2978906706903075e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	13	4	P5_combined_context	128	0.35788935036835534	0.2578125	0.0	0.7421875	8.914514211046921e-06	0	0	6.799639649335276e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	13	4	P5_minus_P2_selected_outcome	128	0.16069276397031326	0.2421875	0.4140625	0.34375					hash seed is not an independent experimental replicate
+GCfix_to_GCall	14	2	P0_composition	512	0.13547048788209082	0.388671875	0.0	0.611328125	1.7943387263018714e-07	2	2	4.6629367034256575e-15	hash seed is not an independent experimental replicate
+GCfix_to_GCall	14	2	P2_assay_context	512	0.20775998860722253	0.33203125	0.0	0.66796875	3.6833965966542962e-06	0	0	1.6612022979423102e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	14	2	P5_combined_context	512	0.2886536742631564	0.283203125	0.0	0.716796875	6.950755303403493e-06	0	0	4.0062372230753596e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	14	2	P5_minus_P2_selected_outcome	512	0.08089368565593388	0.09765625	0.73046875	0.171875					hash seed is not an independent experimental replicate
+GCfix_to_GCall	14	4	P0_composition	128	0.027981252194079848	0.3359375	0.0	0.6640625	2.1986976593443274e-07	1	2	1.5543122344752192e-15	hash seed is not an independent experimental replicate
+GCfix_to_GCall	14	4	P2_assay_context	128	0.3086608580483735	0.2578125	0.0	0.7421875	4.6276947584823e-06	0	0	5.688833081274325e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	14	4	P5_combined_context	128	0.37080870696919094	0.21875	0.0	0.78125	8.666878627057447e-06	0	0	6.399170425996914e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	14	4	P5_minus_P2_selected_outcome	128	0.0621478489208174	0.2109375	0.5	0.2890625					hash seed is not an independent experimental replicate
+GCfix_to_GCall	15	2	P0_composition	512	0.07476347781220108	0.423828125	0.0	0.576171875	1.7593075808936778e-07	0	3	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	15	2	P2_assay_context	512	0.2100243107336581	0.345703125	0.0	0.654296875	3.7410879469193024e-06	0	0	2.4701675509497534e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	15	2	P5_combined_context	512	0.2873105007935464	0.306640625	0.0	0.693359375	6.881432935284624e-06	0	0	6.090094777366772e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	15	2	P5_minus_P2_selected_outcome	512	0.07728619005988832	0.1484375	0.6796875	0.171875					hash seed is not an independent experimental replicate
+GCfix_to_GCall	15	4	P0_composition	128	0.0626583965295461	0.3515625	0.0	0.6484375	2.2035664510371074e-07	0	2	4.6629367034256575e-15	hash seed is not an independent experimental replicate
+GCfix_to_GCall	15	4	P2_assay_context	128	0.2490589501559021	0.25	0.0	0.75	4.6605986292875735e-06	0	0	4.146266858517933e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	15	4	P5_combined_context	128	0.3900923176235548	0.1640625	0.0	0.8359375	8.631654349910974e-06	0	0	7.250266778502379e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	15	4	P5_minus_P2_selected_outcome	128	0.14103336746765271	0.2421875	0.453125	0.3046875					hash seed is not an independent experimental replicate
+GCfix_to_GCall	16	2	P0_composition	512	0.08396940441891595	0.40625	0.0	0.59375	1.78484940652432e-07	0	1	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	16	2	P2_assay_context	512	0.19029920182995905	0.33203125	0.0	0.66796875	3.7910212330799515e-06	0	0	1.7393509397223283e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	16	2	P5_combined_context	512	0.305539627205667	0.263671875	0.0	0.736328125	6.004328337128714e-06	0	0	1.1116049357662305e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	16	2	P5_minus_P2_selected_outcome	512	0.11524042537570797	0.099609375	0.69921875	0.201171875					hash seed is not an independent experimental replicate
+GCfix_to_GCall	16	4	P0_composition	128	0.15786147188202712	0.375	0.0	0.625	2.1950062854736564e-07	0	2	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	16	4	P2_assay_context	128	0.19460735090858378	0.359375	0.0	0.640625	4.774433461456306e-06	0	0	1.9899430664382933e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	16	4	P5_combined_context	128	0.3776418897715915	0.21875	0.0	0.78125	7.58184630686494e-06	0	0	9.468504358567387e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	16	4	P5_minus_P2_selected_outcome	128	0.18303453886300777	0.203125	0.4609375	0.3359375					hash seed is not an independent experimental replicate
+GCfix_to_GCall	17	2	P0_composition	512	0.07666031339925213	0.419921875	0.0	0.580078125	1.7887878226478057e-07	1	3	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	17	2	P2_assay_context	512	0.222185550853394	0.3515625	0.0	0.6484375	3.6905357975107827e-06	0	0	1.3246291152846368e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	17	2	P5_combined_context	512	0.30485338881183865	0.259765625	0.0	0.740234375	5.862110031435505e-06	0	0	1.3670166814083728e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	17	2	P5_minus_P2_selected_outcome	512	0.08266783795844461	0.12890625	0.6328125	0.23828125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	17	4	P0_composition	128	0.1683845861579163	0.2890625	0.0	0.7109375	2.2169725866017286e-07	0	0	4.066508014766157e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	17	4	P2_assay_context	128	0.24485311956770017	0.265625	0.0	0.734375	4.619342942822456e-06	0	0	1.3460841141732516e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	17	4	P5_combined_context	128	0.4069353874139572	0.15625	0.0	0.84375	7.337855374880684e-06	0	0	2.831804086333989e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	17	4	P5_minus_P2_selected_outcome	128	0.162082267846257	0.203125	0.4140625	0.3828125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	18	2	P0_composition	512	0.08445900387800048	0.39453125	0.0	0.60546875	1.732100672708305e-07	0	1	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	18	2	P2_assay_context	512	0.1872096190656397	0.369140625	0.0	0.630859375	3.7553017564940403e-06	0	0	6.25510084617531e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	18	2	P5_combined_context	512	0.28842872201966774	0.30859375	0.0	0.69140625	6.912164293607064e-06	0	0	1.070934717795069e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	18	2	P5_minus_P2_selected_outcome	512	0.101219102954028	0.134765625	0.66015625	0.205078125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	18	4	P0_composition	128	0.08252507001284141	0.359375	0.0	0.640625	2.2005859942520233e-07	2	2	4.6629367034256575e-15	hash seed is not an independent experimental replicate
+GCfix_to_GCall	18	4	P2_assay_context	128	0.31283735369264626	0.28125	0.0	0.71875	4.695048233704753e-06	0	0	2.3473342181112855e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	18	4	P5_combined_context	128	0.4370101450744085	0.1796875	0.0	0.8203125	8.54675560271726e-06	0	0	1.7648481571708174e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	18	4	P5_minus_P2_selected_outcome	128	0.12417279138176227	0.2265625	0.375	0.3984375					hash seed is not an independent experimental replicate
+GCfix_to_GCall	19	2	P0_composition	512	0.08011304431778517	0.416015625	0.0	0.583984375	1.732710127860536e-07	0	2	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	19	2	P2_assay_context	512	0.21286608212960004	0.361328125	0.0	0.638671875	3.726766439019979e-06	0	0	3.920419079816995e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	19	2	P5_combined_context	512	0.27210188988572265	0.314453125	0.0	0.685546875	6.8790931611833996e-06	0	0	1.4199469549058819e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	19	2	P5_minus_P2_selected_outcome	512	0.05923580775612263	0.109375	0.720703125	0.169921875					hash seed is not an independent experimental replicate
+GCfix_to_GCall	19	4	P0_composition	128	0.06744438093209842	0.390625	0.0	0.609375	2.1599209746204342e-07	0	0	4.06650796813679e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	19	4	P2_assay_context	128	0.2814562640723082	0.296875	0.0	0.703125	4.713787349024856e-06	0	0	5.429419050795303e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	19	4	P5_combined_context	128	0.3502809713358339	0.2265625	0.0	0.7734375	8.62353607261808e-06	0	0	2.1119057381779882e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	19	4	P5_minus_P2_selected_outcome	128	0.06882470726352569	0.171875	0.5703125	0.2578125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	20	2	P0_composition	512	0.08085087357070532	0.41796875	0.0	0.58203125	1.8263455965771972e-07	1	3	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	20	2	P2_assay_context	512	0.18301329460719934	0.3359375	0.0	0.6640625	3.806580245024338e-06	0	0	6.835070718302916e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	20	2	P5_combined_context	512	0.29195958993332594	0.28515625	0.0	0.71484375	7.069980877474074e-06	0	0	1.9706678888731233e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	20	2	P5_minus_P2_selected_outcome	512	0.1089462953261266	0.09375	0.720703125	0.185546875					hash seed is not an independent experimental replicate
+GCfix_to_GCall	20	4	P0_composition	128	0.08362614330098195	0.3828125	0.0	0.6171875	2.259812500706287e-07	0	0	4.0665080303092793e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	20	4	P2_assay_context	128	0.2611295851346915	0.328125	0.0	0.671875	4.798607971150785e-06	0	0	4.2978906706903075e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	20	4	P5_combined_context	128	0.39646439318037463	0.203125	0.0	0.796875	8.849519791254463e-06	0	0	2.5293253753666534e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	20	4	P5_minus_P2_selected_outcome	128	0.13533480804568312	0.1875	0.4375	0.375					hash seed is not an independent experimental replicate
+GCfix_to_GCall	21	2	P0_composition	512	0.04225413113943816	0.41796875	0.0	0.58203125	1.6636824523494345e-07	1	4	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	21	2	P2_assay_context	512	0.1761224537062952	0.3828125	0.0	0.6171875	3.5901380747675317e-06	0	0	1.057140517346511e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	21	2	P5_combined_context	512	0.2792703343934984	0.3046875	0.0	0.6953125	6.609345548955027e-06	0	0	2.9626647526370675e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	21	2	P5_minus_P2_selected_outcome	512	0.10314788068720322	0.12109375	0.677734375	0.201171875					hash seed is not an independent experimental replicate
+GCfix_to_GCall	21	4	P0_composition	128	0.08108804339719256	0.390625	0.0	0.609375	2.130982505213683e-07	0	0	4.0665079548141136e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	21	4	P2_assay_context	128	0.20667654523309095	0.328125	0.0	0.671875	4.629940084874265e-06	0	0	1.1613474595550954e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	21	4	P5_combined_context	128	0.3970093952180335	0.25	0.0	0.75	8.493733551182635e-06	0	0	5.455643719454173e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	21	4	P5_minus_P2_selected_outcome	128	0.19033284998494257	0.1640625	0.4453125	0.390625					hash seed is not an independent experimental replicate
+GCfix_to_GCall	22	2	P0_composition	512	0.11850737442060451	0.419921875	0.0	0.580078125	1.761221616569475e-07	0	2	1.5543122344752192e-15	hash seed is not an independent experimental replicate
+GCfix_to_GCall	22	2	P2_assay_context	512	0.19954431077966528	0.353515625	0.0	0.646484375	3.7690094110301097e-06	0	0	3.2669132256080147e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	22	2	P5_combined_context	512	0.26808870994885914	0.314453125	0.0	0.685546875	6.8528618304342e-06	0	0	5.428050726674627e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	22	2	P5_minus_P2_selected_outcome	512	0.06854439916919389	0.140625	0.65234375	0.20703125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	22	4	P0_composition	128	0.10288975755150138	0.375	0.0	0.625	2.19516363474601e-07	1	3	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	22	4	P2_assay_context	128	0.19176658412628841	0.328125	0.0	0.671875	4.726199417629154e-06	0	0	3.5985545734362745e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	22	4	P5_combined_context	128	0.358056134756336	0.21875	0.0	0.78125	8.618116186523503e-06	0	0	5.455643719454173e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	22	4	P5_minus_P2_selected_outcome	128	0.1662895506300476	0.203125	0.4296875	0.3671875					hash seed is not an independent experimental replicate
+GCfix_to_GCall	23	2	P0_composition	512	0.038871315143752014	0.443359375	0.0	0.556640625	1.8305336444288882e-07	1	1	4.6629367034256575e-15	hash seed is not an independent experimental replicate
+GCfix_to_GCall	23	2	P2_assay_context	512	0.19573271943900802	0.353515625	0.0	0.646484375	3.624170716731356e-06	0	0	2.2957136298629166e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	23	2	P5_combined_context	512	0.25561905120115713	0.30859375	0.0	0.69140625	6.7165666116539225e-06	0	0	2.416426969187313e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	23	2	P5_minus_P2_selected_outcome	512	0.0598863317621491	0.1328125	0.673828125	0.193359375					hash seed is not an independent experimental replicate
+GCfix_to_GCall	23	4	P0_composition	128	0.09912825887460604	0.4140625	0.0	0.5859375	2.2442559764079617e-07	0	2	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	23	4	P2_assay_context	128	0.24823143718159865	0.328125	0.0	0.671875	4.623689766745816e-06	0	0	4.377728390458913e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	23	4	P5_combined_context	128	0.3704088012339884	0.2578125	0.0	0.7421875	8.409274827715883e-06	0	0	1.4135092679001815e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	23	4	P5_minus_P2_selected_outcome	128	0.12217736405238974	0.2109375	0.3984375	0.390625					hash seed is not an independent experimental replicate
+GCfix_to_GCall	24	2	P0_composition	512	0.0690256157654249	0.421875	0.0	0.578125	1.7739413250607962e-07	1	3	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	24	2	P2_assay_context	512	0.23162476980348712	0.337890625	0.0	0.662109375	3.7580250168085526e-06	0	0	6.038422837084667e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	24	2	P5_combined_context	512	0.28178768606196875	0.306640625	0.0	0.693359375	6.9131146715048675e-06	0	0	1.6108078095822265e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	24	2	P5_minus_P2_selected_outcome	512	0.050162916258481606	0.14453125	0.67578125	0.1796875					hash seed is not an independent experimental replicate
+GCfix_to_GCall	24	4	P0_composition	128	0.12600817491842983	0.328125	0.0	0.671875	2.1969530861213876e-07	0	2	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	24	4	P2_assay_context	128	0.2855236541926612	0.3046875	0.0	0.6953125	4.6324324483821015e-06	0	0	3.7176585490072966e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	24	4	P5_combined_context	128	0.38060244721350894	0.2109375	0.0	0.7890625	8.598498944104963e-06	0	0	1.1305919211945792e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	24	4	P5_minus_P2_selected_outcome	128	0.09507879302084779	0.2265625	0.453125	0.3203125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	25	2	P0_composition	512	0.028549750911539825	0.447265625	0.0	0.552734375	1.8293870059007665e-07	0	4	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	25	2	P2_assay_context	512	0.22884505433554414	0.34765625	0.0	0.65234375	3.516346875372733e-06	0	0	3.0186185795422205e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	25	2	P5_combined_context	512	0.2873917989166508	0.306640625	0.0	0.693359375	6.3366887245247945e-06	0	0	5.927862605226153e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	25	2	P5_minus_P2_selected_outcome	512	0.05854674458110669	0.1328125	0.662109375	0.205078125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	25	4	P0_composition	128	0.050327923796658326	0.3828125	0.0	0.6171875	2.2598510683461027e-07	0	2	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	25	4	P2_assay_context	128	0.27607960221838757	0.296875	0.0	0.703125	4.562575312209107e-06	0	0	1.0891128352508161e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	25	4	P5_combined_context	128	0.34806399580855507	0.2421875	0.0	0.7578125	8.24284342602903e-06	0	0	7.047089511935667e-08	hash seed is not an independent experimental replicate
+GCfix_to_GCall	25	4	P5_minus_P2_selected_outcome	128	0.07198439359016749	0.2109375	0.453125	0.3359375					hash seed is not an independent experimental replicate
+GCfix_to_GCall	26	2	P0_composition	512	0.1173294655868961	0.43359375	0.0	0.56640625	1.7719069366257939e-07	0	3	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	26	2	P2_assay_context	512	0.19503435204493494	0.3671875	0.0	0.6328125	3.6864121593450233e-06	0	0	8.154409061322809e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	26	2	P5_combined_context	512	0.2689686031474411	0.298828125	0.0	0.701171875	6.850360997700832e-06	0	0	4.284601546888922e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	26	2	P5_minus_P2_selected_outcome	512	0.07393425110250615	0.1328125	0.65625	0.2109375					hash seed is not an independent experimental replicate
+GCfix_to_GCall	26	4	P0_composition	128	0.07177949124227237	0.390625	0.0	0.609375	2.2084430417351333e-07	0	1	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	26	4	P2_assay_context	128	0.28242848551536043	0.3125	0.0	0.6875	4.685940551422121e-06	0	0	7.5384387734356295e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	26	4	P5_combined_context	128	0.3832934426824949	0.1875	0.0	0.8125	8.85051840251658e-06	0	0	1.868116340308923e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	26	4	P5_minus_P2_selected_outcome	128	0.10086495716713448	0.171875	0.4765625	0.3515625					hash seed is not an independent experimental replicate
+GCfix_to_GCall	27	2	P0_composition	512	0.06241877368964444	0.423828125	0.0	0.576171875	1.7344222793713902e-07	1	3	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	27	2	P2_assay_context	512	0.22171371187092764	0.349609375	0.0	0.650390625	3.6567677325769448e-06	0	0	1.0031792090359204e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	27	2	P5_combined_context	512	0.28872730533644525	0.3046875	0.0	0.6953125	6.701260255757338e-06	0	0	1.489346787897361e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	27	2	P5_minus_P2_selected_outcome	512	0.0670135934655176	0.1328125	0.6875	0.1796875					hash seed is not an independent experimental replicate
+GCfix_to_GCall	27	4	P0_composition	128	-0.0035299288530126725	0.390625	0.0	0.609375	2.1762385441441938e-07	0	1	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	27	4	P2_assay_context	128	0.2775654819103622	0.25	0.0	0.75	4.547091871649776e-06	0	0	6.099123759373271e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	27	4	P5_combined_context	128	0.4261899308416191	0.15625	0.0	0.84375	8.377413994655243e-06	0	0	1.9535535014769678e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	27	4	P5_minus_P2_selected_outcome	128	0.14862444893125693	0.2421875	0.375	0.3828125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	28	2	P0_composition	512	0.05264554765816112	0.412109375	0.0	0.587890625	1.784092812513145e-07	0	0	4.0665080769386464e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	28	2	P2_assay_context	512	0.2158156567019064	0.349609375	0.0	0.650390625	3.882303597969323e-06	0	0	3.4443131495809354e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	28	2	P5_combined_context	512	0.28453788059956764	0.2890625	0.0	0.7109375	7.299976588024686e-06	0	0	1.7689441200730016e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	28	2	P5_minus_P2_selected_outcome	512	0.0687222238976613	0.1171875	0.66796875	0.21484375					hash seed is not an independent experimental replicate
+GCfix_to_GCall	28	4	P0_composition	128	0.14227777667442187	0.3203125	0.0	0.6796875	2.2249937731787643e-07	1	1	5.995204332975845e-15	hash seed is not an independent experimental replicate
+GCfix_to_GCall	28	4	P2_assay_context	128	0.25151945945385173	0.296875	0.0	0.703125	4.7640556004520316e-06	0	0	1.4771428676452203e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	28	4	P5_combined_context	128	0.36717758366492925	0.2421875	0.0	0.7578125	8.913212845307713e-06	0	0	2.1860788703031986e-05	hash seed is not an independent experimental replicate
+GCfix_to_GCall	28	4	P5_minus_P2_selected_outcome	128	0.11565812421107753	0.21875	0.4375	0.34375					hash seed is not an independent experimental replicate
+GCfix_to_GCall	29	2	P0_composition	512	0.051155753053536826	0.42578125	0.0	0.57421875	1.754602295097899e-07	0	1	1.0658141036401503e-14	hash seed is not an independent experimental replicate
+GCfix_to_GCall	29	2	P2_assay_context	512	0.18445074076711404	0.353515625	0.0	0.646484375	3.791463151486965e-06	0	0	2.6631420504408254e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	29	2	P5_combined_context	512	0.25662546788959784	0.30078125	0.0	0.69921875	7.189316356887425e-06	0	0	7.463610203872761e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	29	2	P5_minus_P2_selected_outcome	512	0.07217472712248378	0.13671875	0.6484375	0.21484375					hash seed is not an independent experimental replicate
+GCfix_to_GCall	29	4	P0_composition	128	0.12379277609033124	0.3828125	0.0	0.6171875	2.1865311760116553e-07	0	0	4.0665079548141136e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	29	4	P2_assay_context	128	0.27485944275030627	0.2734375	0.0	0.7265625	4.754953095255105e-06	0	0	4.248847379928478e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	29	4	P5_combined_context	128	0.42480755319472824	0.171875	0.0	0.828125	8.819270757137727e-06	0	0	5.078791259327531e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	29	4	P5_minus_P2_selected_outcome	128	0.149948110444422	0.1875	0.421875	0.390625					hash seed is not an independent experimental replicate
+GCfix_to_GCall	30	2	P0_composition	512	0.10464285127889511	0.43359375	0.0	0.56640625	1.7650267787753383e-07	1	5	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	30	2	P2_assay_context	512	0.14686213710478496	0.37890625	0.0	0.62109375	3.755454716454291e-06	0	0	1.6749509268443319e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	30	2	P5_combined_context	512	0.26095844658785206	0.2890625	0.0	0.7109375	6.969609167655553e-06	0	0	1.5210245838392922e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	30	2	P5_minus_P2_selected_outcome	512	0.11409630948306713	0.107421875	0.677734375	0.21484375					hash seed is not an independent experimental replicate
+GCfix_to_GCall	30	4	P0_composition	128	0.12063220480527556	0.3671875	0.0	0.6328125	2.1752907882322704e-07	1	1	1.5543122344752192e-15	hash seed is not an independent experimental replicate
+GCfix_to_GCall	30	4	P2_assay_context	128	0.20564048172831156	0.3359375	0.0	0.6640625	4.7007151292794005e-06	0	0	5.133651712618814e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	30	4	P5_combined_context	128	0.38387585005680885	0.2109375	0.0	0.7890625	8.838101936938998e-06	0	0	3.30624929945067e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	30	4	P5_minus_P2_selected_outcome	128	0.17823536832849732	0.21875	0.375	0.40625					hash seed is not an independent experimental replicate
+GCfix_to_GCall	31	2	P0_composition	512	0.012515869763140097	0.4375	0.0	0.5625	1.7531207919038513e-07	1	6	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	31	2	P2_assay_context	512	0.21426127840556455	0.345703125	0.0	0.654296875	3.7107575332134533e-06	0	0	1.1225906113576656e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	31	2	P5_combined_context	512	0.2655095433607404	0.298828125	0.0	0.701171875	6.89195203439093e-06	0	0	7.166621984744381e-07	hash seed is not an independent experimental replicate
+GCfix_to_GCall	31	2	P5_minus_P2_selected_outcome	512	0.051248264955175905	0.138671875	0.65625	0.205078125					hash seed is not an independent experimental replicate
+GCfix_to_GCall	31	4	P0_composition	128	0.0961898423221975	0.3671875	0.0	0.6328125	2.2081232750426063e-07	0	1	0.0	hash seed is not an independent experimental replicate
+GCfix_to_GCall	31	4	P2_assay_context	128	0.33263928105879087	0.2578125	0.0	0.7421875	4.682836660407897e-06	0	0	4.03033919083029e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	31	4	P5_combined_context	128	0.3997792587925439	0.21875	0.0	0.78125	8.634801226545079e-06	0	0	2.6956926906240852e-06	hash seed is not an independent experimental replicate
+GCfix_to_GCall	31	4	P5_minus_P2_selected_outcome	128	0.067139977733753	0.265625	0.3515625	0.3828125					hash seed is not an independent experimental replicate
