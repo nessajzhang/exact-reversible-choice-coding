@@ -15,6 +15,10 @@ on:
 permissions:
   contents: read
 
+defaults:
+  run:
+    shell: bash
+
 env:
   PAPER_DIR: papers/paper2_thermodynamic_risk_coding
   PAPER2_UV_ENV: ${{ github.workspace }}/.venv-paper2-py31210
@@ -96,7 +100,10 @@ jobs:
           enable-cache: true
 
       - name: Rebuild from pinned public inputs
-        run: ./${PAPER_DIR}/reproduce_from_public_inputs.sh --skip-tex | tee linux-public-input-audit.log
+        run: |
+          set -o pipefail
+          ./${PAPER_DIR}/reproduce_from_public_inputs.sh --skip-tex \
+            | tee linux-public-input-audit.log
 
       - name: Save public-input audit evidence
         if: always()

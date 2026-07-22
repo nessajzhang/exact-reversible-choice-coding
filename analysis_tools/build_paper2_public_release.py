@@ -22,6 +22,7 @@ ANALYSIS_FILES = (
     "analyze_paper2_external_mapping_sensitivity.py",
     "analyze_paper2_major_revision_diagnostics.py",
     "audit_paper2_channel_error_boundary.py",
+    "audit_paper2_dt4dds_sequence_detectability.py",
     "audit_paper2_pcr_sequence_independence.py",
     "audit_paper2_source_external_independence.py",
     "benchmark_paper2_reversible_choice_codec.py",
@@ -40,6 +41,12 @@ ANALYSIS_FILES = (
     "verify_paper2_environment.py",
     "verify_paper2_bioinformatics_choice_consistency.py",
     "verify_paper2_output_manifests.py",
+)
+
+PUBLIC_INPUT_RUNTIME_FILES = (
+    "analysis_tools/download_paper2_public_inputs.py",
+    "analysis_tools/audit_paper2_dt4dds_sequence_detectability.py",
+    "papers/paper2_thermodynamic_risk_coding/reproduce_from_public_inputs.sh",
 )
 
 PAPER_FILES = (
@@ -244,6 +251,16 @@ def check_no_transient_artifacts(output: Path) -> None:
         )
 
 
+def check_public_input_runtime_complete(output: Path) -> None:
+    """Fail the release build if a public-input entrypoint dependency is absent."""
+
+    missing = [name for name in PUBLIC_INPUT_RUNTIME_FILES if not (output / name).is_file()]
+    if missing:
+        raise RuntimeError(
+            "public-input runtime dependency is missing: " + ", ".join(missing)
+        )
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
@@ -315,6 +332,7 @@ def main() -> int:
         env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
         check=True,
     )
+    check_public_input_runtime_complete(output)
     check_no_local_identity(output)
     check_no_transient_artifacts(output)
     write_root_manifest(output)
