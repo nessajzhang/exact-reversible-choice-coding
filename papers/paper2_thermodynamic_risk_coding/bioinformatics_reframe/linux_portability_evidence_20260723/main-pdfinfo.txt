@@ -1,0 +1,22 @@
+Title:           Exact reversible choice coding with retrospective assay-guided selection in PCR-tested oligonucleotide libraries
+Subject:         Anonymous Bioinformatics methods manuscript
+Keywords:        DNA data storage, constrained coding, assay calibration, PCR efficiency, reversible coding
+Author:          
+Creator:         LaTeX with hyperref
+Producer:        pdfTeX-1.40.25
+CreationDate:    Wed Jul 22 17:26:14 2026 UTC
+ModDate:         Wed Jul 22 17:26:14 2026 UTC
+Custom Metadata: yes
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           9
+Encrypted:       no
+Page size:       595.276 x 841.89 pts (A4)
+Page rot:        0
+File size:       527378 bytes
+Optimized:       no
+PDF version:     1.5

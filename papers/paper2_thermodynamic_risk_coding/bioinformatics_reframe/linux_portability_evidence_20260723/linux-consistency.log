@@ -1,0 +1,4 @@
+PASS_LATEX_LOG main.log: present; no declared unresolved-reference or LaTeX-error pattern
+PASS_LATEX_LOG supplementary_codec_evidence.log: present; no declared unresolved-reference or LaTeX-error pattern
+PASS_SUBMISSION_TECHNICAL_OUTPUT_AND_BOUNDARY_CONSISTENCY
+$HOME/work/exact-reversible-choice-coding/exact-reversible-choice-coding/papers/paper2_thermodynamic_risk_coding/bioinformatics_reframe/MANUSCRIPT_CONSISTENCY_AUDIT.md

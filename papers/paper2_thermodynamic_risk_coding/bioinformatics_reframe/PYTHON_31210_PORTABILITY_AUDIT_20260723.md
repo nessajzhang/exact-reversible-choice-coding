@@ -2,7 +2,7 @@
 
 Audit date: 2026-07-23
 
-Status: `LOCAL_CANONICAL_MIGRATION_PASS; CLEAN_LINUX_WORKFLOW_CONFIGURED; AUTHOR_CONTROLLED_SUBMISSION_FIELDS_OPEN`
+Status: `LOCAL_CANONICAL_MIGRATION_PASS; CLEAN_LINUX_FROZEN_AND_PUBLIC_INPUT_PASS; AUTHOR_CONTROLLED_SUBMISSION_FIELDS_OPEN`
 
 ## Scope
 
@@ -40,7 +40,18 @@ Machine-readable summary: `PYTHON_31210_MIGRATION_COMPARISON_20260723.tsv`.
 
 `.github/workflows/paper2-linux-portability.yml` defines an Ubuntu 24.04 audit with pinned `uv 0.10.0`. Its default job checks the root and nested manifests, runs all 21 tests, reproduces frozen analyses and figures, compiles with LaTeX/BibTeX, runs the consistency checker, inspects PDF metadata/fonts and renders every PDF page. A manually dispatched second job runs the complete public-input audit. GitHub Actions retains the text logs, compiled PDFs and rendered-page evidence.
 
-The workflow result and immutable run URL must be inserted here only after the public commit has been pushed and the remote run has completed. A configured workflow is not described as a passed Linux run before that event.
+The first manually dispatched probe for commit `d3d1f4bb20073612454646ae89c94e9234a12b96` exposed two release defects: the public-input bundle omitted `audit_paper2_dt4dds_sequence_detectability.py`, and a shell pipeline without `pipefail` allowed the failing producer to be masked by a successful `tee`. That run is not accepted as public-input evidence even though GitHub displayed it as successful.
+
+Commit `7d192be6a2a143750805444de3a0e3d92283976e` adds the missing derivation script, makes the release builder fail when a public-input runtime dependency is absent, and enables fail-fast pipeline propagation in the Linux workflow. The clean manually dispatched run completed successfully on Ubuntu 24.04:
+
+- workflow: `https://github.com/nessajzhang/exact-reversible-choice-coding/actions/runs/29942185585`;
+- frozen-release job: `https://github.com/nessajzhang/exact-reversible-choice-coding/actions/runs/29942185585/job/88998562611`, 21 tests plus frozen reproduction, TeX/BibTeX compilation, consistency checks, PDF metadata/font inspection and page rendering, PASS in 2 min 4 s;
+- public-input job: `https://github.com/nessajzhang/exact-reversible-choice-coding/actions/runs/29942185585/job/88998562688`, locked upstream acquisition, DT4DDS derivation, full analyses, figures and manifest verification, PASS in 12 min;
+- public-input completion markers: `PASS_PAPER2_PUBLIC_INPUT_CONTRACT`, `Paper 2 analysis reproduction passed (public-inputs mode)`, `Paper 2 figure reproduction passed` and `Paper 2 full audit completed`.
+
+The public-input job regenerated and verified 99 analysis-owned files. This count is lower than the 110 files locked by the distributed frozen manifests because the release also contains frozen auxiliary/provenance artifacts that are retained for review but are not rewritten by every analysis entry point. The clean run is therefore evidence that the public-input workflow executes to completion and its generated manifests are internally valid; the separate local migration comparison supplies the 78/78 scientific-table and 9/9 figure identity checks against the preceding public commit.
+
+Downloaded text logs, PDF metadata and font reports are stored in `linux_portability_evidence_20260723/`; GitHub retains the full workflow log, compiled PDFs and rendered-page artifacts.
 
 ## Remaining author-controlled actions
 

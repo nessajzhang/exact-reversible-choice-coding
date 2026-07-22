@@ -137,12 +137,17 @@ RELEASE_DOCUMENTS = (
     "ZENODO_DEPOSIT_METADATA_20260722.md",
 )
 
+RELEASE_EVIDENCE_DIRS = (
+    "linux_portability_evidence_20260723",
+)
+
 TEXT_SUFFIXES = {
     ".bib",
     ".cfg",
     ".csv",
     ".ini",
     ".json",
+    ".log",
     ".md",
     ".py",
     ".sh",
@@ -295,6 +300,8 @@ def main() -> int:
         copy_tree(REFRAME / name, release_paper / "bioinformatics_reframe" / name)
     for name in RELEASE_DOCUMENTS:
         copy_file(REFRAME / name, release_paper / "bioinformatics_reframe" / name)
+    for name in RELEASE_EVIDENCE_DIRS:
+        copy_tree(REFRAME / name, release_paper / "bioinformatics_reframe" / name)
 
     for name in (
         ".python-version",

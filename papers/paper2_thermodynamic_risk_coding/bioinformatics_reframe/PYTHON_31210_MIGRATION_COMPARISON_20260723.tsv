@@ -4,3 +4,5 @@ figure_pdf_png_svg_byte_identity	9	0	PASS	Three manuscript figures in PDF, PNG a
 finalized_nested_manifests	10	0	PASS	Finalized manifests lock 110 files after Python 3.12.10 migration
 contract_tests	21	0	PASS	Injected isolated Python 3.12.10 environment with exact six-package contract
 compiled_pdf_page_counts	3	0	PASS	Main manuscript 9 pages; Supplementary Information 17 pages; OUP two-column preflight 7 pages
+clean_linux_frozen_release	1	0	PASS	Ubuntu 24.04 job 88998562611 at commit 7d192be6a2a143750805444de3a0e3d92283976e
+clean_linux_public_input_audit	1	0	PASS	Ubuntu 24.04 job 88998562688 completed locked acquisition and full analysis in 12 minutes
