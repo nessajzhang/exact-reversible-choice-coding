@@ -16,12 +16,20 @@ while [[ $# -gt 0 ]]; do
   shift
 done
 
+# Verify the immutable release before any reproduction command updates
+# environment records, figures or compiled artifacts.
+"${SCRIPT_DIR}/verify_integrity.sh"
+
 if [[ "${MODE}" == "analysis" ]]; then
   if [[ "${ANALYSIS_MODE}" == "frozen" ]]; then
     "${SCRIPT_DIR}/reproduce_analysis.sh" --from-frozen
   else
     "${SCRIPT_DIR}/reproduce_analysis.sh"
   fi
+  source "${SCRIPT_DIR}/paper2_repro_common.sh"
+  paper2_prepare_environment
+  cd "${PAPER2_ROOT}"
+  "${PAPER2_PYTHON}" analysis_tools/verify_paper2_output_manifests.py
   exit 0
 fi
 if [[ "${MODE}" == "figures" ]]; then
@@ -49,7 +57,7 @@ fi
 source "${SCRIPT_DIR}/paper2_repro_common.sh"
 paper2_prepare_environment
 cd "${PAPER2_ROOT}"
-"${SCRIPT_DIR}/verify_integrity.sh"
+"${PAPER2_PYTHON}" analysis_tools/verify_paper2_output_manifests.py
 if [[ "${TEX_COMPILED}" == "1" ]]; then
   "${PAPER2_PYTHON}" analysis_tools/verify_paper2_bioinformatics_choice_consistency.py
 elif [[ "${SKIP_TEX}" != "1" ]]; then

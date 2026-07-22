@@ -6,7 +6,7 @@ Working title: **Exact reversible choice coding with retrospective assay-guided 
 
 Primary route: a Bioinformatics Original Paper built around an algorithmic interface between exact constrained coding and a source-trained public experimental assay score. The scientific contribution is the reversible choice/fiber construction and its retrospective evaluation in PCR-tested libraries; the work is not positioned as a new software product or as prospective validation of codec-emitted sequences.
 
-Current scientific status: `MINOR_REVISION_TECHNICAL_CLOSEOUT; PUBLIC_REPOSITORY_AND_LICENSE_READY; SUBMISSION_BLOCKED_BY_AUTHOR_METADATA_AND_PERSISTENT_ARCHIVE_GATE`. The formal construction, public-data analysis, matched baselines, negative transfer result, figures, manuscript and Supplementary Information are claim-bounded. The public repository is `https://github.com/nessajzhang/exact-reversible-choice-coding` and project code is BSD-3-Clause licensed. Before upload, authors must supply and approve the submission metadata and provide a persistent archived snapshot of the submitted software and test data. A DOI is one possible identifier, not the only acceptable form.
+Current scientific status: `MINOR_REVISION_TECHNICAL_CLOSEOUT; PYTHON_31210_PORTABILITY_FIXED; PUBLIC_REPOSITORY_AND_LICENSE_READY; SUBMISSION_BLOCKED_BY_AUTHOR_METADATA_AND_PERSISTENT_ARCHIVE_GATE`. The formal construction, public-data analysis, matched baselines, negative transfer result, figures, manuscript and Supplementary Information are claim-bounded. The public repository is `https://github.com/nessajzhang/exact-reversible-choice-coding` and project code is BSD-3-Clause licensed. Before upload, authors must supply and approve the submission metadata and provide a persistent archived snapshot of the submitted software and test data. A DOI is one possible identifier, not the only acceptable form.
 
 ## Central result
 
@@ -47,12 +47,15 @@ From the repository root:
 The compatibility command delegates to `run_full_audit.sh`. The workflow is also split into independently callable stages:
 
 ```bash
-./papers/paper2_thermodynamic_risk_coding/verify_integrity.sh
+./papers/paper2_thermodynamic_risk_coding/verify_integrity.sh --files-only
+./papers/paper2_thermodynamic_risk_coding/verify_integrity.sh --contracts-only
 ./papers/paper2_thermodynamic_risk_coding/reproduce_analysis.sh
 ./papers/paper2_thermodynamic_risk_coding/reproduce_figures.sh
 ./papers/paper2_thermodynamic_risk_coding/compile_manuscript.sh
 ./papers/paper2_thermodynamic_risk_coding/run_full_audit.sh --skip-tex
 ```
+
+`--files-only` verifies the 10 nested manifests and, in a built release, the root SHA-256 manifest and transient-artifact policy using only a basic Python interpreter and standard shell hash tools. It neither installs nor requires the canonical scientific environment. `--contracts-only` runs the 21 non-mutating contract tests with an already compatible scientific Python or an isolated canonical fallback. Only analysis and figure reproduction require the exact frozen environment.
 
 `--skip-tex` completes scientific analysis, figure and integrity checks without treating absent LaTeX/BibTeX as an analysis failure. `--analysis-only`, `--figures-only` and `--from-frozen` provide narrower runs. The full public-input run validates source hashes, rebuilds the analyses, rechecks fixed-length Hamming separation, regenerates figures, records a machine-local timing rerun, compiles when both `latexmk` and `bibtex` are available, and then checks manuscript consistency. A fixed `SOURCE_DATE_EPOCH` removes creation-time-only PDF/figure timestamp drift; it does not freeze machine timing.
 
@@ -67,7 +70,9 @@ PYTHON=/path/to/python JOBS=12 SEQ_JOBS=10 \
 
 Set `PAPER2_SKIP_UPSTREAM=1` only for a fast rebuild from the frozen upstream analysis tables already present in the repository. The primary choice script still revalidates source hashes, refits source-only selectors and checks the frozen prediction ledger. `PAPER2_LOCAL_RUNTIME_DIR` may redirect the non-frozen local timing output.
 
-The recorded complete run used Python 3.12.13 with NumPy 2.5.0, pandas 3.0.3, SciPy 1.18.0, scikit-learn 1.9.0, joblib 1.5.3 and Matplotlib 3.11.0. Exact versions, commands and seeds are stored in the output `environment_and_seeds.json` files. The runner accepts `PYTHON` for canonical output only when Python and all six distribution versions match this frozen contract exactly; an importable but version-mismatched environment is rejected. Otherwise it creates or reuses the isolated pinned environment at `${PAPER2_UV_ENV:-$HOME/.cache/paper2-thermodynamic-risk-coding/py312}` through `uv`. It does not modify the repository's Paper 3 environment or a system/Anaconda environment.
+The portable canonical run uses Python 3.12.10 with NumPy 2.5.0, pandas 3.0.3, SciPy 1.18.0, scikit-learn 1.9.0, joblib 1.5.3 and Matplotlib 3.11.0. Exact versions, commands and seeds are stored in the output `environment_and_seeds.json` files. The runner accepts `PYTHON` for canonical output only when Python and all six distribution versions match this frozen contract exactly; an importable but version-mismatched environment is rejected. Otherwise it explicitly asks `uv` to install Python 3.12.10 and creates or reuses the isolated pinned environment at `${PAPER2_UV_ENV:-$HOME/.cache/paper2-thermodynamic-risk-coding/py31210}`. This path was tested with `uv 0.10.0`; it does not modify a system or Anaconda base environment.
+
+The repository workflow `.github/workflows/paper2-linux-portability.yml` runs the root/nested integrity checks, all 21 contract tests, frozen-output reproduction, LaTeX/BibTeX compilation, consistency checking and PDF inspection on Ubuntu 24.04. A manually dispatched second job runs the complete public-input analysis. CI logs and rendered PDF-QC artifacts are retained by GitHub Actions.
 
 ## Claim boundaries
 

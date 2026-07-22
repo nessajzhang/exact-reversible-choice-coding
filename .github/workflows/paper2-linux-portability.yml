@@ -1,0 +1,110 @@
+name: Paper 2 Linux portability
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      run_public_inputs:
+        description: Rebuild every analysis from pinned public inputs
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+env:
+  PAPER_DIR: papers/paper2_thermodynamic_risk_coding
+  PAPER2_UV_ENV: ${{ github.workspace }}/.venv-paper2-py31210
+  PYTHONDONTWRITEBYTECODE: "1"
+  JOBS: "4"
+  SEQ_JOBS: "4"
+
+jobs:
+  frozen-release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv 0.10.0
+        uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.10.0"
+          enable-cache: true
+
+      - name: Verify root and nested file integrity without scientific bootstrap
+        run: ./${PAPER_DIR}/verify_integrity.sh --files-only | tee linux-root-integrity.log
+
+      - name: Run all 21 contract tests
+        run: ./${PAPER_DIR}/verify_integrity.sh --contracts-only | tee linux-contract-tests.log
+
+      - name: Reproduce frozen analyses and figures without TeX
+        run: ./${PAPER_DIR}/reproduce_from_frozen_outputs.sh --skip-tex | tee linux-frozen-reproduction.log
+
+      - name: Install TeX and PDF inspection tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            latexmk poppler-utils texlive-fonts-recommended \
+            texlive-latex-extra texlive-science
+
+      - name: Compile manuscript and Supplementary Information
+        run: ./${PAPER_DIR}/compile_manuscript.sh --strict | tee linux-tex-compile.log
+
+      - name: Run manuscript consistency checker
+        run: |
+          source ./${PAPER_DIR}/paper2_repro_common.sh
+          paper2_prepare_environment
+          "${PAPER2_PYTHON}" analysis_tools/verify_paper2_bioinformatics_choice_consistency.py \
+            | tee linux-consistency.log
+
+      - name: Inspect and render PDFs
+        run: |
+          mkdir -p linux-pdf-qc
+          pdfinfo "${PAPER_DIR}/build/main.pdf" > linux-pdf-qc/main-pdfinfo.txt
+          pdfinfo "${PAPER_DIR}/build/supplementary_codec_evidence.pdf" > linux-pdf-qc/supplement-pdfinfo.txt
+          pdffonts "${PAPER_DIR}/build/main.pdf" > linux-pdf-qc/main-fonts.txt
+          pdffonts "${PAPER_DIR}/build/supplementary_codec_evidence.pdf" > linux-pdf-qc/supplement-fonts.txt
+          pdftoppm -png -r 110 "${PAPER_DIR}/build/main.pdf" linux-pdf-qc/main >/dev/null
+          pdftoppm -png -r 90 "${PAPER_DIR}/build/supplementary_codec_evidence.pdf" linux-pdf-qc/supplement >/dev/null
+
+      - name: Upload Linux verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: paper2-linux-frozen-verification
+          if-no-files-found: error
+          path: |
+            linux-*.log
+            linux-pdf-qc/
+            papers/paper2_thermodynamic_risk_coding/build/*.pdf
+
+  public-input-audit:
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.run_public_inputs }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv 0.10.0
+        uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.10.0"
+          enable-cache: true
+
+      - name: Rebuild from pinned public inputs
+        run: ./${PAPER_DIR}/reproduce_from_public_inputs.sh --skip-tex | tee linux-public-input-audit.log
+
+      - name: Save public-input audit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: paper2-linux-public-input-audit
+          if-no-files-found: error
+          path: |
+            linux-public-input-audit.log
+            papers/paper2_thermodynamic_risk_coding/bioinformatics_reframe/**/manifest.tsv
+            papers/paper2_thermodynamic_risk_coding/bioinformatics_reframe/**/environment*.json

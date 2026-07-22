@@ -25,11 +25,11 @@ class FrozenEnvironmentContractTests(unittest.TestCase):
 
     def test_python_patch_version_is_part_of_contract(self) -> None:
         mismatches = environment.compare_environment(
-            (3, 12, 12), environment.CANONICAL_DISTRIBUTIONS
+            (3, 12, 13), environment.CANONICAL_DISTRIBUTIONS
         )
         self.assertEqual(
             mismatches,
-            ["python: expected 3.12.13, found 3.12.12"],
+            ["python: expected 3.12.10, found 3.12.13"],
         )
 
     def test_missing_and_wrong_distribution_versions_fail(self) -> None:

@@ -6,7 +6,7 @@ Status: `MACHINE_SIDE_PROVENANCE_COMPLETE; AUTHOR_CONFIRMATION_REQUIRED_BEFORE_S
 
 ## Tool and scope
 
-OpenAI Codex, based on the GPT-5 model family, was used during author-directed manuscript revision. The assistance covered:
+OpenAI ChatGPT and Codex tools from the GPT-5 model family were used during author-directed manuscript revision. The assistance covered:
 
 - inspection of manuscript, Supplementary Information, code, frozen outputs and rendered PDFs;
 - suggestions and direct edits to scientific wording, structure, captions, response material and reproducibility documentation;
@@ -35,6 +35,6 @@ OpenAI Codex, based on the GPT-5 model family, was used during author-directed m
 
 ## Disclosure text for author approval
 
-> During author-directed revision, OpenAI Codex (GPT-5 model family) assisted with code review and modification, test generation, literature-metadata checking, internal-consistency auditing, presentation review and language suggestions. All reported numerical results were produced by the versioned analysis scripts; the tool generated no experimental data. The authors retain responsibility for the mathematical arguments, code, references, analyses and final wording.
+> During author-directed revision, OpenAI ChatGPT and Codex tools from the GPT-5 model family assisted with manuscript and code review; suggestions and edits concerning wording, structure and figure captions; analysis-code modification; test generation; literature-metadata checking; internal-consistency auditing; figure preparation; and reproducibility packaging. All reported numerical results were produced by versioned analysis scripts. The tools generated no experimental data. The authors independently reviewed and approved the final mathematical arguments, code, references, analyses, figures and wording.
 
-The quoted text is a factual draft. All authors must confirm that it accurately describes their complete use of generative-AI tools before it is copied into the cover letter and the journal-designated disclosure location.
+The quoted text is a factual draft, not an author-approved disclosure. All authors must confirm both the named tools and retained-use scope, and must independently review any tool-assisted formal text, before it is copied into a cover letter or journal-designated disclosure location.

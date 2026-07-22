@@ -18,7 +18,7 @@ The manuscript is original, is not under consideration elsewhere and has been ap
 
 Code, tests, frozen derived data and reproduction commands are public at https://github.com/nessajzhang/exact-reversible-choice-coding under the BSD-3-Clause licence. **[INSERT VERIFIED COMMIT AND PERSISTENT ARCHIVE URL/IDENTIFIER BEFORE SUBMISSION]**
 
-During author-directed revision, OpenAI Codex (GPT-5 model family) assisted with code review and modification, test generation, literature-metadata checking, internal-consistency auditing, presentation review and language suggestions. All reported numerical results were produced by the versioned analysis scripts; the tool generated no experimental data. The authors retain responsibility for the mathematical arguments, code, references, analyses and final wording. **[ALL-AUTHOR VERIFICATION REQUIRED]**
+During author-directed revision, OpenAI ChatGPT and Codex tools from the GPT-5 model family assisted with manuscript and code review; suggestions and edits concerning wording, structure and figure captions; analysis-code modification; test generation; literature-metadata checking; internal-consistency auditing; figure preparation; and reproducibility packaging. All reported numerical results were produced by versioned analysis scripts. The tools generated no experimental data. The authors independently reviewed and approved the final mathematical arguments, code, references, analyses, figures and wording. **[ALL-AUTHOR VERIFICATION REQUIRED; RETAIN ONLY IF ACCURATE AND REQUIRED FOR SUBMISSION]**
 
 Sincerely,
 

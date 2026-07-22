@@ -2,16 +2,20 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-source "${SCRIPT_DIR}/paper2_repro_common.sh"
-paper2_prepare_environment
-cd "${PAPER2_ROOT}"
+MODE="all"
+if [[ "${1:-}" == "--files-only" ]]; then
+  MODE="files"
+elif [[ "${1:-}" == "--contracts-only" ]]; then
+  MODE="contracts"
+elif [[ $# -gt 0 ]]; then
+  printf 'Unknown option: %s\n' "$1" >&2
+  exit 2
+fi
 
-"${PAPER2_PYTHON}" analysis_tools/verify_paper2_output_manifests.py
-"${PAPER2_PYTHON}" -m unittest \
-  papers/paper2_thermodynamic_risk_coding/tests/test_paper2_deterministic_selection.py \
-  papers/paper2_thermodynamic_risk_coding/tests/test_paper2_grouped_bootstrap.py \
-  papers/paper2_thermodynamic_risk_coding/tests/test_paper2_channel_error_boundary.py \
-  papers/paper2_thermodynamic_risk_coding/tests/test_paper2_consistency_log_contract.py \
-  papers/paper2_thermodynamic_risk_coding/tests/test_paper2_environment_contract.py \
-  papers/paper2_thermodynamic_risk_coding/tests/test_paper2_release_hygiene.py
-printf '%s\n' 'Paper 2 integrity and deterministic-contract checks passed.'
+if [[ "${MODE}" != "contracts" ]]; then
+  "${SCRIPT_DIR}/verify_file_integrity.sh"
+fi
+if [[ "${MODE}" != "files" ]]; then
+  "${SCRIPT_DIR}/verify_contracts.sh"
+fi
+printf 'Paper 2 integrity verification passed (%s).\n' "${MODE}"

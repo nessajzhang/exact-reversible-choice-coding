@@ -2,9 +2,9 @@
 
 from __future__ import annotations
 
-import sys
 import os
 import subprocess
+import sys
 import tempfile
 import unittest
 from pathlib import Path
@@ -45,16 +45,16 @@ class ReleaseHygieneTests(unittest.TestCase):
                 "VALUE = 1\n", encoding="utf-8"
             )
             env = os.environ.copy()
-            env["PYTHON"] = sys.executable
             env["PYTHONPATH"] = str(probe_dir)
             subprocess.run(
                 [
                     "bash",
                     "-c",
-                    'source "$1"; paper2_prepare_environment; '
-                    '"$PAPER2_PYTHON" -c "import paper2_cache_probe"',
+                    'source "$1"; paper2_initialize_context; '
+                    '"$2" -c "import paper2_cache_probe"',
                     "paper2-release-hygiene-test",
                     str(common),
+                    sys.executable,
                 ],
                 cwd=ROOT,
                 env=env,

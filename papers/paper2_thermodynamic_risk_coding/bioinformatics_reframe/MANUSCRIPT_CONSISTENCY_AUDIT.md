@@ -33,23 +33,23 @@ Status: `PASS_SUBMISSION_TECHNICAL_OUTPUT_AND_BOUNDARY_CONSISTENCY`
 
 ## Verified manifests
 
-- `public_experimental_validation`: 10 entries; manifest SHA-256 `35fec335cb2a0d28b7a940b91ccbf96c05f67b7b465e6d63edd956c3c4139e3d`.
-- `assay_calibrated_selection`: 9 entries; manifest SHA-256 `c11ec35c45188162b621d65881465d378ddf26d283edda2e03314249f5efb2fc`.
-- `reversible_choice_codec`: 20 entries; manifest SHA-256 `d9d7faa34165feddc46657d1091ea347afec8436fa9d8ecf303d475f24a5c455`.
-- `sequence_independence_audit`: 4 entries; manifest SHA-256 `d55d5c5ec5739de0527a10807968cd98b2efa91284c7857b00541483b84ccf19`.
-- `runtime_benchmark`: 4 entries; manifest SHA-256 `468f591c79e12c891f98cf4dd303a70413ecd121842113090f8272a9b3a2b7ea`.
-- `sota_and_external_validation`: 32 entries; manifest SHA-256 `c6d89b8463fd15afb1d4c7ed4437e408e81da93c37d8990f4a44b27660ddbe0c`.
-- `source_external_independence_audit`: 5 entries; manifest SHA-256 `6f2ae722e19adf8b1f6191a38b9e5df521a39d1c99109f37671eabca3dafc28b`.
-- `external_mapping_sensitivity`: 6 entries; manifest SHA-256 `2f7ba4e956f3bf02de5cc1b9c49bf9edf0549ebb5190141574846f0ed8efa207`.
-- `major_revision_diagnostics`: 13 entries; manifest SHA-256 `5d376c268070fe233f28205cbe5f7adbb83c2fdae276292618735225435d2839`.
-- `channel_error_boundary`: 7 entries; manifest SHA-256 `53612d8081a7fcf944b67c8557502d3d54368621eb4c88493016a4ce53938c1e`.
+- `public_experimental_validation`: 10 entries; manifest SHA-256 `173c864f8eb0faabd2b828dceb3296c89cf7f5815db9aaa39812a08cf12c90a3`.
+- `assay_calibrated_selection`: 9 entries; manifest SHA-256 `239fced70d644cad5e7cc2794871e46d303643c33c10467ad7ad66d5adc87471`.
+- `reversible_choice_codec`: 20 entries; manifest SHA-256 `407fbbf0cc677684698078f8a8ce013a4286e91f837a0eaaae83631cf7c03df0`.
+- `sequence_independence_audit`: 4 entries; manifest SHA-256 `3d3d69a78c18befd9badf2da40bac4666bb525db0732c866668f55bc4d0dbb39`.
+- `runtime_benchmark`: 4 entries; manifest SHA-256 `c2c339a144ed50cd05426c4a8be9ce573e234a6237aa26b476953894470694fa`.
+- `sota_and_external_validation`: 32 entries; manifest SHA-256 `f81f0e7bb66629629c2690f5816f9d5e5a566d851b095a442114a62f1a724319`.
+- `source_external_independence_audit`: 5 entries; manifest SHA-256 `dcc6e73d1e1d78e015a1d33bffb2750f7d88a910bd4446d9a12e071fc2b8e5ab`.
+- `external_mapping_sensitivity`: 6 entries; manifest SHA-256 `36efb56bc5a9106f668facb2e103073ee21786eb5527b04620e40e52c9140a14`.
+- `major_revision_diagnostics`: 13 entries; manifest SHA-256 `bdfdfa6f7e705ac532793dd91550fb1290604164385190b1e7b4b8886442f9a5`.
+- `channel_error_boundary`: 7 entries; manifest SHA-256 `ea0e559a3860949b10e98871044ad3a811971b8dfa183c279cb4dff1cf3d42fe`.
 
 ## Current artifact hashes
 
 - `main.tex`: `db06c885d761468bbff885e0db09caf85437dd4ac5481dad90a379f76de37b26`
-- `supplementary_codec_evidence.tex`: `d9c027abf38eea4bed118ffb4c13573ed5e1684f21f3a3d614ed09602e4450de`
+- `supplementary_codec_evidence.tex`: `bbe2166e3b1b0266ba8dfedc2d68f67da88ac9a06d1a76a40e5a0854f39fcf57`
 - `build/main.pdf`: `095ba48e4b0d6d86560af4f679dd43743fd7c98a2f18b3d9f04292cd28025dbb`
-- `build/supplementary_codec_evidence.pdf`: `0246c7586b568e85304d713d0c8d47e9891027e3edc83de2807a2bd75f3b50be`
+- `build/supplementary_codec_evidence.pdf`: `4ebe53fa0faf0224d1a95930aac2ff1c89f1af43ac91c284b9a5a6976ec4359c`
 - `figures/assay_calibrated_selection.pdf`: `75156a3361366d095a34402670c6437f72321a6a2a4660c202981e842996898e`
 - `figures/reversible_choice_codec.pdf`: `fb2efd7598e8289876f606a767e9b51684228a8994adb3cbafe187652ca4a6d4`
 - `figures/paired_two_stage_sensitivity.pdf`: `887f5b35198844a4dd481658fb9ae576c28d0c698fd36ae9137f8694d478700e`

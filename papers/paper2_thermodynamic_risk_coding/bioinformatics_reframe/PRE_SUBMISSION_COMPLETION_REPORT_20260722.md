@@ -74,7 +74,7 @@ Overall status: `SCIENTIFIC_AND_TECHNICAL_CLOSEOUT_PASS; PUBLIC_REPOSITORY_AND_L
 ### Final-review technical closeout
 
 - The abstract now states that inversion recovers the payload from any candidate; it no longer says that the decoder recovers a fiber member.
-- Canonical-output runs require Python 3.12.13 and exact versions of the six pinned scientific distributions. Merely importing the packages is no longer sufficient.
+- Canonical-output runs require the portable Python 3.12.10 contract and exact versions of the six pinned scientific distributions. File-only integrity checks are decoupled from that environment, while canonical output writes still reject version mismatches.
 - The release builder disables bytecode generation and rejects `__pycache__`, `*.pyc`, `*.pyo`, `.DS_Store` and `Thumbs.db` before writing the root manifest.
 - No repository tag or external archive was created in this closeout because the author deferred that publication action. The GitHub `main` branch remains the current mutable access route.
 

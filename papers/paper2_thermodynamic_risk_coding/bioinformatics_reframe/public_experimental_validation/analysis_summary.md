@@ -72,4 +72,4 @@ These public-data analyses do not show that Paper 2 emitted oligos were synthesi
 - Nested preprocessing and regularization tuning were confined to training folds.
 - Every primary delta uses identical outer predictions and 2,000 paired sequence-level bootstrap resamples.
 - Source hashes, release commits, exact adapter provenance, environment, all model metrics, coefficients and output hashes are saved beside this report.
-- `main.tex` remained frozen at SHA-256 `c47e54dc1c0dcc4759589a14c4b3f775a7aebcc837381014dbcef8c6e3d41908` during this run.
+- `main.tex` remained frozen at SHA-256 `db06c885d761468bbff885e0db09caf85437dd4ac5481dad90a379f76de37b26` during this run.

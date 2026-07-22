@@ -740,7 +740,7 @@ Adding the CRC reduced the retained user message from 211 to 195 bits at $r=2$, 
 
 For length $n$, whole-sequence GC-count range $G$ and homopolymer bound $h$, the exact completion table has $O(nG|\DNA|h)$ reachable state slots and at most $|\DNA|$ transitions per state. Once cached, exact rank and unrank make $O(n|\DNA|)$ branch-mass queries. For a score with evaluation cost $S(n)$, choice encoding evaluates $2^r$ candidates and therefore costs $O(2^r[n|\DNA|+S(n)])$. Payload decoding reranks one sequence, inverts one modular affine map over $N$, checks $q<M$ and shifts $r$ bits, so it remains $O(n|\DNA|)$ and does not evaluate the score. The FullContext feature implementation constructs reverse-complement anti-diagonal tables for the variable and full constructs and has $S(n)=O(n^2)$ time and memory.
 
-The benchmark used one process, 128 fixed payloads per choice setting, three repeats and 4,096 base ranks. It was run on the recorded Intel macOS host with Python 3.12.13. All timed operations retained exact round trips (Table~\ref{tab:s-runtime}).
+The benchmark used one process, 128 fixed payloads per choice setting, three repeats and 4,096 base ranks. It was run on the recorded Intel macOS host with Python 3.12.10. All timed operations retained exact round trips (Table~\ref{tab:s-runtime}).
 
 \begin{table}[H]
 \centering
@@ -749,17 +749,17 @@ The benchmark used one process, 128 fixed payloads per choice setting, three rep
 \toprule
 Operation & $r$ & Candidates & Items & Median ms/item \\
 \midrule
-Base unrank & 0 & 1 & 4,096 & 0.928 \\
-Base rank & 0 & 1 & 4,096 & 0.841 \\
-FullContext choice encode & 0 & 1 & 128 & 8.577 \\
-FullContext choice encode & 2 & 4 & 128 & 42.592 \\
-FullContext choice encode & 4 & 16 & 128 & 154.996 \\
-Payload decode & 0 & 1 & 128 & 0.915 \\
-Payload decode & 2 & 4 & 128 & 0.975 \\
-Payload decode & 4 & 16 & 128 & 1.022 \\
+Base unrank & 0 & 1 & 4,096 & 0.192 \\
+Base rank & 0 & 1 & 4,096 & 0.189 \\
+FullContext choice encode & 0 & 1 & 128 & 1.706 \\
+FullContext choice encode & 2 & 4 & 128 & 6.842 \\
+FullContext choice encode & 4 & 16 & 128 & 28.914 \\
+Payload decode & 0 & 1 & 128 & 0.178 \\
+Payload decode & 2 & 4 & 128 & 0.180 \\
+Payload decode & 4 & 16 & 128 & 0.174 \\
 \bottomrule
 \end{tabular}
-\caption{Single-process implementation timing. Cold completion-table construction took 0.432 s and produced 41,101 cache entries; peak process high-water memory was 142.2 MiB. Values are machine-specific measurements from the modulo-$N$ implementation, not biological replicates or an end-to-end storage comparison.}
+\caption{Single-process implementation timing. Cold completion-table construction took 0.100 s and produced 41,101 cache entries; peak process high-water memory was 195.7 MiB. Values are machine-specific measurements from the modulo-$N$ implementation, not biological replicates or an end-to-end storage comparison.}
 \label{tab:s-runtime}
 \end{table}
 
@@ -870,11 +870,11 @@ The anonymous bundle exposes two separate entry points:
 ./reproduce_from_frozen_outputs.sh
 ./reproduce_from_public_inputs.sh
 \end{verbatim}
-The frozen-output runner verifies package and nested manifests, recomputes the external mapping-sensitivity and major-revision diagnostic summaries from frozen derived tables, regenerates all three figures, reruns manuscript consistency checks and compiles both anonymous PDFs. The public-input runner verifies the required upstream hashes, reports missing inputs with their expected locations and invokes the full project-layout workflow when those inputs are present. Both use an explicitly supplied compatible \texttt{PYTHON} or an exact-version environment outside the package; neither modifies a system or base environment.
+The file-integrity entry point verifies package and nested manifests without installing the canonical scientific environment. The frozen-output runner recomputes the external mapping-sensitivity and major-revision diagnostic summaries from frozen derived tables, regenerates all three figures, reruns manuscript consistency checks and compiles both anonymous PDFs. The public-input runner verifies the required upstream hashes, reports missing inputs with their expected locations and invokes the full project-layout workflow when those inputs are present. Canonical output generation uses an explicitly supplied exact-version \texttt{PYTHON} or an isolated environment outside the package; neither path modifies a system or base environment.
 
 The \path{reversible_choice_codec} output directory contains exact-language, modulo-$N$ generated-code, positional-composition, feature-domain and mapping-namespace outputs. The \path{sota_and_external_validation} directory contains input audits, source coefficients, identical-fiber benchmark summaries and distributions, endpoint-matched event tables, Q5 sensitivity, pairwise comparisons, randomization tests, 2,000 corrected grouped-source two-stage bootstrap replicates and provenance. The \path{channel_error_boundary} directory contains the CRC-protected emitted codewords, all 55,552 single-edit outcomes, summary counts, reference vector, environment and manifest. The external mapping-sensitivity directory contains the frozen derived input table, all 32 mappings, descriptive summaries and a primary-mapping reproduction check. The \path{major_revision_diagnostics} directory contains the dataset-partition and evidence-hierarchy tables, negative-fiber and post hoc feature-stratification summaries, score-margin abstention sensitivity, $r=0,\ldots,6$ rate--benefit diagnostics, score-determinism audit, decoder failure contract and leakage-scope table. The shared deterministic-selection helper implements the declared 12-decimal integer key and smallest-choice-index tie rule. Full source--external and source--source sequence-independence audits and the machine-specific timing snapshot are stored in separate manifest-locked directories. The public-input acquisition helper downloads or checks out third-party files at pinned hashes/commits; those inputs retain their upstream terms and are not relicensed by this project.
 
-The recorded run used Python 3.12.13, NumPy 2.5.0, pandas 3.0.3, SciPy 1.18.0, scikit-learn 1.9.0 and joblib 1.5.3 on macOS 13.7.8. Randomized operations have explicit integer seeds or SHA-256 namespaces. Code and frozen derived outputs are public at \url{https://github.com/nessajzhang/exact-reversible-choice-coding} under the BSD-3-Clause licence. A persistent archive URL or identifier and contact metadata remain author-controlled submission fields; no creator identity is inferred in this anonymous version.
+The portable canonical run used Python 3.12.10, NumPy 2.5.0, pandas 3.0.3, SciPy 1.18.0, scikit-learn 1.9.0 and joblib 1.5.3 on macOS 13.7.8. Randomized operations have explicit integer seeds or SHA-256 namespaces. Code and frozen derived outputs are public at \url{https://github.com/nessajzhang/exact-reversible-choice-coding} under the BSD-3-Clause licence. A persistent archive URL or identifier and contact metadata remain author-controlled submission fields; no creator identity is inferred in this anonymous version.
 
 \begingroup
 \small

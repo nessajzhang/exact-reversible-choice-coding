@@ -43,6 +43,7 @@ ANALYSIS_FILES = (
 )
 
 PAPER_FILES = (
+    ".python-version",
     ".gitignore",
     "LICENSE",
     "THIRD_PARTY_NOTICES.md",
@@ -60,7 +61,13 @@ PAPER_FILES = (
     "reproduce_from_public_inputs.sh",
     "compile_manuscript.sh",
     "run_full_audit.sh",
+    "verify_contracts.sh",
+    "verify_file_integrity.sh",
     "verify_integrity.sh",
+)
+
+CI_FILES = (
+    "paper2-linux-portability.yml",
 )
 
 FIGURE_FILES = (
@@ -118,6 +125,8 @@ RELEASE_DOCUMENTS = (
     "PAPER2_SUBMISSION_PREFLIGHT_RESPONSE_20260722.md",
     "PDF_VISUAL_QC_20260722.md",
     "PRE_SUBMISSION_COMPLETION_REPORT_20260722.md",
+    "PYTHON_31210_MIGRATION_COMPARISON_20260723.tsv",
+    "PYTHON_31210_PORTABILITY_AUDIT_20260723.md",
     "ZENODO_DEPOSIT_METADATA_20260722.md",
 )
 
@@ -253,6 +262,8 @@ def main() -> int:
     release_paper = output / "papers" / "paper2_thermodynamic_risk_coding"
     for name in PAPER_FILES:
         copy_file(PAPER / name, release_paper / name)
+    for name in CI_FILES:
+        copy_file(PAPER / "ci" / name, output / ".github" / "workflows" / name)
     copy_tree(PAPER / "tests", release_paper / "tests")
     copy_tree(PAPER / "examples", release_paper / "examples")
     for name in FIGURE_FILES:
@@ -268,7 +279,13 @@ def main() -> int:
     for name in RELEASE_DOCUMENTS:
         copy_file(REFRAME / name, release_paper / "bioinformatics_reframe" / name)
 
-    for name in ("LICENSE", "THIRD_PARTY_NOTICES.md", "VERSION", "requirements.txt"):
+    for name in (
+        ".python-version",
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md",
+        "VERSION",
+        "requirements.txt",
+    ):
         copy_file(PAPER / name, output / name)
     copy_file(PAPER / "README.md", output / "README.md")
     copy_file(PAPER / ".gitignore", output / ".gitignore")

@@ -56,7 +56,10 @@ def write_manifest(directory: Path) -> tuple[int, str]:
     manifest = directory / "sha256_manifest.tsv"
     with manifest.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(
-            handle, fieldnames=("file", "bytes", "sha256"), delimiter="\t"
+            handle,
+            fieldnames=("file", "bytes", "sha256"),
+            delimiter="\t",
+            lineterminator="\n",
         )
         writer.writeheader()
         writer.writerows(rows)

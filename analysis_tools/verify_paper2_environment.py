@@ -10,7 +10,7 @@ from importlib import metadata
 from typing import Mapping, Sequence
 
 
-CANONICAL_PYTHON = (3, 12, 13)
+CANONICAL_PYTHON = (3, 12, 10)
 CANONICAL_DISTRIBUTIONS = {
     "joblib": "1.5.3",
     "matplotlib": "3.11.0",

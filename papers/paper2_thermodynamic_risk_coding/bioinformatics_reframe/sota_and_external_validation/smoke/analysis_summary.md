@@ -56,6 +56,10 @@ Run class: SMOKE
 - GCfix_to_external_Taq, r=2: mean=0.00246764, 95% two-stage interval [0.00205172, 0.00284271], fraction above zero=1.0000.
 - GCfix_to_external_Taq, r=4: mean=0.00354498, 95% two-stage interval [0.00261608, 0.00427038], fraction above zero=1.0000.
 
+## Statistical boundary
+
+Source bootstrap copies retained fixed original-sequence CV folds, so no original sequence occurred in both training and validation within a replicate. Intervals condition on the published sequence-level outcomes and do not propagate technical-replicate, batch, normalization or source-assay measurement uncertainty.
+
 ## Evidence boundary
 
 retrospective measured public-sequence selection and an exact computational choice-codec interface; not prospective codec-output wet lab, mechanism, NUPACK, material, sequencing, recovery, full 110-nt weighted-language capacity, achieved storage density, end-to-end superiority, or unpublished-sister-manuscript evidence.

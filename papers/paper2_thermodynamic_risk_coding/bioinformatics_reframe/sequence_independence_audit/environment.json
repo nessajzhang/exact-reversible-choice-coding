@@ -1,13 +1,13 @@
 {
   "block_size": 64,
-  "command": "$PYTHON analysis_tools/audit_paper2_pcr_sequence_independence.py --jobs 4 --block-size 64",
+  "command": "$PYTHON analysis_tools/audit_paper2_pcr_sequence_independence.py --jobs 10 --block-size 64",
   "distance_definition": "exact Hamming distance over oriented 108-nt variable regions; common fixed adapters excluded",
   "input_sha256": {
     "external_data/paper2_gimpel2025_pcr_bias/Data/GCall/bad_seqs_2perc.pkl": "0c88133354b30585f0a4851be7bd5fba87805a3c19189bca9db7f12fdea61384",
     "external_data/paper2_gimpel2025_pcr_bias/Data/GCfix/bad_seqs_2perc.pkl": "185843669f779f421ce049765da92cf6ecaf1a6990cc5f51cf6b9229a43ad502"
   },
-  "jobs": 4,
+  "jobs": 10,
   "numpy": "2.5.0",
   "platform": "macOS-13.7.8-x86_64-i386-64bit",
-  "python": "3.12.13"
+  "python": "3.12.10"
 }

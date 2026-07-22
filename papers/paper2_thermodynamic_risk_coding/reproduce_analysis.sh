@@ -16,14 +16,6 @@ fi
 
 JOBS="${JOBS:-12}"
 SEQ_JOBS="${SEQ_JOBS:-10}"
-"${PAPER2_PYTHON}" -m unittest \
-  papers/paper2_thermodynamic_risk_coding/tests/test_paper2_deterministic_selection.py \
-  papers/paper2_thermodynamic_risk_coding/tests/test_paper2_grouped_bootstrap.py \
-  papers/paper2_thermodynamic_risk_coding/tests/test_paper2_channel_error_boundary.py \
-  papers/paper2_thermodynamic_risk_coding/tests/test_paper2_consistency_log_contract.py \
-  papers/paper2_thermodynamic_risk_coding/tests/test_paper2_environment_contract.py \
-  papers/paper2_thermodynamic_risk_coding/tests/test_paper2_release_hygiene.py -v
-
 if [[ "${MODE}" == "public-inputs" ]]; then
   "${PAPER2_PYTHON}" analysis_tools/validate_paper2_public_experimental_data.py --jobs "${JOBS}" --bootstrap 2000
   "${PAPER2_PYTHON}" analysis_tools/validate_paper2_assay_calibrated_selection.py --jobs "${JOBS}" --bootstrap 2000
