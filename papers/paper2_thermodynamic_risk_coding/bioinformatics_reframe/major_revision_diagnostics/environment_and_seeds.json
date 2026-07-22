@@ -3,11 +3,11 @@
   "evidence_contract": "derived diagnostics only; no new biological experiment",
   "fixed_exploratory_near_zero_threshold_target_sd": 0.01,
   "packages": {
-    "numpy": "1.26.4",
-    "pandas": "2.2.3"
+    "numpy": "2.5.0",
+    "pandas": "3.0.3"
   },
   "platform": "macOS-13.7.8-x86_64-i386-64bit",
-  "python": "3.9.2",
+  "python": "3.12.13",
   "score_key_contract": {
     "candidate_order": "lexicographically minimize (-quantized_key, choice_index)",
     "decimal_places": 12,

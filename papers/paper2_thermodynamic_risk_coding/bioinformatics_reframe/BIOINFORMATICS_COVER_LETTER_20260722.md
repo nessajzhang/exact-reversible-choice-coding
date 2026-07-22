@@ -16,7 +16,7 @@ We believe the manuscript is suited to *Bioinformatics* because it links an exac
 
 The manuscript is original, is not under consideration elsewhere and has been approved by all authors. **[AUTHOR CONFIRMATION REQUIRED]**
 
-Code, tests, frozen derived data and reproduction commands are public at https://github.com/nessajzhang/exact-reversible-choice-coding under the BSD-3-Clause licence. **[INSERT VERIFIED RELEASE TAG, COMMIT AND ARCHIVE DOI AFTER CREATOR APPROVAL]**
+Code, tests, frozen derived data and reproduction commands are public at https://github.com/nessajzhang/exact-reversible-choice-coding under the BSD-3-Clause licence. **[INSERT VERIFIED COMMIT AND PERSISTENT ARCHIVE URL/IDENTIFIER BEFORE SUBMISSION]**
 
 During author-directed revision, OpenAI Codex (GPT-5 model family) assisted with code review and modification, test generation, literature-metadata checking, internal-consistency auditing, presentation review and language suggestions. All reported numerical results were produced by the versioned analysis scripts; the tool generated no experimental data. The authors retain responsibility for the mathematical arguments, code, references, analyses and final wording. **[ALL-AUTHOR VERIFICATION REQUIRED]**
 

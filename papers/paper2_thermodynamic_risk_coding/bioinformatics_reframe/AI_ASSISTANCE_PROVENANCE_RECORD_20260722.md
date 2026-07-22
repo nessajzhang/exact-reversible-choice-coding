@@ -31,7 +31,7 @@ OpenAI Codex, based on the GPT-5 model family, was used during author-directed m
 - Deterministic-selection, grouped-bootstrap and channel-boundary unit tests are executable from the release.
 - Added references are recorded in `REFERENCE_VERIFICATION_REPORT_20260722.md` with DOI and field checks.
 - Manuscript/Supplement consistency, hashes, compilation and rendered-page checks are separate release gates.
-- Fifteen deterministic, grouped-bootstrap, channel-boundary and release-log-contract tests pass in the final technical package.
+- Twenty-one deterministic, grouped-bootstrap, channel-boundary, release-log, frozen-environment and release-hygiene tests pass in the final technical package.
 
 ## Disclosure text for author approval
 

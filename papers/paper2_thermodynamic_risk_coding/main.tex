@@ -29,7 +29,7 @@
 \begin{abstract}
 \noindent\textbf{Motivation:} DNA-storage design requires exact payload inversion while allowing assay-specific sequence ranking.
 
-\noindent\textbf{Results:} We assign each payload $2^r$ valid candidates, select one with a deterministic assay score and recover any fiber member by exact modulo-$|\mathcal C|$ inversion without the scorer, at an $r$-bit cost. Retrospective PCR-tested GCall/GCfix codebooks gave $r=2$ measured selected-minus-fiber-mean gains of 0.250 and 0.274 target SDs. An outcome-blind 2,048-sequence external-laboratory KAPA codebook drawn from 9,995 already-public measurements in the same source publication gave 0.229--0.390 SD gains; 17.2--30.9\% of matched-condition fibers had negative gain. Comparisons with released 1D-CNN outputs were endpoint-dependent, and a secondary exploratory Q5 analysis reversed direction. All 65,024 generated candidates round-tripped; gains were predicted and none was synthesized or assayed. Reversibility is model- and assay-independent; utility is assay-dependent.
+\noindent\textbf{Results:} We assign each payload $2^r$ valid candidates; a deterministic assay scorer selects one, whereas exact modulo-$|\mathcal C|$ inversion recovers the payload from any candidate without the scorer, at an $r$-bit cost. Retrospective PCR-tested GCall/GCfix codebooks gave $r=2$ measured selected-minus-fiber-mean gains of 0.250 and 0.274 target SDs. An outcome-blind 2,048-sequence external-laboratory KAPA codebook drawn from 9,995 already-public measurements in the same source publication gave 0.229--0.390 SD gains; 17.2--30.9\% of matched-condition fibers had negative gain. Comparisons with released 1D-CNN outputs were endpoint-dependent, and a secondary exploratory Q5 analysis reversed direction. All 65,024 generated candidates round-tripped; gains were predicted and none was synthesized or assayed. Reversibility is model- and assay-independent; utility is assay-dependent.
 
 \noindent\textbf{Availability and implementation:} Code and frozen outputs: \url{https://github.com/nessajzhang/exact-reversible-choice-coding} (BSD-3-Clause).\\
 \textbf{Contact:} Withheld.\\
@@ -198,11 +198,11 @@ The scope is assay-guided PCR selection. Coefficients are associational; the lan
 
 \section*{Availability and implementation}
 
-Code, frozen derived data, tests, figure source data, environments and manifests are public at \url{https://github.com/nessajzhang/exact-reversible-choice-coding} under the BSD-3-Clause licence. Separate commands verify integrity, reproduce analyses and figures, and compile the manuscript. The immutable archive DOI will be inserted after the authors approve the creator metadata and complete the repository-matched deposit.
+Code, frozen derived data, tests, figure source data, environments and manifests are public at \url{https://github.com/nessajzhang/exact-reversible-choice-coding} under the BSD-3-Clause licence. Separate commands verify integrity, reproduce analyses and figures, and compile the manuscript. A persistent URL or identifier for a repository-matched archived snapshot will be inserted before formal submission; a DOI is one possible route.
 
 \section*{Data availability}
 
-The PCR inputs, same-publication external-laboratory pools and published comparator outputs are available with Gimpel \emph{et al.} \cite{gimpel2025pcrbias}, including accession PRJEB77604 and the associated repository. DT4DDS inputs are available with Gimpel \emph{et al.} \cite{gimpel2023digitaltwin}. Author-derived frozen tables required for every reported value are public with the code; upstream data remain under their original access and licence terms. The repository-matched archive DOI remains an author-controlled deposit gate.
+The PCR inputs, same-publication external-laboratory pools and published comparator outputs are available with Gimpel \emph{et al.} \cite{gimpel2025pcrbias}, including accession PRJEB77604 and the associated repository. DT4DDS inputs are available with Gimpel \emph{et al.} \cite{gimpel2023digitaltwin}. Author-derived frozen tables required for every reported value are public with the code; upstream data remain under their original access and licence terms. Creation of a persistent repository-matched archive remains an author-controlled publication action.
 
 \begingroup
 \footnotesize

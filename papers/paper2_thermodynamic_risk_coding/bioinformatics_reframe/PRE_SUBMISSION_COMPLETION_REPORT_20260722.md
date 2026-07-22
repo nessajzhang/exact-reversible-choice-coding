@@ -2,7 +2,7 @@
 
 Date: 2026-07-22
 
-Overall status: `SCIENTIFIC_AND_TECHNICAL_CLOSEOUT_PASS; PUBLIC_REPOSITORY_AND_LICENSE_LIVE; DOI_AND_HUMAN_AUTHOR_FIELDS_PENDING`
+Overall status: `SCIENTIFIC_AND_TECHNICAL_CLOSEOUT_PASS; PUBLIC_REPOSITORY_AND_LICENSE_LIVE; PERSISTENT_ARCHIVE_AND_HUMAN_AUTHOR_FIELDS_PENDING`
 
 ## Required work completed
 
@@ -40,7 +40,7 @@ Overall status: `SCIENTIFIC_AND_TECHNICAL_CLOSEOUT_PASS; PUBLIC_REPOSITORY_AND_L
 - Public repository: https://github.com/nessajzhang/exact-reversible-choice-coding
 - Licence detected by GitHub: BSD-3-Clause.
 - The repository contains manifested code, tests, frozen derived outputs, source-data tables, figures, review PDFs and a seven-page OUP preflight. The final repository commit is the public `main` head produced by the release synchronization; no self-referential commit hash is embedded inside the commit itself.
-- A clean-tree audit passed all root and nested manifests, 15 deterministic/grouped-bootstrap/channel/log-contract tests, frozen-data analysis reproduction and all three figures.
+- A clean-tree audit passed all root and nested manifests, 21 deterministic/grouped-bootstrap/channel/log/environment/release-hygiene tests, frozen-data analysis reproduction and all three figures. The additional integration test verifies that the public runner does not create Python bytecode caches.
 - The consistency checker now gives `PASS`, `SKIP` or `FAIL` for compiled-log inspection. In a clean release with TeX logs intentionally absent, both log checks return `SKIP` while the required compiled PDFs and all scientific consistency checks still pass. The builder runs this release-context audit before writing the root manifest, making a checker rerun manifest-idempotent.
 
 ### AI provenance and author-led verification
@@ -71,11 +71,18 @@ Overall status: `SCIENTIFIC_AND_TECHNICAL_CLOSEOUT_PASS; PUBLIC_REPOSITORY_AND_L
 - The main text reports that absolute FullContext gains were modest (`0.0021--0.0041` on the published relative-efficiency scale) and directs practical interpretation to standardized effects, event risk and prospective validation.
 - The CRC statement is explicitly finite-sample: zero silent misdecodes in the enumerated audit does not guarantee detection under arbitrary corruptions.
 
+### Final-review technical closeout
+
+- The abstract now states that inversion recovers the payload from any candidate; it no longer says that the decoder recovers a fiber member.
+- Canonical-output runs require Python 3.12.13 and exact versions of the six pinned scientific distributions. Merely importing the packages is no longer sufficient.
+- The release builder disables bytecode generation and rejects `__pycache__`, `*.pyc`, `*.pyo`, `.DS_Store` and `Thumbs.db` before writing the root manifest.
+- No repository tag or external archive was created in this closeout because the author deferred that publication action. The GitHub `main` branch remains the current mutable access route.
+
 ## Remaining author-controlled blockers
 
-### Immutable archive DOI
+### Persistent software archive
 
-Zenodo redirected the deposit workflow to sign-in. A DOI cannot be minted without an authenticated deposit and a truthful public creator list. `ZENODO_DEPOSIT_METADATA_20260722.md` contains all technical metadata, but exact creator names, order, affiliations and ORCIDs must be supplied and approved by the authors. No GitHub username or local identity was used as a substitute.
+The target-journal guidance asks that the submitted software version and test data be archived in a long-term repository and that the archive URL be reported. A Zenodo DOI is one route, while Software Heritage or another approved repository can provide a different persistent identifier. The author deferred this external publication action in the present closeout. `ZENODO_DEPOSIT_METADATA_20260722.md` remains an optional prepared route; no GitHub username or local identity was used as a substitute for a creator record.
 
 ### Submission identity and declarations
 

@@ -16,9 +16,9 @@ All pages were rendered with Poppler and inspected as full-document contact shee
 
 Inspected final SHA-256 values:
 
-- `build/main.pdf`: `74b8c746497c96ae37cddae52dedf08a0867dd5393b4c0817d3e0de6961e4c5c`
-- `build/supplementary_codec_evidence.pdf`: `7f607d790c5d7da16dbbaf5a615988e7a2816a6e3cc909115857c1a484854873`
-- `oup_preflight/build/main_oup_preflight.pdf`: `21df701b282672871a6d8402afd2e9023613dec941ec15acd139459d3383e0b4`
+- `build/main.pdf`: `095ba48e4b0d6d86560af4f679dd43743fd7c98a2f18b3d9f04292cd28025dbb`
+- `build/supplementary_codec_evidence.pdf`: `0246c7586b568e85304d713d0c8d47e9891027e3edc83de2807a2bd75f3b50be`
+- `oup_preflight/build/main_oup_preflight.pdf`: `6002c6bf7d72cc77a2ef8faef0535ccfccfff9ff7f5423c7feccecc02e15fa98`
 
 ## Findings
 
@@ -28,6 +28,8 @@ Inspected final SHA-256 values:
 - The large `Overfull \\hbox` messages emitted while the OUP output routine places full-width figures reflect the double-column float mechanism; visual inspection found no content outside the page or figure bounds.
 - The main review PDF and Supplementary Information show no overlapping text, missing glyphs, unresolved-reference markers or abnormal blank pages.
 - The OUP preflight is exactly seven pages without changing the class font size, margins or line spacing. Six recent graph/channel/recovery references remain fully cited in the Supplementary prior-art matrix rather than expanding the main-paper bibliography beyond the page limit.
+- The revised 149-word abstract sentence about inversion and payload recovery is legible in both the review and OUP layouts and introduces no line collision or clipping.
+- The revised persistent-archive wording was re-rendered and inspected on main-paper page 7, Supplementary page 17 and OUP page 7; it remains within the text area and does not imply that a DOI has already been created.
 
 ## Boundary
 

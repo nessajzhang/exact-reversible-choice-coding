@@ -6,7 +6,7 @@ Working title: **Exact reversible choice coding with retrospective assay-guided 
 
 Primary route: a Bioinformatics Original Paper built around an algorithmic interface between exact constrained coding and a source-trained public experimental assay score. The scientific contribution is the reversible choice/fiber construction and its retrospective evaluation in PCR-tested libraries; the work is not positioned as a new software product or as prospective validation of codec-emitted sequences.
 
-Current scientific status: `MINOR_REVISION_TECHNICAL_CLOSEOUT; PUBLIC_REPOSITORY_AND_LICENSE_READY; SUBMISSION_BLOCKED_BY_AUTHOR_AND_ARCHIVE_METADATA_GATES`. The formal construction, public-data analysis, matched baselines, negative transfer result, figures, manuscript and Supplementary Information are claim-bounded. The public repository is `https://github.com/nessajzhang/exact-reversible-choice-coding` and project code is BSD-3-Clause licensed. Before upload, all authors must verify every retained contribution and any required AI-use disclosure, supply authorship metadata, and approve the immutable archive creator record.
+Current scientific status: `MINOR_REVISION_TECHNICAL_CLOSEOUT; PUBLIC_REPOSITORY_AND_LICENSE_READY; SUBMISSION_BLOCKED_BY_AUTHOR_METADATA_AND_PERSISTENT_ARCHIVE_GATE`. The formal construction, public-data analysis, matched baselines, negative transfer result, figures, manuscript and Supplementary Information are claim-bounded. The public repository is `https://github.com/nessajzhang/exact-reversible-choice-coding` and project code is BSD-3-Clause licensed. Before upload, authors must supply and approve the submission metadata and provide a persistent archived snapshot of the submitted software and test data. A DOI is one possible identifier, not the only acceptable form.
 
 ## Central result
 
@@ -67,7 +67,7 @@ PYTHON=/path/to/python JOBS=12 SEQ_JOBS=10 \
 
 Set `PAPER2_SKIP_UPSTREAM=1` only for a fast rebuild from the frozen upstream analysis tables already present in the repository. The primary choice script still revalidates source hashes, refits source-only selectors and checks the frozen prediction ledger. `PAPER2_LOCAL_RUNTIME_DIR` may redirect the non-frozen local timing output.
 
-The recorded complete run used Python 3.12.13 with NumPy 2.5.0, pandas 3.0.3, SciPy 1.18.0, scikit-learn 1.9.0, joblib 1.5.3 and Matplotlib 3.11.0. Exact versions, commands and seeds are stored in the output `environment_and_seeds.json` files. The runner first uses `PYTHON` when that interpreter has all required packages; otherwise it creates or reuses an isolated exact-version environment at `${PAPER2_UV_ENV:-$HOME/.cache/paper2-thermodynamic-risk-coding/py312}`. It does not modify the repository's Paper 3 environment or a system/Anaconda environment.
+The recorded complete run used Python 3.12.13 with NumPy 2.5.0, pandas 3.0.3, SciPy 1.18.0, scikit-learn 1.9.0, joblib 1.5.3 and Matplotlib 3.11.0. Exact versions, commands and seeds are stored in the output `environment_and_seeds.json` files. The runner accepts `PYTHON` for canonical output only when Python and all six distribution versions match this frozen contract exactly; an importable but version-mismatched environment is rejected. Otherwise it creates or reuses the isolated pinned environment at `${PAPER2_UV_ENV:-$HOME/.cache/paper2-thermodynamic-risk-coding/py312}` through `uv`. It does not modify the repository's Paper 3 environment or a system/Anaconda environment.
 
 ## Claim boundaries
 
@@ -86,4 +86,4 @@ Do not convert any of the following into positive evidence:
 
 ## Remaining author-controlled gates
 
-Before upload, authors must supply and verify names, order, affiliations, corresponding email, ORCID identifiers, contributions, funding, conflicts, acknowledgements, the actual AI-tool disclosure and the archive creator metadata. The public repository and BSD-3-Clause licence are in place; the immutable DOI cannot be minted honestly until the creators approve their public metadata. None of these author-controlled fields is inferred in the manuscript.
+Before upload, authors must supply and verify names, order, affiliations, corresponding email, ORCID identifiers, contributions, funding, conflicts and acknowledgements. Any journal-required declarations remain subject to author verification. The public repository and BSD-3-Clause licence are in place; the author has deferred creation of a persistent archived snapshot in Zenodo, Figshare, Software Heritage or an equivalent service. A Zenodo DOI would require authenticated deposition and truthful creator metadata, whereas another approved archive may issue a different persistent identifier. None of these author-controlled fields is inferred in the manuscript.

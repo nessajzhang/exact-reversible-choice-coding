@@ -865,12 +865,15 @@ def main() -> None:
     assert_text_contains(
         manuscript,
         [
+            "recovers the payload from any candidate",
             "measured selected-minus-fiber-mean gains",
             "absolute FullContext gains were modest",
             "does not guarantee detection under arbitrary corruptions",
             "negative secondary exploratory Q5 gains on a common zero axis",
         ],
     )
+    if "recover any fiber member" in manuscript:
+        raise AssertionError("abstract still describes recovery of a fiber member rather than its payload")
 
     latex_log_checks = audit_latex_logs(PAPER / "build")
     for check in latex_log_checks:
@@ -966,7 +969,7 @@ def main() -> None:
             "",
             "## Submission boundary",
             "",
-            "Scientific and technical consistency is a narrow PASS, not an acceptance guarantee. The public repository and BSD-3-Clause licence are machine-verifiable. The immutable archive DOI remains blocked by Zenodo sign-in and author-approved creator metadata; journal upload also requires author-controlled identity/contact/funding/conflict/CRediT fields and all-author verification of the actual AI-use disclosure and final wording. The generated codec still has no prospective emitted-codeword wet-lab validation.",
+            "Scientific and technical consistency is a narrow PASS, not an acceptance guarantee. The public repository and BSD-3-Clause licence are machine-verifiable. A persistent archive URL or identifier for the manuscript-matched software and test-data snapshot remains outstanding because the author deferred that external publication action; a DOI is one possible identifier, not the only route. Journal upload also requires author-controlled identity/contact/funding/conflict/CRediT fields and author verification of any policy-required declarations and final wording. The generated codec still has no prospective emitted-codeword wet-lab validation.",
             "",
         ]
     )

@@ -8,7 +8,7 @@ We thank the reviewer for the final pre-submission assessment. We implemented ev
 
 ## 1. Release consistency checker
 
-**Addressed.** Compiled-log inspection now has a three-state contract. An omitted log in a clean release is `SKIP`, a present clean log is `PASS` and a present log containing a declared LaTeX error is `FAIL`. Missing logs no longer produce `FileNotFoundError`; compiled PDFs remain mandatory. Three unit tests cover all states, and the full suite contains 15 tests. The release builder now runs the checker before writing the root SHA-256 manifest, so the packaged `SKIP` audit is locked and an idempotent checker rerun does not invalidate the manifest.
+**Addressed.** Compiled-log inspection now has a three-state contract. An omitted log in a clean release is `SKIP`, a present clean log is `PASS` and a present log containing a declared LaTeX error is `FAIL`. Missing logs no longer produce `FileNotFoundError`; compiled PDFs remain mandatory. Three unit tests cover all states, and the expanded full suite contains 21 tests. The release builder now runs the checker before writing the root SHA-256 manifest, so the packaged `SKIP` audit is locked and an idempotent checker rerun does not invalidate the manifest.
 
 **Locations:** `analysis_tools/verify_paper2_bioinformatics_choice_consistency.py`; `tests/test_paper2_consistency_log_contract.py`; `verify_integrity.sh`; `reproduce_analysis.sh`; package `README.md`.
 
@@ -46,9 +46,9 @@ We thank the reviewer for the final pre-submission assessment. We implemented ev
 
 **Addressed.** The public source repository is https://github.com/nessajzhang/exact-reversible-choice-coding and project code uses the BSD-3-Clause licence. The release contains split integrity/analysis/figure/TeX workflows, frozen derived outputs, source data for every main figure, tests, manifests and a seven-page OUP preflight. The release builder now includes the Figure 1 TSV at extraction time rather than relying on a later figure-reproduction run to create it. Third-party public data and model assets retain their original terms.
 
-## 8. Immutable DOI
+## 8. Persistent software archive
 
-**Technical metadata complete; author-controlled deposition remains required.** `ZENODO_DEPOSIT_METADATA_20260722.md` supplies the version, title, description, licence, keywords and relation. A DOI was not fabricated: Zenodo requires authenticated publication and a truthful creator list, and exact creator names/order/affiliations/ORCIDs have not been supplied. The release tag and immutable deposit must be created after authors approve those fields.
+**Technical metadata complete; external deposition deferred by the author.** `ZENODO_DEPOSIT_METADATA_20260722.md` supplies an optional Zenodo route. The journal asks for an archived submitted version and test data with a stable URL; a DOI is not the only possible persistent identifier. No deposit, tag or identifier was fabricated or published in this closeout.
 
 ## 9. AI provenance and final wording
 
@@ -69,10 +69,14 @@ We thank the reviewer for the final pre-submission assessment. We implemented ev
 - OUP preflight: 7 pages without font, margin or spacing manipulation;
 - structured abstract: 149 words;
 - exact generated-candidate round trips: 65,024/65,024;
-- test suite: 15/15 pass;
+- test suite: 21/21 pass;
 - main/Supplement/OUP compilation with BibTeX: pass;
 - rendered-page visual QC: pass;
 - clean-release missing-log contract: `SKIP`/`SKIP`, followed by overall consistency pass and an unchanged root manifest after checker rerun;
 - root and nested SHA-256 verification: pass.
 
-The technical revision is complete. The manuscript should not be labelled formally submission-ready until the author identity/declaration record, all-author AI confirmation and authenticated immutable archive DOI are supplied.
+The technical revision is complete. The manuscript should not be labelled formally submission-ready until the author identity/declaration record and a persistent archive URL or identifier for the manuscript-matched software/test-data snapshot are supplied. Any policy-required disclosure wording must be verified by the authors rather than inferred by software.
+
+## Final-review technical corrections
+
+The abstract's decoder sentence now says that exact inversion recovers the payload from any candidate, rather than saying that it recovers a fiber member. The reproduction bootstrap validates Python 3.12.13 and all six pinned distribution versions before permitting canonical-output writes. The release builder disables Python bytecode generation and rejects interpreter, editor and operating-system caches before creating `SHA256SUMS.txt`. Five new environment and release-hygiene tests cover these contracts. No tag or external archive was created because that external publication action was deferred by the author.

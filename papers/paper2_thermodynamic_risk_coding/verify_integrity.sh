@@ -11,5 +11,7 @@ cd "${PAPER2_ROOT}"
   papers/paper2_thermodynamic_risk_coding/tests/test_paper2_deterministic_selection.py \
   papers/paper2_thermodynamic_risk_coding/tests/test_paper2_grouped_bootstrap.py \
   papers/paper2_thermodynamic_risk_coding/tests/test_paper2_channel_error_boundary.py \
-  papers/paper2_thermodynamic_risk_coding/tests/test_paper2_consistency_log_contract.py
+  papers/paper2_thermodynamic_risk_coding/tests/test_paper2_consistency_log_contract.py \
+  papers/paper2_thermodynamic_risk_coding/tests/test_paper2_environment_contract.py \
+  papers/paper2_thermodynamic_risk_coding/tests/test_paper2_release_hygiene.py
 printf '%s\n' 'Paper 2 integrity and deterministic-contract checks passed.'

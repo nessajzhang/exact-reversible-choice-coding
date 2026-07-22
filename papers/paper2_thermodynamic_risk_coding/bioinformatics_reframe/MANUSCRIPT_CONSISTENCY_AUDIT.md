@@ -40,20 +40,20 @@ Status: `PASS_SUBMISSION_TECHNICAL_OUTPUT_AND_BOUNDARY_CONSISTENCY`
 - `runtime_benchmark`: 4 entries; manifest SHA-256 `468f591c79e12c891f98cf4dd303a70413ecd121842113090f8272a9b3a2b7ea`.
 - `sota_and_external_validation`: 32 entries; manifest SHA-256 `c6d89b8463fd15afb1d4c7ed4437e408e81da93c37d8990f4a44b27660ddbe0c`.
 - `source_external_independence_audit`: 5 entries; manifest SHA-256 `6f2ae722e19adf8b1f6191a38b9e5df521a39d1c99109f37671eabca3dafc28b`.
-- `external_mapping_sensitivity`: 6 entries; manifest SHA-256 `0ccc3ff132f02681aa20b6c672424f6a6603de5d74198eb72216a38356ae45fe`.
-- `major_revision_diagnostics`: 13 entries; manifest SHA-256 `63b70de86b2a9250ef864d9301110cb3ec8056f26c04a11951d87dc6a14c5cec`.
+- `external_mapping_sensitivity`: 6 entries; manifest SHA-256 `2f7ba4e956f3bf02de5cc1b9c49bf9edf0549ebb5190141574846f0ed8efa207`.
+- `major_revision_diagnostics`: 13 entries; manifest SHA-256 `5d376c268070fe233f28205cbe5f7adbb83c2fdae276292618735225435d2839`.
 - `channel_error_boundary`: 7 entries; manifest SHA-256 `53612d8081a7fcf944b67c8557502d3d54368621eb4c88493016a4ce53938c1e`.
 
 ## Current artifact hashes
 
-- `main.tex`: `5cae1a6370ea76df9a56e98b6f88c75abfc5c46add098bdbadf4cf4b90856daa`
-- `supplementary_codec_evidence.tex`: `eaa3b16b42b8eb31b7bc13a12e5ef3dbf7c40c47a96b7c4f2e5eea2d77f49869`
-- `build/main.pdf`: `74b8c746497c96ae37cddae52dedf08a0867dd5393b4c0817d3e0de6961e4c5c`
-- `build/supplementary_codec_evidence.pdf`: `7f607d790c5d7da16dbbaf5a615988e7a2816a6e3cc909115857c1a484854873`
-- `figures/assay_calibrated_selection.pdf`: `edaec0fbd4c23809066738a2e70e59bcd80c687b75e7ade20f30a8a4ccf655b5`
-- `figures/reversible_choice_codec.pdf`: `4fc98d1ac184d25ff791a0d128aa80509dbdacd5b68f8a21224d39e60f004168`
-- `figures/paired_two_stage_sensitivity.pdf`: `3f7e5563dc601e6bbfb4fd4e3f98723113decf5655c328ec27c0021183cb29ac`
+- `main.tex`: `db06c885d761468bbff885e0db09caf85437dd4ac5481dad90a379f76de37b26`
+- `supplementary_codec_evidence.tex`: `d9c027abf38eea4bed118ffb4c13573ed5e1684f21f3a3d614ed09602e4450de`
+- `build/main.pdf`: `095ba48e4b0d6d86560af4f679dd43743fd7c98a2f18b3d9f04292cd28025dbb`
+- `build/supplementary_codec_evidence.pdf`: `0246c7586b568e85304d713d0c8d47e9891027e3edc83de2807a2bd75f3b50be`
+- `figures/assay_calibrated_selection.pdf`: `75156a3361366d095a34402670c6437f72321a6a2a4660c202981e842996898e`
+- `figures/reversible_choice_codec.pdf`: `fb2efd7598e8289876f606a767e9b51684228a8994adb3cbafe187652ca4a6d4`
+- `figures/paired_two_stage_sensitivity.pdf`: `887f5b35198844a4dd481658fb9ae576c28d0c698fd36ae9137f8694d478700e`
 
 ## Submission boundary
 
-Scientific and technical consistency is a narrow PASS, not an acceptance guarantee. The public repository and BSD-3-Clause licence are machine-verifiable. The immutable archive DOI remains blocked by Zenodo sign-in and author-approved creator metadata; journal upload also requires author-controlled identity/contact/funding/conflict/CRediT fields and all-author verification of the actual AI-use disclosure and final wording. The generated codec still has no prospective emitted-codeword wet-lab validation.
+Scientific and technical consistency is a narrow PASS, not an acceptance guarantee. The public repository and BSD-3-Clause licence are machine-verifiable. A persistent archive URL or identifier for the manuscript-matched software and test-data snapshot remains outstanding because the author deferred that external publication action; a DOI is one possible identifier, not the only route. Journal upload also requires author-controlled identity/contact/funding/conflict/CRediT fields and author verification of any policy-required declarations and final wording. The generated codec still has no prospective emitted-codeword wet-lab validation.

@@ -40,7 +40,7 @@ To be completed by the corresponding author after all-author confirmation:
 
 ```text
 Final manuscript version/commit:
-Archive DOI:
+Persistent archive URL or identifier (DOI if applicable):
 Date reviewed:
 Corresponding-author name:
 Confirmation: I confirm that all listed author-only checks were completed.

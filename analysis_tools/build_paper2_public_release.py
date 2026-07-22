@@ -37,6 +37,7 @@ ANALYSIS_FILES = (
     "validate_paper2_public_experimental_data.py",
     "validate_paper2_reversible_choice_codec.py",
     "validate_paper2_sota_external_uncertainty.py",
+    "verify_paper2_environment.py",
     "verify_paper2_bioinformatics_choice_consistency.py",
     "verify_paper2_output_manifests.py",
 )
@@ -214,6 +215,26 @@ def check_no_local_identity(output: Path) -> None:
         raise RuntimeError("local identity/path leakage remains: " + ", ".join(leaks))
 
 
+def check_no_transient_artifacts(output: Path) -> None:
+    """Reject interpreter, editor and operating-system cache artifacts."""
+
+    transient_names = {".DS_Store", "Thumbs.db"}
+    transient_suffixes = {".pyc", ".pyo"}
+    offenders = [
+        path.relative_to(output).as_posix()
+        for path in sorted(output.rglob("*"))
+        if (
+            "__pycache__" in path.relative_to(output).parts
+            or path.name in transient_names
+            or path.suffix.lower() in transient_suffixes
+        )
+    ]
+    if offenders:
+        raise RuntimeError(
+            "transient build artifacts entered release: " + ", ".join(offenders)
+        )
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
@@ -257,6 +278,7 @@ def main() -> int:
             sanitize_text(path)
 
     # Sanitization changes portable provenance files, so rebuild nested locks.
+    sys.dont_write_bytecode = True
     sys.path.insert(0, str(output / "analysis_tools"))
     import finalize_paper2_output_manifests as finalizer
 
@@ -273,9 +295,11 @@ def main() -> int:
             str(output / "analysis_tools" / "verify_paper2_bioinformatics_choice_consistency.py"),
         ],
         cwd=output,
+        env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
         check=True,
     )
     check_no_local_identity(output)
+    check_no_transient_artifacts(output)
     write_root_manifest(output)
 
     print(f"Public release tree: {output}")
