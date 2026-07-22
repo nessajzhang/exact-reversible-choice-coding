@@ -18,6 +18,9 @@ This file separates completed machine checks from declarations that only the hum
 - [x] Prior-art text disclaims novelty for enumerative coding, constrained coding, list selection, shaping and error correction.
 - [x] RTE/ties-to-even, binary64, signed-int64, non-finite rejection and smallest-index tie behavior agree across text, code and tests.
 - [x] Software licence applies to project code; third-party data and model assets are not silently relicensed.
+- [x] Figure 2 shows the matched-condition positive intervals and exploratory Q5 negative intervals on a common zero-effect axis without changing frozen values.
+- [x] A release without TeX logs yields explicit `SKIP` results for log inspection rather than an exception; present clean/error logs yield `PASS`/`FAIL` in tests.
+- [x] The abstract estimand, modest absolute-effect statement and finite-sample CRC limitation agree with the frozen outputs and audit scope.
 
 ## Required human-author signoff before submission
 

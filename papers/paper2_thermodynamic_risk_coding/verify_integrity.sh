@@ -10,5 +10,6 @@ cd "${PAPER2_ROOT}"
 "${PAPER2_PYTHON}" -m unittest \
   papers/paper2_thermodynamic_risk_coding/tests/test_paper2_deterministic_selection.py \
   papers/paper2_thermodynamic_risk_coding/tests/test_paper2_grouped_bootstrap.py \
-  papers/paper2_thermodynamic_risk_coding/tests/test_paper2_channel_error_boundary.py
+  papers/paper2_thermodynamic_risk_coding/tests/test_paper2_channel_error_boundary.py \
+  papers/paper2_thermodynamic_risk_coding/tests/test_paper2_consistency_log_contract.py
 printf '%s\n' 'Paper 2 integrity and deterministic-contract checks passed.'

@@ -8,6 +8,8 @@ import hashlib
 import os
 import re
 import shutil
+import subprocess
+import sys
 from pathlib import Path
 
 
@@ -74,6 +76,10 @@ FIGURE_FILES = (
     "reversible_choice_codec_source_data.tsv",
 )
 
+DATA_FILES = (
+    "paper2_assay_calibrated_selection_figure_source_data.tsv",
+)
+
 BUILD_FILES = (
     "main.pdf",
     "supplementary_codec_evidence.pdf",
@@ -102,9 +108,15 @@ RELEASE_DOCUMENTS = (
     "REFERENCE_VERIFICATION_REPORT_20260722.md",
     "AI_ASSISTANCE_PROVENANCE_RECORD_20260722.md",
     "AUTHOR_LED_FINAL_TEXT_VERIFICATION_20260722.md",
+    "BIOINFORMATICS_AUTHOR_CONTROLLED_FIELDS_20260722.md",
+    "BIOINFORMATICS_COVER_LETTER_20260722.md",
     "LOCKED_EXTERNAL_VALIDATION_PROTOCOL_20260718.md",
     "MANUSCRIPT_CONSISTENCY_AUDIT.md",
+    "OUP_PAGE_PREFLIGHT_20260722.md",
+    "PAPER2_SUBMISSION_PREFLIGHT_CHANGE_INDEX_20260722.tsv",
+    "PAPER2_SUBMISSION_PREFLIGHT_RESPONSE_20260722.md",
     "PDF_VISUAL_QC_20260722.md",
+    "PRE_SUBMISSION_COMPLETION_REPORT_20260722.md",
     "ZENODO_DEPOSIT_METADATA_20260722.md",
 )
 
@@ -224,6 +236,8 @@ def main() -> int:
     copy_tree(PAPER / "examples", release_paper / "examples")
     for name in FIGURE_FILES:
         copy_file(PAPER / "figures" / name, release_paper / "figures" / name)
+    for name in DATA_FILES:
+        copy_file(ROOT / "data" / name, output / "data" / name)
     for name in BUILD_FILES:
         copy_file(PAPER / "build" / name, release_paper / "build" / name)
     for name in OUP_PREFLIGHT_FILES:
@@ -242,15 +256,25 @@ def main() -> int:
         if path.is_file():
             sanitize_text(path)
 
-    # Sanitization changes portable provenance files, so lock the released bytes.
-    import sys
-
+    # Sanitization changes portable provenance files, so rebuild nested locks.
     sys.path.insert(0, str(output / "analysis_tools"))
     import finalize_paper2_output_manifests as finalizer
 
     release_reframe = release_paper / "bioinformatics_reframe"
     for name in finalizer.OUTPUT_DIRS:
         finalizer.write_manifest(release_reframe / name)
+
+    # Generate the release-context audit before the root manifest.  Review
+    # archives intentionally omit TeX logs, so the two log checks are SKIP;
+    # running the checker again must not invalidate SHA256SUMS.txt.
+    subprocess.run(
+        [
+            sys.executable,
+            str(output / "analysis_tools" / "verify_paper2_bioinformatics_choice_consistency.py"),
+        ],
+        cwd=output,
+        check=True,
+    )
     check_no_local_identity(output)
     write_root_manifest(output)
 

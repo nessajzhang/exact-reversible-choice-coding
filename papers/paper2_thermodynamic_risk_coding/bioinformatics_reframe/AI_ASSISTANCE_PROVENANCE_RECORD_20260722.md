@@ -14,6 +14,8 @@ OpenAI Codex, based on the GPT-5 model family, was used during author-directed m
 - generation of unit tests, fixed numerical test vectors and consistency checks;
 - literature discovery and bibliographic field checking against publisher, Crossref and indexed records;
 - figure regeneration, release packaging, repository preparation and manifest checking.
+- revision of the release consistency checker so omitted TeX logs are reported as `SKIP` rather than causing a missing-file traceback;
+- integration of the already-frozen negative Q5 two-stage intervals into the main Figure 2 without changing their values.
 
 ## What the tool did not supply
 
@@ -29,6 +31,7 @@ OpenAI Codex, based on the GPT-5 model family, was used during author-directed m
 - Deterministic-selection, grouped-bootstrap and channel-boundary unit tests are executable from the release.
 - Added references are recorded in `REFERENCE_VERIFICATION_REPORT_20260722.md` with DOI and field checks.
 - Manuscript/Supplement consistency, hashes, compilation and rendered-page checks are separate release gates.
+- Fifteen deterministic, grouped-bootstrap, channel-boundary and release-log-contract tests pass in the final technical package.
 
 ## Disclosure text for author approval
 

@@ -16,17 +16,18 @@ All pages were rendered with Poppler and inspected as full-document contact shee
 
 Inspected final SHA-256 values:
 
-- `build/main.pdf`: `58c0552ef0456ab5a4983be3a7504ee321a077baadebd6722756d91865b4078a`
-- `build/supplementary_codec_evidence.pdf`: `c9da4ff78af0a585f855a509f1744f2b32bdc6be214698b420d5d6ea6909cb65`
-- `oup_preflight/build/main_oup_preflight.pdf`: `e1840d67cb0582d02b006138e6767ae6273ebfa3fd6b379a88e6037f90f4d229`
+- `build/main.pdf`: `74b8c746497c96ae37cddae52dedf08a0867dd5393b4c0817d3e0de6961e4c5c`
+- `build/supplementary_codec_evidence.pdf`: `7f607d790c5d7da16dbbaf5a615988e7a2816a6e3cc909115857c1a484854873`
+- `oup_preflight/build/main_oup_preflight.pdf`: `21df701b282672871a6d8402afd2e9023613dec941ec15acd139459d3383e0b4`
 
 ## Findings
 
 - No page, figure, formula, table, caption or reference block is visibly clipped.
 - Figure 1 and Figure 2 remain within the OUP text area and their panel labels, axes and legends are legible at the compiled page size.
+- Figure 2d places cross-pool, external-KAPA and secondary exploratory Q5 two-stage intervals on one zero-effect axis. Positive matched-condition points and negative Q5 points remain distinguishable by marker shape and colour; no interval or legend is clipped.
 - The large `Overfull \\hbox` messages emitted while the OUP output routine places full-width figures reflect the double-column float mechanism; visual inspection found no content outside the page or figure bounds.
 - The main review PDF and Supplementary Information show no overlapping text, missing glyphs, unresolved-reference markers or abnormal blank pages.
-- The OUP preflight is exactly seven pages without changing the class font size, margins or line spacing.
+- The OUP preflight is exactly seven pages without changing the class font size, margins or line spacing. Six recent graph/channel/recovery references remain fully cited in the Supplementary prior-art matrix rather than expanding the main-paper bibliography beyond the page limit.
 
 ## Boundary
 

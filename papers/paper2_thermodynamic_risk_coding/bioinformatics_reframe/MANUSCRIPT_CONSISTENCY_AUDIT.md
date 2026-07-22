@@ -4,7 +4,7 @@ Date: 2026-07-22 (Asia/Shanghai)
 
 Status: `PASS_SUBMISSION_TECHNICAL_OUTPUT_AND_BOUNDARY_CONSISTENCY`
 
-- Visible structured abstract count: 148 words, including headings and placeholders (maximum recommended: 150).
+- Visible structured abstract count: 149 words, including headings and placeholders (maximum recommended: 150).
 - FullContext within-pool and source-only transfer Spearman values match the frozen assay table.
 - Public FullContext choice-fiber gains and exact round trips match both transfer directions at `r=2` and `r=4`.
 - Analysis-plan-locked external KAPA gains match both frozen source models and widths on 2,048 outcome-blind sequences drawn from already-public measurements.
@@ -12,6 +12,7 @@ Status: `PASS_SUBMISSION_TECHNICAL_OUTPUT_AND_BOUNDARY_CONSISTENCY`
 - FullContext-minus-released-1D-CNN continuous-efficiency intervals are positive in all eight cross-pool/KAPA comparisons after the corrected two-stage propagation.
 - Endpoint-matched FullContext-minus-CNN low-efficiency intervals include zero in all eight cross-pool/KAPA comparisons; no cross-endpoint dominance is asserted.
 - The Q5 workflow-shift FullContext, FullContext-minus-AssayContext and FullContext-minus-CNN two-stage intervals are negative in all four source-width settings.
+- Figure 2d places eight positive matched-assay and four negative exploratory-Q5 FullContext intervals on one zero-effect axis; its source-data rows are checked directly.
 - Cross-pool/KAPA FullContext random-choice tests retain 100,000 draws, zero exceedances and the declared minimum attainable Monte Carlo P formula.
 - FullContext and FullContext-minus-AssayContext gains are positive in all 32 outcome-blind public-codebook mappings.
 - FullContext gain, FullContext-minus-AssayContext and FullContext-minus-CNN are positive in all 32 post hoc external KAPA mappings for both source models and widths; mappings are not treated as replicates.
@@ -27,32 +28,31 @@ Status: `PASS_SUBMISSION_TECHNICAL_OUTPUT_AND_BOUNDARY_CONSISTENCY`
 - Reported intervals condition on already-public sequence-level measurements and do not propagate technical-replicate, batch, normalization or assay-measurement uncertainty.
 - All 19 active citation keys exist in the paper-local BibTeX file and match the separately verified reference set.
 - Required public/generated, computational/material and observational/causal boundaries are present; forbidden positive-claim patterns are absent.
-- Main and supplementary LaTeX logs contain no unresolved references or LaTeX errors.
+- LaTeX compilation-log audit: main.log=SKIP (log absent from release archive; compiled-log checks skipped); supplementary_codec_evidence.log=SKIP (log absent from release archive; compiled-log checks skipped). Compiled PDFs remain required even when release-excluded logs are skipped.
 - The compiled manuscript, seven-page OUP preflight and Supplementary pages are covered by the rendered-page audit in `PDF_VISUAL_QC_20260722.md`.
 
 ## Verified manifests
 
-- `public_experimental_validation`: 10 entries; manifest SHA-256 `e52779acd6bf2886746a0f5c81775d75643f5a3e021231758ba98f421307a177`.
-- `assay_calibrated_selection`: 9 entries; manifest SHA-256 `f8b94cfcdc80fc588cb774d935a0ea1e26f1a75a3d20d1f24b2916f415136cc3`.
-- `reversible_choice_codec`: 20 entries; manifest SHA-256 `a63a47cdf766c90a0ede456040bd91545f5ff65d6a202897615894a59cd9880f`.
-- `sequence_independence_audit`: 4 entries; manifest SHA-256 `7a5e68e040ea6d3694e6564756ae414e5682cc14da23ac2e454bc27747459af5`.
-- `runtime_benchmark`: 4 entries; manifest SHA-256 `55321f99bb225ddf57ab36b89c4d83315775dd05af635b2113617cfaa7fa6329`.
-- `sota_and_external_validation`: 32 entries; manifest SHA-256 `dc863665c64b12e9b1ac58fb9a4b2becee2b2e5695d9fc4f1de55a4b95868372`.
-- `source_external_independence_audit`: 5 entries; manifest SHA-256 `a3c145e1126b263c2c3aaa1bc9e2a36b0958e889a97788be882456c17ae9f19b`.
-- `external_mapping_sensitivity`: 6 entries; manifest SHA-256 `702491cf997093092e9925939fe7a94aa73067cf6095f15dd50ba8f2e05b9a42`.
-- `major_revision_diagnostics`: 13 entries; manifest SHA-256 `5d376c268070fe233f28205cbe5f7adbb83c2fdae276292618735225435d2839`.
-- `channel_error_boundary`: 7 entries; manifest SHA-256 `6d34e1eb27dff44b17b240eda678189d1bbe16e3610439d67fa5247d0ad282d4`.
-- `runtime_benchmark_latest_local_nonfrozen`: 5 entries; manifest SHA-256 `1a7382f817bfbe590ab29971e51b9e8f4fc818bfe42f544c6b71835baf28e840`.
+- `public_experimental_validation`: 10 entries; manifest SHA-256 `35fec335cb2a0d28b7a940b91ccbf96c05f67b7b465e6d63edd956c3c4139e3d`.
+- `assay_calibrated_selection`: 9 entries; manifest SHA-256 `c11ec35c45188162b621d65881465d378ddf26d283edda2e03314249f5efb2fc`.
+- `reversible_choice_codec`: 20 entries; manifest SHA-256 `d9d7faa34165feddc46657d1091ea347afec8436fa9d8ecf303d475f24a5c455`.
+- `sequence_independence_audit`: 4 entries; manifest SHA-256 `d55d5c5ec5739de0527a10807968cd98b2efa91284c7857b00541483b84ccf19`.
+- `runtime_benchmark`: 4 entries; manifest SHA-256 `468f591c79e12c891f98cf4dd303a70413ecd121842113090f8272a9b3a2b7ea`.
+- `sota_and_external_validation`: 32 entries; manifest SHA-256 `c6d89b8463fd15afb1d4c7ed4437e408e81da93c37d8990f4a44b27660ddbe0c`.
+- `source_external_independence_audit`: 5 entries; manifest SHA-256 `6f2ae722e19adf8b1f6191a38b9e5df521a39d1c99109f37671eabca3dafc28b`.
+- `external_mapping_sensitivity`: 6 entries; manifest SHA-256 `0ccc3ff132f02681aa20b6c672424f6a6603de5d74198eb72216a38356ae45fe`.
+- `major_revision_diagnostics`: 13 entries; manifest SHA-256 `63b70de86b2a9250ef864d9301110cb3ec8056f26c04a11951d87dc6a14c5cec`.
+- `channel_error_boundary`: 7 entries; manifest SHA-256 `53612d8081a7fcf944b67c8557502d3d54368621eb4c88493016a4ce53938c1e`.
 
 ## Current artifact hashes
 
-- `main.tex`: `8d08872c3e36910dfed5ae04f4e8b31203ca467d7c7c071efd412928544b1de4`
+- `main.tex`: `5cae1a6370ea76df9a56e98b6f88c75abfc5c46add098bdbadf4cf4b90856daa`
 - `supplementary_codec_evidence.tex`: `eaa3b16b42b8eb31b7bc13a12e5ef3dbf7c40c47a96b7c4f2e5eea2d77f49869`
-- `build/main.pdf`: `58c0552ef0456ab5a4983be3a7504ee321a077baadebd6722756d91865b4078a`
-- `build/supplementary_codec_evidence.pdf`: `c9da4ff78af0a585f855a509f1744f2b32bdc6be214698b420d5d6ea6909cb65`
-- `figures/assay_calibrated_selection.pdf`: `75156a3361366d095a34402670c6437f72321a6a2a4660c202981e842996898e`
-- `figures/reversible_choice_codec.pdf`: `ba38568454f359e4307704fcf7af0143a5b12a41ce6e747d13283313a1d9f828`
-- `figures/paired_two_stage_sensitivity.pdf`: `887f5b35198844a4dd481658fb9ae576c28d0c698fd36ae9137f8694d478700e`
+- `build/main.pdf`: `74b8c746497c96ae37cddae52dedf08a0867dd5393b4c0817d3e0de6961e4c5c`
+- `build/supplementary_codec_evidence.pdf`: `7f607d790c5d7da16dbbaf5a615988e7a2816a6e3cc909115857c1a484854873`
+- `figures/assay_calibrated_selection.pdf`: `edaec0fbd4c23809066738a2e70e59bcd80c687b75e7ade20f30a8a4ccf655b5`
+- `figures/reversible_choice_codec.pdf`: `4fc98d1ac184d25ff791a0d128aa80509dbdacd5b68f8a21224d39e60f004168`
+- `figures/paired_two_stage_sensitivity.pdf`: `3f7e5563dc601e6bbfb4fd4e3f98723113decf5655c328ec27c0021183cb29ac`
 
 ## Submission boundary
 

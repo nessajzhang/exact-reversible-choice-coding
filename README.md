@@ -31,8 +31,9 @@ The public assayed sequences were not prospectively emitted by the generated cod
 - `bioinformatics_reframe/runtime_benchmark/`: frozen manuscript timing snapshot, environment and manifest; one-command machine-local reruns go to `runtime_benchmark/latest_local/` and do not overwrite the snapshot.
 - `bioinformatics_reframe/00_source_inventory.md` through `08_priority_workplan.md`: literature, story, claim and submission audit trail.
 - `bioinformatics_reframe/BIOINFORMATICS_LIVE_SUBMISSION_AUDIT_20260717.md`: dated journal-scope, JCR/CAS and LLM-policy audit.
-- `bioinformatics_reframe/REFERENCE_VERIFICATION_REPORT_20260720.md`: cited-reference field and status verification.
+- `bioinformatics_reframe/REFERENCE_VERIFICATION_REPORT_20260722.md`: cited-reference field and status verification.
 - `bioinformatics_reframe/MANUSCRIPT_CONSISTENCY_AUDIT.md`: current claim/number/table/figure/manifest boundary PASS.
+- `bioinformatics_reframe/PAPER2_SUBMISSION_PREFLIGHT_RESPONSE_20260722.md`: final reviewer-response closeout, including resolved technical items and author-controlled gates.
 - `bioinformatics_reframe/REPRODUCIBLE_EXPORT_AUDIT_20260718.md`: byte-identical double-export evidence for figures and compiled PDFs.
 
 ## Reproduction entry points
@@ -54,6 +55,8 @@ The compatibility command delegates to `run_full_audit.sh`. The workflow is also
 ```
 
 `--skip-tex` completes scientific analysis, figure and integrity checks without treating absent LaTeX/BibTeX as an analysis failure. `--analysis-only`, `--figures-only` and `--from-frozen` provide narrower runs. The full public-input run validates source hashes, rebuilds the analyses, rechecks fixed-length Hamming separation, regenerates figures, records a machine-local timing rerun, compiles when both `latexmk` and `bibtex` are available, and then checks manuscript consistency. A fixed `SOURCE_DATE_EPOCH` removes creation-time-only PDF/figure timestamp drift; it does not freeze machine timing.
+
+The manuscript consistency checker reports compiled-log checks as `PASS`, `SKIP` or `FAIL`. Release archives intentionally omit TeX logs, so an absent `build/main.log` or Supplement log is a documented `SKIP`; a present clean log is `PASS`, and a present log containing a declared LaTeX error is `FAIL`. Compiled PDFs remain required release artifacts.
 
 Useful environment variables:
 

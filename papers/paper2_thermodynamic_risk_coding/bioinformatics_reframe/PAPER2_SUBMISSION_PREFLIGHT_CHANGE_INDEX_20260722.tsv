@@ -1,0 +1,13 @@
+issue	status	main_location	supplement_location	code_or_artifact	boundary
+release log checker	addressed	Availability and implementation	Reproducibility and provenance	analysis_tools/verify_paper2_bioinformatics_choice_consistency.py; tests/test_paper2_consistency_log_contract.py	absent release logs are SKIP; compiled PDFs remain required
+Q5 intervals in Figure 2	addressed	Figure 2d and caption	complete Q5 tables and intervals	analysis_tools/plot_paper2_reversible_choice_codec.py; figures/reversible_choice_codec_source_data.tsv	secondary exploratory altered-protocol result; no value changed
+abstract estimand	addressed	Structured Abstract	full estimand definitions	sota_and_external_validation/fiber_benchmark_summary.tsv	measured selected-minus-fiber-mean gain
+negative-fiber fraction	retained	Structured Abstract; Results	negative-fiber diagnostics	major_revision_diagnostics/measured_negative_fiber_diagnostics.tsv	no per-payload benefit guarantee
+absolute effect	addressed	Results	complete raw and standardized tables	sota_and_external_validation/fiber_benchmark_summary.tsv	absolute gains are modest and assay-scale specific
+CRC finite scope	addressed	Algorithm	channel-error audit	channel_error_boundary/single_edit_audit_summary.tsv	finite deterministic detection result; no arbitrary-corruption guarantee
+edit-distance and k-mer audit	not added	System and methods; Discussion	sequence-audit scope	sequence_independence_audit; source_external_independence_audit	fixed-length Hamming claim only; no unperformed independence claim
+public repository and licence	addressed	Availability and implementation	Reproducibility	README.md; LICENSE; data/paper2_assay_calibrated_selection_figure_source_data.tsv	repository public; every main figure has extraction-time source data; BSD-3-Clause applies only to project code
+archive DOI	author action required	Availability and implementation	Reproducibility	ZENODO_DEPOSIT_METADATA_20260722.md	no DOI without authenticated deposit and approved creator list
+AI provenance	machine audit complete; author verification required	not inserted as author-approved fact	Provenance	AI_ASSISTANCE_PROVENANCE_RECORD_20260722.md; AUTHOR_LED_FINAL_TEXT_VERIFICATION_20260722.md	all authors must verify actual tool use and disclosure
+author fields	author action required	Author block; Contact; Funding; COI	not applicable	BIOINFORMATICS_AUTHOR_CONTROLLED_FIELDS_20260722.md	no identity or declaration inferred
+OUP length	addressed	seven-page OUP preflight	details retained in SI	OUP_PAGE_PREFLIGHT_20260722.md	no font, margin or spacing manipulation

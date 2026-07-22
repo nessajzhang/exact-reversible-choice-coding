@@ -43,6 +43,7 @@ LIGHT_GREY = "#E8EAEC"
 DARK = "#24272A"
 GREEN = "#31824A"
 HARD_GREY = "#8A8D91"
+Q5_RED = "#B24A4A"
 
 METHOD_COLORS = {
     "P5_combined_context": BLUE,
@@ -454,16 +455,35 @@ def draw_two_stage_panel(
     base_y = np.arange(len(order))[::-1]
     source_rows: list[dict[str, Any]] = []
     datasets = [
-        ("Gimpel2025_cross_pool_public_codebook", 0.11, "o", True, "Cross-pool public"),
+        (
+            "Gimpel2025_cross_pool_public_codebook",
+            0.18,
+            "o",
+            True,
+            BLUE,
+            "Cross-pool",
+            "matched assay",
+        ),
         (
             "Gimpel2025_external_laboratory_Taq",
-            -0.11,
+            0.0,
             "D",
             False,
-            "Same-publication external lab",
+            BLUE,
+            "External KAPA",
+            "matched assay; same source publication",
+        ),
+        (
+            "Gimpel2025_external_laboratory_Q5_sensitivity",
+            -0.18,
+            "v",
+            True,
+            Q5_RED,
+            "Q5 altered protocol",
+            "secondary exploratory altered-protocol sensitivity",
         ),
     ]
-    for dataset, offset, marker, filled, label in datasets:
+    for dataset, offset, marker, filled, color, label, evidence_note in datasets:
         for yi, (source_pool, selector_bits) in zip(base_y, order):
             row = ts.loc[
                 ts["target_dataset"].eq(dataset)
@@ -480,14 +500,14 @@ def draw_two_stage_panel(
             low = float(row["two_stage_ci_2p5"]) * 1000
             high = float(row["two_stage_ci_97p5"]) * 1000
             yy = yi + offset
-            ax.plot([low, high], [yy, yy], color=BLUE, lw=1.5, solid_capstyle="round")
+            ax.plot([low, high], [yy, yy], color=color, lw=1.5, solid_capstyle="round")
             ax.plot(
                 estimate,
                 yy,
                 marker=marker,
                 ms=4.2,
-                mfc=BLUE if filled else "white",
-                mec=BLUE,
+                mfc=color if filled else "white",
+                mec=color,
                 mew=0.8,
                 linestyle="none",
                 zorder=3,
@@ -503,14 +523,18 @@ def draw_two_stage_panel(
                     "high": high,
                     "n": int(row["replicates"]),
                     "unit": "relative PCR efficiency x 1e-3",
-                    "note": "point is frozen full-data FullContext estimate; interval uses 2,000 source-plus-target bootstrap replicates",
+                    "note": (
+                        "point is frozen full-data FullContext estimate; interval uses "
+                        f"2,000 grouped-source plus target-fiber bootstrap replicates; {evidence_note}"
+                    ),
                 }
             )
     ax.axvline(0, color="#9A9A9A", lw=0.8, ls="--", zorder=0)
     ax.set_yticks(base_y)
     ax.set_yticklabels([f"{source}, r={selector_bits}" for source, selector_bits in order])
     ax.set_xlabel(r"FullContext measured selection gain ($\times 10^{-3}$)")
-    ax.set_title("Source-plus-target uncertainty remains positive", pad=4)
+    ax.set_title("Matched assays are positive; Q5 altered protocol reverses", pad=4)
+    ax.set_xlim(-30.5, 6.0)
     ax.set_ylim(-0.5, 3.5)
     ax.grid(axis="x", color=LIGHT_GREY, lw=0.6)
     ax.margins(x=0.08)
@@ -523,12 +547,22 @@ def draw_two_stage_panel(
                 color=BLUE,
                 marker="D",
                 mfc="white",
-                label="Same-publication external lab",
+                label="External KAPA",
+            ),
+            Line2D(
+                [0],
+                [0],
+                color=Q5_RED,
+                marker="v",
+                mfc=Q5_RED,
+                label="Q5 altered protocol",
             ),
         ],
-        loc="upper right",
-        fontsize=5.1,
-        handlelength=1.4,
+        loc="center left",
+        bbox_to_anchor=(0.02, 0.49),
+        fontsize=4.6,
+        handlelength=1.2,
+        labelspacing=0.35,
     )
     panel_label(ax, "d", x=-0.08, y=1.08)
     return source_rows
@@ -940,7 +974,7 @@ def main() -> None:
     fig.text(
         0.5,
         0.022,
-        "Panels b–d: retrospective measured selection; external KAPA is from the same source publication. "
+        "Panels b–d: retrospective measured selection; panel d contrasts matched assays with exploratory Q5 transfer. "
         "Panel e: generated model scores only; no emitted-codeword PCR experiment.",
         ha="center",
         va="bottom",

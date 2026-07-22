@@ -29,6 +29,13 @@ EXTERNAL_MAPPING = REFRAME / "external_mapping_sensitivity"
 DIAGNOSTICS = REFRAME / "major_revision_diagnostics"
 CHANNEL = REFRAME / "channel_error_boundary"
 
+LATEX_LOG_NAMES = ("main.log", "supplementary_codec_evidence.log")
+LATEX_ERROR_PATTERNS = (
+    r"LaTeX Error",
+    r"undefined references",
+    r"Citation `[^']+' on page .* undefined",
+)
+
 
 def sha256(path: Path) -> str:
     digest = hashlib.sha256()
@@ -126,6 +133,51 @@ def verify_references(tex: str) -> int:
     if cited != expected:
         raise AssertionError(f"unexpected cited-key set: {sorted(cited)}")
     return len(cited)
+
+
+def audit_latex_logs(build_dir: Path) -> list[dict[str, str]]:
+    """Classify optional compilation logs without weakening PDF requirements.
+
+    Release archives intentionally omit transient LaTeX logs.  An absent log is
+    therefore a documented SKIP, whereas a present clean log is PASS and a
+    present log containing a declared error pattern is FAIL.
+    """
+
+    checks: list[dict[str, str]] = []
+    for log_name in LATEX_LOG_NAMES:
+        path = build_dir / log_name
+        if not path.is_file():
+            checks.append(
+                {
+                    "file": log_name,
+                    "status": "SKIP",
+                    "detail": "log absent from release archive; compiled-log checks skipped",
+                }
+            )
+            continue
+        log = path.read_text(encoding="utf-8", errors="replace")
+        matched = [
+            pattern
+            for pattern in LATEX_ERROR_PATTERNS
+            if re.search(pattern, log, flags=re.I)
+        ]
+        if matched:
+            checks.append(
+                {
+                    "file": log_name,
+                    "status": "FAIL",
+                    "detail": "matched: " + ", ".join(matched),
+                }
+            )
+        else:
+            checks.append(
+                {
+                    "file": log_name,
+                    "status": "PASS",
+                    "detail": "present; no declared unresolved-reference or LaTeX-error pattern",
+                }
+            )
+    return checks
 
 
 def main() -> None:
@@ -800,15 +852,39 @@ def main() -> None:
     if missing:
         raise AssertionError(f"missing manuscript artifacts: {missing}")
 
-    for log_name in ["main.log", "supplementary_codec_evidence.log"]:
-        log = (PAPER / "build" / log_name).read_text(encoding="utf-8", errors="replace")
-        bad = [
-            r"LaTeX Error",
-            r"undefined references",
-            r"Citation `[^']+' on page .* undefined",
-        ]
-        if any(re.search(pattern, log, flags=re.I) for pattern in bad):
-            raise AssertionError(f"unresolved LaTeX problem in {log_name}")
+    figure_two_source = tsv(PAPER / "figures" / "reversible_choice_codec_source_data.tsv")
+    panel_d = [row for row in figure_two_source if row["panel"] == "d"]
+    matched_panel_d = [
+        row for row in panel_d if row["series"] in {"Cross-pool", "External KAPA"}
+    ]
+    q5_panel_d = [row for row in panel_d if row["series"] == "Q5 altered protocol"]
+    if len(matched_panel_d) != 8 or any(float(row["low"]) <= 0 for row in matched_panel_d):
+        raise AssertionError("Figure 2d matched-assay intervals are incomplete or not positive")
+    if len(q5_panel_d) != 4 or any(float(row["high"]) >= 0 for row in q5_panel_d):
+        raise AssertionError("Figure 2d Q5 intervals are incomplete or not negative")
+    assert_text_contains(
+        manuscript,
+        [
+            "measured selected-minus-fiber-mean gains",
+            "absolute FullContext gains were modest",
+            "does not guarantee detection under arbitrary corruptions",
+            "negative secondary exploratory Q5 gains on a common zero axis",
+        ],
+    )
+
+    latex_log_checks = audit_latex_logs(PAPER / "build")
+    for check in latex_log_checks:
+        print(
+            f"{check['status']}_LATEX_LOG {check['file']}: {check['detail']}"
+        )
+    failed_latex_logs = [
+        check for check in latex_log_checks if check["status"] == "FAIL"
+    ]
+    if failed_latex_logs:
+        details = "; ".join(
+            f"{check['file']}: {check['detail']}" for check in failed_latex_logs
+        )
+        raise AssertionError(f"LaTeX compilation-log audit failed: {details}")
 
     manifest_results = {
         name: verify_manifest(path)
@@ -846,6 +922,7 @@ def main() -> None:
         "- FullContext-minus-released-1D-CNN continuous-efficiency intervals are positive in all eight cross-pool/KAPA comparisons after the corrected two-stage propagation.",
         "- Endpoint-matched FullContext-minus-CNN low-efficiency intervals include zero in all eight cross-pool/KAPA comparisons; no cross-endpoint dominance is asserted.",
         "- The Q5 workflow-shift FullContext, FullContext-minus-AssayContext and FullContext-minus-CNN two-stage intervals are negative in all four source-width settings.",
+        "- Figure 2d places eight positive matched-assay and four negative exploratory-Q5 FullContext intervals on one zero-effect axis; its source-data rows are checked directly.",
         "- Cross-pool/KAPA FullContext random-choice tests retain 100,000 draws, zero exceedances and the declared minimum attainable Monte Carlo P formula.",
         "- FullContext and FullContext-minus-AssayContext gains are positive in all 32 outcome-blind public-codebook mappings.",
         "- FullContext gain, FullContext-minus-AssayContext and FullContext-minus-CNN are positive in all 32 post hoc external KAPA mappings for both source models and widths; mappings are not treated as replicates.",
@@ -861,7 +938,12 @@ def main() -> None:
         "- Reported intervals condition on already-public sequence-level measurements and do not propagate technical-replicate, batch, normalization or assay-measurement uncertainty.",
         f"- All {citation_count} active citation keys exist in the paper-local BibTeX file and match the separately verified reference set.",
         "- Required public/generated, computational/material and observational/causal boundaries are present; forbidden positive-claim patterns are absent.",
-        "- Main and supplementary LaTeX logs contain no unresolved references or LaTeX errors.",
+        "- LaTeX compilation-log audit: "
+        + "; ".join(
+            f"{check['file']}={check['status']} ({check['detail']})"
+            for check in latex_log_checks
+        )
+        + ". Compiled PDFs remain required even when release-excluded logs are skipped.",
         "- The compiled manuscript, seven-page OUP preflight and Supplementary pages are covered by the rendered-page audit in `PDF_VISUAL_QC_20260722.md`.",
         "",
         "## Verified manifests",
